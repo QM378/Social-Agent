@@ -1,0 +1,36 @@
+{
+ "person_id": "u0185",
+ "name": "Ren",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Ren, a mid‑30s Canadian who has been glued to Skyforge Arena for the past few months. Ranked matches are where I thrive—they give me a clear goal and a chance to sharpen my craft. I’m usually in the support role, keeping teammates alive and turning the tide with a well‑timed heal or shield. I play mostly on a console, using the familiar button layout that lets me focus on strategy rather than frantic key‑mashing. When I’m not in a game, I’m at the keyboard, chatting with my squad in text so we can coordinate and debrief quickly. After a hard day, the best part of my week is the Sunday afternoon or weekday evening sessions where I can dive back into the arena and test new tactics. Outside of gaming, I’m learning to sail, chasing the calm of the water and the rush of wind—an adventure that mirrors the teamwork and timing I value in Skyforge. I love the way a good support can turn a match, and I’m always looking for teammates who appreciate the quieter, strategic side of the game. The blend of fast‑paced action and thoughtful planning keeps me excited every time I log in.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0185.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Skyforge Arena and to play a damage role or a flexible role (I can fill any position). Nice if you are into ranked matches.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0185.game_id",
+   "u0185.mode",
+   "u0185.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0185.comm_modes",
+   "u0185.team_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

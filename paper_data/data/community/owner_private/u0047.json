@@ -1,0 +1,36 @@
+{
+ "person_id": "u0047",
+ "name": "Emeka",
+ "interaction_type": "gaming_partner",
+ "self_text": "I am a Chilean in my late 20s who spends a lot of free time collecting vinyl. On the console side of things, I play Skyforge Arena. For me, a typical session involves jumping into ranked matches, and I am happy to coach. I exclusively use text chat for communication during these games. I am available on Sunday mornings to play.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0047.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Skyforge Arena and available Sunday morning. I'd strongly prefer that you are into casual matches, though it's not a requirement, and it would matter a lot if you are the one who gets coached by me, but I won't rule you out over it. It's a small bonus if we overlap on text chat.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0047.game_id",
+   "u0047.mode",
+   "u0047.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0047.comm_modes",
+   "u0047.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

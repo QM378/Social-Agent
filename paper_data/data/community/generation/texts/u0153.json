@@ -1,0 +1,186 @@
+{
+ "person_id": "u0153",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:05:34.921858+00:00",
+ "self": {
+  "status": "ok",
+  "text": "I’m Cove, a Vietnamese non‑binary creative in my early thirties who loves woodworking as a quiet escape. My camera of choice is a Leica, and I’m all about a structured instruction session with a fast pace—no time for gear debates or post‑processing lessons. I’m happy to take portraits of each other, and I’m available on Saturday mornings, Sunday mornings, or Sunday afternoons to make it happen.",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 7263691,
+    "text": "I’m Cove, a Vietnamese non‑binary creative in my early thirties who loves woodworking as a quiet escape. My camera of choice is a Leica, and I’m all about a structured instruction session with a fast pace—no time for gear debates or post‑processing lessons. I’m happy to take portraits of each other, and I’m available on Saturday mornings, Sunday mornings, or Sunday afternoons to make it happen.",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 450,
+    "completion_tokens": 114,
+    "truncated": false,
+    "wall_s": 0.499,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Cove\nAge: early 30s. Gender: non-binary. Nationality: Vietnamese. Hobby outside this: woodworking.\nBackground: camera brand: Leica\nFacts (stable):\n- What I am after is a structured instruction session.\n- I like a fast pace.\n- On equipment: no gear debates.\n- For post-processing, no post-processing lesson this time.\n- I am fine with taking portraits of each other.\n- I am free Saturday morning, Sunday afternoon or Sunday morning."
+    },
+    "raw_output": "{\"text\":\"I’m Cove, a Vietnamese non‑binary creative in my early thirties who loves woodworking as a quiet escape. My camera of choice is a Leica, and I’m all about a structured instruction session with a fast pace—no time for gear debates or post‑processing lessons. I’m happy to take portraits of each other, and I’m available on Saturday mornings, Sunday mornings, or Sunday afternoons to make it happen.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.4989445999963209,
+      "prompt_tokens": 450,
+      "completion_tokens": 114,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Cove\nAge: early 30s. Gender: non-binary. Nationality: Vietnamese. Hobby outside this: woodworking.\nBackground: camera brand: Leica\nFacts (stable):\n- What I am after is a structured instruction session.\n- I like a fast pace.\n- On equipment: no gear debates.\n- For post-processing, no post-processing lesson this time.\n- I am fine with taking portraits of each other.\n- I am free Saturday morning, Sunday afternoon or Sunday morning."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 7263691,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m Cove, a Vietnamese non‑binary creative in my early thirties who loves woodworking as a quiet escape. My camera of choice is a Leica, and I’m all about a structured instruction session with a fast pace—no time for gear debates or post‑processing lessons. I’m happy to take portraits of each other, and I’m available on Saturday mornings, Sunday mornings, or Sunday afternoons to make it happen.\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0153.r1": {
+   "status": "ok",
+   "text": "I need you to be into a structured instruction session, and I need you to be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are available any of Saturday morning, Sunday afternoon or Sunday morning, though it's not a requirement. I'd strongly prefer that you are okay with taking portraits of each other, but I won't rule you out over it. Nice if you are okay with a moderate pace or a fast pace, but no big deal.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 7263694,
+     "text": "I need you to be into a structured instruction session, and I need you to be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are available any of Saturday morning, Sunday afternoon or Sunday morning, though it's not a requirement. I'd strongly prefer that you are okay with taking portraits of each other, but I won't rule you out over it. Nice if you are okay with a moderate pace or a fast pace, but no big deal.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 649,
+     "completion_tokens": 131,
+     "truncated": false,
+     "wall_s": 0.5596,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: photography partner\nRequirements:\n- MUST: you are into a structured instruction session\n- MUST: you are okay with no gear debates or gear talk is fine but not the point   [alternatives: no gear debates | gear talk is fine but not the point]\n- STRONG WISH: you are available any of Saturday morning, Sunday afternoon or Sunday morning   [alternatives: Saturday morning | Sunday afternoon | Sunday morning]\n- STRONG WISH: you are okay with taking portraits of each other\n- WISH: you are okay with a moderate pace or a fast pace   [alternatives: a moderate pace | a fast pace]"
+     },
+     "raw_output": "{\"text\":\"I need you to be into a structured instruction session, and I need you to be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are available any of Saturday morning, Sunday afternoon or Sunday morning, though it's not a requirement. I'd strongly prefer that you are okay with taking portraits of each other, but I won't rule you out over it. Nice if you are okay with a moderate pace or a fast pace, but no big deal.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 0.5595484999939799,
+       "prompt_tokens": 649,
+       "completion_tokens": 131,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: photography partner\nRequirements:\n- MUST: you are into a structured instruction session\n- MUST: you are okay with no gear debates or gear talk is fine but not the point   [alternatives: no gear debates | gear talk is fine but not the point]\n- STRONG WISH: you are available any of Saturday morning, Sunday afternoon or Sunday morning   [alternatives: Saturday morning | Sunday afternoon | Sunday morning]\n- STRONG WISH: you are okay with taking portraits of each other\n- WISH: you are okay with a moderate pace or a fast pace   [alternatives: a moderate pace | a fast pace]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 7263694,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you to be into a structured instruction session, and I need you to be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are available any of Saturday morning, Sunday afternoon or Sunday morning, though it's not a requirement. I'd strongly prefer that you are okay with taking portraits of each other, but I won't rule you out over it. Nice if you are okay with a moderate pace or a fast pace, but no big deal.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "58beca9d7eea6d63"
+}

@@ -1,0 +1,36 @@
+{
+ "person_id": "u0190",
+ "name": "Polina",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey! I’m a 50‑something Chilean who loves growing chillies and shooting with a Canon. I’d love a structured instruction session at a relaxed pace, with plenty of gear talk. I’m happy to teach post‑processing too. I’m free on Saturday mornings or Sunday afternoons—let’s chat and plan a chill, learning‑filled day!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0190.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available on either Saturday morning or Sunday afternoon. I'd strongly prefer that you are the one who learns post‑processing from me, though it’s not a requirement. A nice bonus would be if you are into a structured instruction session.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0190.purpose",
+   "u0190.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0190.pace",
+   "u0190.gear_talk",
+   "u0190.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

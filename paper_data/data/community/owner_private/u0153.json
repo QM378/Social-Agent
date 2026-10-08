@@ -1,0 +1,37 @@
+{
+ "person_id": "u0153",
+ "name": "Cove",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m Cove, a Vietnamese non‑binary creative in my early thirties who loves woodworking as a quiet escape. My camera of choice is a Leica, and I’m all about a structured instruction session with a fast pace—no time for gear debates or post‑processing lessons. I’m happy to take portraits of each other, and I’m available on Saturday mornings, Sunday mornings, or Sunday afternoons to make it happen.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0153.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a structured instruction session, and I need you to be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are available any of Saturday morning, Sunday afternoon or Sunday morning, though it's not a requirement. I'd strongly prefer that you are okay with taking portraits of each other, but I won't rule you out over it. Nice if you are okay with a moderate pace or a fast pace, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0153.purpose",
+   "u0153.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0153.pace",
+   "u0153.gear_talk",
+   "u0153.editing_role",
+   "u0153.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "person_id": "u0139",
+ "name": "Kip",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Mexican non-binary person in my late 20s. My background is in economics, but these days I am studying programming. I love the quiet focus of learning new languages, much like how I enjoy the stillness of amateur astronomy. A typical session for me involves meeting in person on Saturday afternoons. I work best when studying independently side by side, though I need complete silence while working. I am not looking for any tutoring either way.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0139.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with complete silence while working, and we have to overlap on in person. I'd strongly prefer that you are into studying independently side by side or into programming, though I won't rule you out over it. It would be a small bonus if you are available Saturday afternoon.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0139.topic",
+   "u0139.format",
+   "u0139.venue",
+   "u0139.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0139.quiet",
+   "u0139.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

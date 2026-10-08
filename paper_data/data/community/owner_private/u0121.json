@@ -1,0 +1,36 @@
+{
+ "person_id": "u0121",
+ "name": "Ursa",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm Ursa, a Vietnamese woman in my early 20s. Outside of gaming, I spend a lot of my time podcasting, which I love because it allows me to explore a wide variety of stories. When I'm at my PC, I mainly play Tidewatch. I first got into the game a while ago and have since found that I really enjoy the competitive energy of the climb. A typical session for me usually involves queuing for ranked matches, where I communicate over voice chat to stay coordinated with my team. I play a flexible role, so I can fill any position needed to help the group succeed. As for my availability, I am free Saturday afternoon or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0121.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap on voice chat and you have to be into ranked matches. It's a deal-breaker unless you are into Skyforge Arena or Tidewatch. It would be nice if you are available Saturday afternoon or Sunday morning, and a small bonus if you be flexible about your role.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0121.game_id",
+   "u0121.mode",
+   "u0121.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0121.comm_modes",
+   "u0121.team_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

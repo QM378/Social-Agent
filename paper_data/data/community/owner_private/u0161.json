@@ -1,0 +1,43 @@
+{
+ "person_id": "u0161",
+ "name": "Parker",
+ "interaction_type": "study_partner",
+ "self_text": "Hi there! I'm Parker, a Japanese non-binary person in my late 20s. I studied engineering in college, though these days I spend my free time knitting because I love the cozy, creative process. I'm currently looking for some language practice, and I think it would be great to find someone to study independently side by side. My ideal setup involves complete silence while working, but I would like someone to explain things to me. I am open to meeting either in person or online, depending on what works best. In terms of my schedule, I am available on Saturday morning or Saturday afternoon. I'm looking forward to finding a good rhythm and making some progress together!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0161.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice, and you have to be okay with occasional short exchanges. It would be a small bonus if you are the one who explains the material to me. I'd also find it nice if you are into studying independently side by side, or if you are available Saturday morning or Saturday afternoon, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0161.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with occasional short exchanges. I'd strongly prefer that you are into language practice, though it's not a requirement. It would be nice if you are the one who explains the material to me, or if you are into studying independently side by side, or if you are available Saturday morning or Saturday afternoon.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0161.topic",
+   "u0161.format",
+   "u0161.venue",
+   "u0161.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0161.quiet",
+   "u0161.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

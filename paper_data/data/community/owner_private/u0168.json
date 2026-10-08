@@ -1,0 +1,37 @@
+{
+ "person_id": "u0168",
+ "name": "Oz",
+ "interaction_type": "study_partner",
+ "self_text": "I’m Oz, a mid‑30s Nigerian designer who loves turning statistics into visual stories. My typical Saturday morning or Sunday afternoon sessions are in person and unfold as a step‑by‑step walkthrough—no tutoring, just guiding you through the process with occasional short exchanges. I enjoy knitting in my free time, which keeps my creative hands busy.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0168.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into working through problems together or studying independently side by side. I’d strongly prefer that you are okay with complete silence while working or occasional short exchanges, though it’s not a requirement. Nice if you are into statistics.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0168.topic",
+   "u0168.format",
+   "u0168.venue",
+   "u0168.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0168.quiet",
+   "u0168.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

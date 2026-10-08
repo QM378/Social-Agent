@@ -1,0 +1,36 @@
+{
+ "person_id": "u0004",
+ "name": "Mateo",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Mateo, a Turkish non-binary person in my mid 30s. My background is in design, and when I'm not focused on my projects, I spend my time restoring bikes, which is a passion of mine because I love the process of bringing something old back to life. I'm currently into programming and I'm looking for someone to study independently side by side with. I'd specifically like someone to explain things to me as we go. I'm open to doing this either in person or online, depending on what works best. In terms of my schedule, I'm available on Saturday mornings, Sunday mornings, or during weekday evenings. I'm looking forward to finding a good rhythm and making some progress together!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0004.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who explains the material to me, and you have to be into studying independently side by side. It would be a small bonus if you are into programming. Additionally, it's nice if you are available Saturday morning, Sunday morning or weekday evenings, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0004.topic",
+   "u0004.format",
+   "u0004.venue",
+   "u0004.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0004.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

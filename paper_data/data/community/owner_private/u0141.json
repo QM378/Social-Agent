@@ -1,0 +1,45 @@
+{
+ "person_id": "u0141",
+ "name": "Jordan",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm Jordan, a Nigerian in my mid 20s. When I'm not gazing at the stars with my amateur astronomy gear, I'm usually out with my Nikon. I love the way photography captures a fleeting moment in time. I'm looking for a relaxed photo walk at a moderate pace. I'm free on Saturday afternoon or Sunday morning. Regarding our time together, I'm fine with not taking portraits of each other and I'm not looking for any post-processing lessons this time. I also have no interest in gear debates.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0141.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either Saturday afternoon or Sunday morning. I'd strongly prefer that you are into a relaxed photo walk, though I won't rule you out over it. It would be nice if we have no gear debates or if gear talk is fine but not the point, but that's no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0141.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be available either Saturday afternoon or Sunday morning. I'd strongly prefer that you are into a relaxed photo walk, and unlike my usual moderate pace, I'm looking for a slow pace this time, though I won't rule you out over it. It would be nice if we have no gear debates or if gear talk is fine but not the point, but no big deal.",
+   "this_time": [
+    "This time: a slow pace. Usually: a moderate pace."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0141.purpose",
+   "u0141.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0141.pace",
+   "u0141.gear_talk",
+   "u0141.editing_role",
+   "u0141.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

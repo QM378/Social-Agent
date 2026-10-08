@@ -1,0 +1,44 @@
+{
+ "person_id": "u0092",
+ "name": "Nour",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi, I’m Nour, early 20s, Japanese, and I love urban gardening in my free time. I play on console in Skyforge Arena, always in ranked matches where I take a damage role. I’m happy to coach others and share tips. I’m free on Saturday mornings for matches or coaching sessions. I enjoy the fast pace of the game and helping teammates improve. Looking forward to connecting with fellow players who value teamwork and skill growth.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0092.r1",
+   "kind": "primary",
+   "request_text": "I need you to be a support role or a flexible role (I can fill any position), only if you can adapt to that; I'd strongly prefer that you are available Saturday morning, though that's not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0092.r2",
+   "kind": "alternative",
+   "request_text": "I need you to play a support role or you must be flexible about your role (I can fill any position). I would strongly prefer that you are available Saturday morning, though it's not a requirement. This time I don't need coaching, unlike my usual preference to be coached.",
+   "this_time": [
+    "This time: no coaching. Usually: happy to coach."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0092.game_id",
+   "u0092.mode",
+   "u0092.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0092.team_role",
+   "u0092.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

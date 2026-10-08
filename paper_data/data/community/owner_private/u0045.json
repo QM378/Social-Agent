@@ -1,0 +1,42 @@
+{
+ "person_id": "u0045",
+ "name": "Lena",
+ "interaction_type": "gaming_partner",
+ "self_text": "I've always loved collecting vinyl, but lately I've been spending my time on a handheld playing Tidewatch. I'm mostly into casual matches and use text chat. Most weeks, I can jump on Saturday afternoon. I'm also happy to coach.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0045.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into ranked matches, Tidewatch, and you have to be the one who gets coached by me. I'd strongly prefer that we overlap on text chat, though it's not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0045.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into ranked matches, and you have to be the one who gets coached by me. I'd strongly prefer that you are into Tidewatch, though it's not a requirement. It would matter a lot if we overlap on text chat, but I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0045.game_id",
+   "u0045.mode",
+   "u0045.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0045.comm_modes",
+   "u0045.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

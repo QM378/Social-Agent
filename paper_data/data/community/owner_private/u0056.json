@@ -1,0 +1,36 @@
+{
+ "person_id": "u0056",
+ "name": "Ivo",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m Ivo, mid‑20s and non‑binary from Australia, with a love for swing dancing and a camera that’s all Fuji. I’m looking for a relaxed photo walk, taking it at a slow pace and no post‑processing lesson this time. I’m happy to take portraits of each other and want a chill vibe. I’m free on Saturday afternoon, Saturday morning or Sunday afternoon. I enjoy easygoing days out with a good camera in hand, and love exploring new spots while dancing when the time’s right.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0056.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available any of Saturday afternoon, Saturday morning, or Sunday afternoon. You have to be into a structured instruction session or a practice session working on specific shots. Nice if you are okay with taking portraits of each other.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0056.purpose",
+   "u0056.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0056.pace",
+   "u0056.editing_role",
+   "u0056.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

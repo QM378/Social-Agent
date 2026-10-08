@@ -1,0 +1,36 @@
+{
+ "person_id": "u0096",
+ "name": "Vale",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi, I'm Vale! I'm a Brazilian man in my early 30s. When I'm not out with my Nikon, I really love knitting because it helps me unwind. I'm looking for a relaxed photo walk at a slow pace. I'm keen for plenty of gear talk, but I'm not interested in taking portraits of each other. I'm available on Saturday afternoons or weekday evenings. I'd love to explore some quiet city corners together.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0096.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with a slow pace or a moderate pace. It would be a small bonus if you are okay with plenty of gear talk or if gear talk is fine but not the point.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0096.purpose",
+   "u0096.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0096.pace",
+   "u0096.gear_talk",
+   "u0096.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

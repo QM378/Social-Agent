@@ -1,0 +1,36 @@
+{
+ "person_id": "u0044",
+ "name": "Lark",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Lark, an Italian guy in my mid 30s. When I'm not gaming on my handheld, I love watching old westerns for the classic atmosphere. I mainly play Tidewatch, where I usually queue for casual matches and play a support role. I'm also happy to coach. I am generally free on Saturday afternoon or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0044.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Tidewatch and casual matches, and you have to be available on either Saturday afternoon or Sunday afternoon. It would be nice if you play a damage role or are flexible about your role, and it's a small bonus if you are the one who gets coached by me.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0044.game_id",
+   "u0044.mode",
+   "u0044.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0044.team_role",
+   "u0044.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

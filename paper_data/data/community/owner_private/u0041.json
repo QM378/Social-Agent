@@ -1,0 +1,43 @@
+{
+ "person_id": "u0041",
+ "name": "Dana",
+ "interaction_type": "study_partner",
+ "self_text": "With a background in history, I've recently started studying programming. I enjoy the logic of coding, much like the rhythm of swing dancing. A typical session for me involves working through problems together, as I need to talk things through as we go and have someone explain things to me. I am free on weekday evenings and can meet either online or in person.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0041.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available weekday evenings and you have to be into language practice or statistics. I'd strongly prefer that you are the one who explains the material to me, though it's not a requirement. It would also be nice if you are okay with occasional short exchanges or talking things through as we go, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0041.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be available weekday evenings. I'd strongly prefer that you are into language practice or statistics, though it's not a requirement. It would matter a lot if you are the one who explains the material to me, but I won't rule you out over it. It would be nice if you are okay with occasional short exchanges or talking things through as we go, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0041.topic",
+   "u0041.format",
+   "u0041.venue",
+   "u0041.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0041.quiet",
+   "u0041.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "person_id": "u0119",
+ "name": "Freya",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey! I’m Freya, a mid‑20s German who loves snapping portraits and playing chess online. I’m looking for a quick practice session focused on specific shots—fast pace, no need to dive into gear talk (Canon’s fine, but it’s not the focus). Let’s take portraits of each other. I’m free Saturday afternoons, Sunday mornings, or weekday evenings.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0119.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with plenty of gear talk; you have to be into either a practice session working on specific shots or a relaxed photo walk. I’d strongly prefer that you’re available on Saturday afternoon or Sunday morning or weekday evenings, though that’s not a hard requirement. It would be a nice bonus if you’re okay with taking portraits of each other.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0119.purpose",
+   "u0119.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0119.pace",
+   "u0119.gear_talk",
+   "u0119.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

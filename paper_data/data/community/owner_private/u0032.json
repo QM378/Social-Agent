@@ -1,0 +1,36 @@
+{
+ "person_id": "u0032",
+ "name": "Viktor",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi! I'm Viktor, a Chilean woman in my early 20s. When I'm not out with my Nikon, I love fermenting my own hot sauce because I enjoy the science of the flavors. I'm looking for a relaxed photo walk at a slow pace. I'm not interested in gear debates, but I would love for someone to teach me post-processing. I'm available on Saturday morning, Sunday morning, or Sunday afternoon. I'd love to explore some quiet city parks together.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0032.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a relaxed photo walk and you have to be the one who teaches me post-processing. It's a deal-breaker unless there are no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are okay with a slow pace or a moderate pace, though it's not a requirement. It would be nice if you are available Saturday morning, Sunday afternoon or Sunday morning, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0032.purpose",
+   "u0032.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0032.pace",
+   "u0032.gear_talk",
+   "u0032.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

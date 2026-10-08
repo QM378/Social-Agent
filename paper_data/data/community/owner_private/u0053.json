@@ -1,0 +1,36 @@
+{
+ "person_id": "u0053",
+ "name": "Rhea",
+ "interaction_type": "study_partner",
+ "self_text": "Hi there! I'm Rhea, a German woman in my mid 20s. I studied economics, but these days I am studying programming. I've always loved the process of learning something new and how it expands my perspective. Outside of my studies, I spend a lot of my time podcasting, which is a huge passion of mine. When it comes to working on code, I work best with a step-by-step walkthrough session. Just to be clear on the dynamic, there is no tutoring either way. I am quite flexible regarding where we connect, as I can meet in person or online. As for my schedule, I am free Saturday morning, Sunday morning, or weekday evenings. Looking forward to chatting!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0053.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a step-by-step walkthrough session. It would matter a lot if you are available Saturday morning, Sunday morning or weekday evenings, though it's not a requirement. Additionally, it would be nice if you are into programming, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0053.topic",
+   "u0053.format",
+   "u0053.venue",
+   "u0053.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0053.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

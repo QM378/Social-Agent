@@ -1,0 +1,33 @@
+{
+ "person_id": "u0152",
+ "name": "Pia",
+ "interaction_type": "gaming_partner",
+ "self_text": "I am a Japanese man in my late 20s. Outside of gaming, I enjoy knitting because it is relaxing. I play Tidewatch on PC. I play ranked matches. I am available on Saturday afternoons.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0152.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into casual matches. It would be a small bonus if you are into Tidewatch, and it's nice if you are available Saturday afternoon, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0152.game_id",
+   "u0152.mode",
+   "u0152.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

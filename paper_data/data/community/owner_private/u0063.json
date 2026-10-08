@@ -1,0 +1,36 @@
+{
+ "person_id": "u0063",
+ "name": "Jem",
+ "interaction_type": "study_partner",
+ "self_text": "Coming from a biology background, I've always been drawn to the natural world, which is why I spend my free time birdwatching. Lately, I have been focusing on language practice. A typical session for me involves studying independently side by side in person, with occasional short exchanges. I find this quiet productivity very grounding. I am available on Saturday afternoons for this.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0063.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice. It's a deal-breaker unless you are okay with complete silence while working or occasional short exchanges. Ideally, we overlap on in person, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0063.topic",
+   "u0063.format",
+   "u0063.venue",
+   "u0063.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0063.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

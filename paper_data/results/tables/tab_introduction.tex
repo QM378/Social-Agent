@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{2.5pt}\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}\toprule
+Method & Acc$_3$ & P & R & calls & tokens \\ \midrule
+\multicolumn{6}{l}{\textit{gpt-oss-20b, partial view (3,289 pairs)}}\\
+Social Agent, no clarification & 0.665 & 0.857 & 0.455 & 2.04 & 2451 \\
+Social Agent, $\le$1 question & 0.850 & 0.870 & 0.692 & 2.40 & 2512 \\
+Social Agent, $\le$3 questions & 0.918 & 0.862 & 0.783 & 2.60 & 2599 \\
+Social Agent, $\le$5 questions & 0.924 & 0.866 & 0.793 & 2.56 & 2555 \\
+\multicolumn{6}{l}{\textit{Gemma 4 31B, partial view (3,307 pairs)}}\\
+Social Agent, no clarification & 0.703 & 0.984 & 0.542 & 2.07 & 2146 \\
+Social Agent, $\le$3 questions & 0.971 & 0.968 & 0.942 & 2.65 & 2248 \\
+\bottomrule\end{tabular}}
+\caption{Two-way introduction decisions on the common completed set. Reference: both directions acceptable under truthful disclosure. Calls and tokens per pair count every LLM call of the method, including failed and retried calls.}
+\label{tab:introduction}\end{table}

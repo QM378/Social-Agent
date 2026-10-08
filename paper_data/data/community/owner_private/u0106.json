@@ -1,0 +1,36 @@
+{
+ "person_id": "u0106",
+ "name": "Usman",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey! I’m Usman, a late‑30s non‑binary Chilean who loves swing dancing on the weekends. I’ll bring my phone as a camera and I’m looking for a relaxed photo walk that’s still fast‑paced. We’ll talk gear a lot and capture portraits of each other along the way. I’m free Saturday afternoon, Sunday afternoon or Sunday morning—just let me know which slot works for you and we’ll plan a fun, quick stroll together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0106.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a relaxed photo walk or a structured instruction session. I'd strongly prefer that you are okay with a fast pace or a slow pace, though it's not a requirement for me to rule you out. Nice if you’re available Saturday afternoon or Sunday afternoon or Sunday morning, and a small bonus if we can take portraits of each other.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0106.purpose",
+   "u0106.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0106.pace",
+   "u0106.gear_talk",
+   "u0106.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "person_id": "u0040",
+ "name": "Carmen",
+ "interaction_type": "photography_partner",
+ "self_text": "I am a Mexican in my early 20s who loves playing chess online. I use a Fuji camera. I am looking for a relaxed photo walk. I tend to go at a moderate pace. I am cool with not taking portraits of each other. Most weeks I can do Sunday morning or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0040.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a relaxed photo walk. I'd strongly prefer that you are okay with a fast pace or a slow pace, though it's not a requirement. It would matter a lot if you are okay with not taking portraits of each other, but I won't rule you out over it. It's a small bonus if you are available Sunday morning or weekday evenings.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0040.purpose",
+   "u0040.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0040.pace",
+   "u0040.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

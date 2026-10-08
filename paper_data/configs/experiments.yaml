@@ -1,0 +1,15 @@
+# The experiments reported in the paper. Run with: social-agent experiments  (writes to outputs/, never to records/)
+data: data/community
+stages:
+  - name: s2_partial_gptoss
+    model_config: matcher_gptoss.yaml
+    pool_k: 8
+    embed_model: nomic-embed-text
+    kinds: [primary, alternative]
+    methods: [bm25_top3, tfidf_top3, embed_top3, rrf_top3, graph_ppr_top3, direct, direct_cot, llm_score_top3, llm_rank_top3, B2, B3ft_q1, B3ft, B3ft_q5]
+  - name: s2_partial_gemma
+    model_config: matcher_gemma.yaml
+    pool_k: 8
+    embed_model: nomic-embed-text
+    kinds: [primary, alternative]
+    methods: [direct, direct_cot, B2, B3ft]

@@ -1,0 +1,43 @@
+{
+ "person_id": "u0015",
+ "name": "Orla",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Chilean man in my 50s with a background in nursing, though these days I spend my free time baking sourdough. Recently, I have been studying statistics, which has become a significant project for me. I find that I work best when working through problems together, and I need talking things through as we go to really grasp the material. Because of this, I am looking for someone to explain things to me. A typical session for me would involve sitting down and tackling the coursework side-by-side. I can meet in person, and I am free Saturday morning to dive into the numbers. I really enjoy the challenge of statistics because it offers a new way to look at the world, and I find the process of solving a complex problem incredibly rewarding.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0015.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with occasional short exchanges or talking things through as we go, and it is a deal-breaker unless we overlap on in person. It would be nice if you are available Saturday morning, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0015.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with occasional short exchanges or talking things through as we go. I'd strongly prefer that we overlap on in person, though it's not a requirement. It would also be nice if you are available Saturday morning, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0015.topic",
+   "u0015.format",
+   "u0015.venue",
+   "u0015.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0015.quiet",
+   "u0015.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

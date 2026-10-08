@@ -1,0 +1,223 @@
+{
+ "person_id": "u0155",
+ "generator": "gemma",
+ "checker": "gptoss",
+ "checker_model": "social-gptoss-8k",
+ "prompt_version": "community_check_v3",
+ "issues": [],
+ "texts_hash": "fe423bf5533ea09a",
+ "checked": {
+  "self": true,
+  "u0155.r1": true
+ },
+ "checker_errors": 0,
+ "n_issues": 0,
+ "impact_counts": {},
+ "adjudication": {
+  "status": "pending",
+  "by": null,
+  "notes": ""
+ },
+ "verdict": "clean",
+ "checker_provenance": {
+  "served_model": "social-gptoss-8k",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "quantization": "MXFP4",
+  "family": "gptoss",
+  "parameter_size": "20.9B",
+  "modelfile_parameters": "num_ctx                        8192\nseed                           0\ntemperature                    0",
+  "server": "ollama 0.34.2",
+  "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+  "modified_at": "2026-09-22T21:52:51.9507247-05:00",
+  "license_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n    ",
+  "model_key": "gptoss",
+  "prompt_version": "community_check_v3",
+  "temperature": 0.7
+ },
+ "checker_http_attempts": [
+  {
+   "item": "self",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 0.43190979992505163,
+     "prompt_tokens": 380,
+     "completion_tokens": 97,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract this person's own facts using only the vocabulary. \"unknown\" if not stated. Set attributes return a list. Return {\"facts\": {...}}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I'm Gloria, a non-binary Egyptian in my late 20s. I love urban gardening for the peace it brings. I play Tidewatch on console and mostly focus on ranked matches. I don't do coaching. Most weeks, I'm available on Saturday morning."
+      }
+     ],
+     "request_params": {
+      "model": "social-gptoss-8k",
+      "temperature": 0.7,
+      "max_tokens": 1500,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtractedFacts",
+        "schema": {
+         "properties": {
+          "facts": {
+           "additionalProperties": {
+            "anyOf": [
+             {
+              "type": "string"
+             },
+             {
+              "items": {
+               "type": "string"
+              },
+              "type": "array"
+             }
+            ]
+           },
+           "title": "Facts",
+           "type": "object"
+          }
+         },
+         "required": [
+          "facts"
+         ],
+         "title": "_ExtractedFacts",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "low"
+     },
+     "response_content": "{\"facts\":{\"game_id\":\"Tidewatch\",\"mode\":\"ranked\",\"comm_modes\":\"unknown\",\"team_role\":\"unknown\",\"coaching_role\":\"none\",\"time_window\":[\"sat_morning\"]}}"
+    }
+   ]
+  },
+  {
+   "item": "u0155.r1",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.7455802999902517,
+     "prompt_tokens": 511,
+     "completion_tokens": 451,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I need you to be into ranked matches. I'd strongly prefer that you are available Saturday morning, though it's not a requirement. It would be a small bonus if you are into Hollow Lantern or Tidewatch."
+      }
+     ],
+     "request_params": {
+      "model": "social-gptoss-8k",
+      "temperature": 0.7,
+      "max_tokens": 1500,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "low"
+     },
+     "response_content": "{\"requirements\":[{\"attribute\":\"mode\",\"accepted_values\":[\"ranked\"],\"strength\":\"required\"},{\"attribute\":\"time_window\",\"accepted_values\":[\"sat_morning\"],\"strength\":\"strong_preference\"},{\"attribute\":\"game_id\",\"accepted_values\":[\"Hollow_Lantern\",\"Tidewatch\"],\"strength\":\"preference\"}],\"changes_this_time\":[]}"
+    }
+   ]
+  }
+ ]
+}

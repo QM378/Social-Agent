@@ -1,0 +1,408 @@
+{
+ "person_id": "u0142",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:03:44.508167+00:00",
+ "self": {
+  "status": "ok",
+  "text": "Hey there! I’m Jamal, in my early 30s and a proud Korean. I love getting lost in the world of Hollow Lantern most of the time, and I usually queue for casual matches when I have a chance. I play on a handheld platform, which makes it super convenient to jump into a game no matter where I am. I’m on the lookout for a coach—someone who can help me sharpen my skills and give me that extra edge. When I’m not gaming, I’m usually watching old westerns; there’s something about the dusty landscapes and classic storytelling that really keeps me hooked. I’m pretty relaxed and upbeat, always ready to dive into a good match or a great film. I’m usually free on Saturday afternoons or in the evenings during the week, so we can schedule a time that works for both of us. I enjoy meeting like-minded people who share a love for gaming and good conversation, and I’m always up for a chill chat over coffee after a session. I’d love to connect with someone who’s ready to play, learn, and have a bit of fun along the way!",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 1471954,
+    "text": "Hey there! I’m Jamal, a Korean in my early 30s who loves diving into the world of Hollow Lantern. I usually jump into casual matches – nothing too intense, just a chill session with friends or new teammates. I’m on the hunt for someone who can give me a little coaching to help me level up my skills. If you’re into guiding others and enjoy a relaxed, supportive vibe, we’d click. I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can find a slot that works for both of us. When I’m not gaming, I’m all about watching classic western movies – there’s something about the storytelling and the grit that really draws me in. I love the calm of a good film and the thrill of a great game, and I’m looking forward to sharing both with someone who’s equally passionate about learning and having fun. Let’s chat and see if we can make some epic moments together!",
+    "issues": [
+     "withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can find a slot that works for both of us.\""
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 422,
+    "completion_tokens": 270,
+    "truncated": false,
+    "wall_s": 5.2253,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"Hey there! I’m Jamal, a Korean in my early 30s who loves diving into the world of Hollow Lantern. I usually jump into casual matches – nothing too intense, just a chill session with friends or new teammates. I’m on the hunt for someone who can give me a little coaching to help me level up my skills. If you’re into guiding others and enjoy a relaxed, supportive vibe, we’d click. I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can find a slot that works for both of us. When I’m not gaming, I’m all about watching classic western movies – there’s something about the storytelling and the grit that really draws me in. I love the calm of a good film and the thrill of a great game, and I’m looking forward to sharing both with someone who’s equally passionate about learning and having fun. Let’s chat and see if we can make some epic moments together!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 5.225237500038929,
+      "prompt_tokens": 422,
+      "completion_tokens": 270,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 1471954,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey there! I’m Jamal, a Korean in my early 30s who loves diving into the world of Hollow Lantern. I usually jump into casual matches – nothing too intense, just a chill session with friends or new teammates. I’m on the hunt for someone who can give me a little coaching to help me level up my skills. If you’re into guiding others and enjoy a relaxed, supportive vibe, we’d click. I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can find a slot that works for both of us. When I’m not gaming, I’m all about watching classic western movies – there’s something about the storytelling and the grit that really draws me in. I love the calm of a good film and the thrill of a great game, and I’m looking forward to sharing both with someone who’s equally passionate about learning and having fun. Let’s chat and see if we can make some epic moments together!\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 1,
+    "seed": 1471955,
+    "text": "Hey there! I’m Jamal, a gamer in my early 30s from Korea who loves exploring the quiet corners of Hollow Lantern. I usually hop into casual matches, just looking for a relaxed and friendly vibe. I’m hoping to find someone who can step in and coach me, helping me sharpen my skills and get the most out of the game. I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can pick a slot that works for both of us. Outside the screen, I enjoy watching old westerns – there’s something about the dusty roads and lone cowboys that really captures my imagination. I’m all about good company, shared laughs, and a chill gaming session. If that sounds like your kind of thing, let’s chat and see where it goes!",
+    "issues": [
+     "withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can pick a slot that works for both of us.\""
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 509,
+    "completion_tokens": 229,
+    "truncated": false,
+    "wall_s": 0.9358,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can find a slot that works for both of us.\"']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"Hey there! I’m Jamal, a gamer in my early 30s from Korea who loves exploring the quiet corners of Hollow Lantern. I usually hop into casual matches, just looking for a relaxed and friendly vibe. I’m hoping to find someone who can step in and coach me, helping me sharpen my skills and get the most out of the game. I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can pick a slot that works for both of us. Outside the screen, I enjoy watching old westerns – there’s something about the dusty roads and lone cowboys that really captures my imagination. I’m all about good company, shared laughs, and a chill gaming session. If that sounds like your kind of thing, let’s chat and see where it goes!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.9357926000375301,
+      "prompt_tokens": 509,
+      "completion_tokens": 229,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can find a slot that works for both of us.\"']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 1471955,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey there! I’m Jamal, a gamer in my early 30s from Korea who loves exploring the quiet corners of Hollow Lantern. I usually hop into casual matches, just looking for a relaxed and friendly vibe. I’m hoping to find someone who can step in and coach me, helping me sharpen my skills and get the most out of the game. I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can pick a slot that works for both of us. Outside the screen, I enjoy watching old westerns – there’s something about the dusty roads and lone cowboys that really captures my imagination. I’m all about good company, shared laughs, and a chill gaming session. If that sounds like your kind of thing, let’s chat and see where it goes!\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 2,
+    "seed": 1471956,
+    "text": "Hey there! I’m Jamal, a guy in his early 30s from Korea who loves diving into the world of Hollow Lantern. I usually jump into casual matches—nothing too intense, just a relaxed vibe where I can hang out and have fun. I’m looking for someone who can help me sharpen my skills, so a friend who’s up for coaching would be awesome. I’m pretty flexible with timing: I’m free on Saturday afternoons and in the evenings on weekdays, so we can pick a slot that works for both of us. When I’m not gaming, I’m usually watching old westerns; there’s something classic and cool about those films that I enjoy. I like to keep things light and friendly, and I’m all about good conversation and shared laughs. If you’re into gaming and a bit of retro movie nostalgia, we’ll get along great!",
+    "issues": [
+     "withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons and in the evenings on weekdays, so we can pick a slot that works for both of us.\""
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 509,
+    "completion_tokens": 252,
+    "truncated": false,
+    "wall_s": 1.0443,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can pick a slot that works for both of us.\"']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"Hey there! I’m Jamal, a guy in his early 30s from Korea who loves diving into the world of Hollow Lantern. I usually jump into casual matches—nothing too intense, just a relaxed vibe where I can hang out and have fun. I’m looking for someone who can help me sharpen my skills, so a friend who’s up for coaching would be awesome. I’m pretty flexible with timing: I’m free on Saturday afternoons and in the evenings on weekdays, so we can pick a slot that works for both of us. When I’m not gaming, I’m usually watching old westerns; there’s something classic and cool about those films that I enjoy. I like to keep things light and friendly, and I’m all about good conversation and shared laughs. If you’re into gaming and a bit of retro movie nostalgia, we’ll get along great!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.0442897999892011,
+      "prompt_tokens": 509,
+      "completion_tokens": 252,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons or in the evenings on weekdays, so we can pick a slot that works for both of us.\"']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 1471956,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey there! I’m Jamal, a guy in his early 30s from Korea who loves diving into the world of Hollow Lantern. I usually jump into casual matches—nothing too intense, just a relaxed vibe where I can hang out and have fun. I’m looking for someone who can help me sharpen my skills, so a friend who’s up for coaching would be awesome. I’m pretty flexible with timing: I’m free on Saturday afternoons and in the evenings on weekdays, so we can pick a slot that works for both of us. When I’m not gaming, I’m usually watching old westerns; there’s something classic and cool about those films that I enjoy. I like to keep things light and friendly, and I’m all about good conversation and shared laughs. If you’re into gaming and a bit of retro movie nostalgia, we’ll get along great!\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 3,
+    "seed": 1471957,
+    "text": "Hey there! I’m Jamal, in my early 30s and a proud Korean. I love getting lost in the world of Hollow Lantern most of the time, and I usually queue for casual matches when I have a chance. I play on a handheld platform, which makes it super convenient to jump into a game no matter where I am. I’m on the lookout for a coach—someone who can help me sharpen my skills and give me that extra edge. When I’m not gaming, I’m usually watching old westerns; there’s something about the dusty landscapes and classic storytelling that really keeps me hooked. I’m pretty relaxed and upbeat, always ready to dive into a good match or a great film. I’m usually free on Saturday afternoons or in the evenings during the week, so we can schedule a time that works for both of us. I enjoy meeting like-minded people who share a love for gaming and good conversation, and I’m always up for a chill chat over coffee after a session. I’d love to connect with someone who’s ready to play, learn, and have a bit of fun along the way!",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 509,
+    "completion_tokens": 423,
+    "truncated": false,
+    "wall_s": 1.7172,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons and in the evenings on weekdays, so we can pick a slot that works for both of us.\"']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"Hey there! I’m Jamal, in my early 30s and a proud Korean. I love getting lost in the world of Hollow Lantern most of the time, and I usually queue for casual matches when I have a chance. I play on a handheld platform, which makes it super convenient to jump into a game no matter where I am. I’m on the lookout for a coach—someone who can help me sharpen my skills and give me that extra edge. When I’m not gaming, I’m usually watching old westerns; there’s something about the dusty landscapes and classic storytelling that really keeps me hooked. I’m pretty relaxed and upbeat, always ready to dive into a good match or a great film. I’m usually free on Saturday afternoons or in the evenings during the week, so we can schedule a time that works for both of us. I enjoy meeting like-minded people who share a love for gaming and good conversation, and I’m always up for a chill chat over coffee after a session. I’d love to connect with someone who’s ready to play, learn, and have a bit of fun along the way!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.7171668999362737,
+      "prompt_tokens": 509,
+      "completion_tokens": 423,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['withheld_topic_wording:role: the notes say nothing about role; DELETE or neutralise this sentence so it no longer says or implies it: \"I’m pretty flexible with timing: I’m free on Saturday afternoons and in the evenings on weekdays, so we can pick a slot that works for both of us.\"']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Jamal\nAge: early 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: watching old westerns.\nBackground: platform: a handheld\nFacts (stable):\n- I mainly play Hollow Lantern.\n- I usually queue for casual matches.\n- About coaching: someone to coach me.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 1471957,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey there! I’m Jamal, in my early 30s and a proud Korean. I love getting lost in the world of Hollow Lantern most of the time, and I usually queue for casual matches when I have a chance. I play on a handheld platform, which makes it super convenient to jump into a game no matter where I am. I’m on the lookout for a coach—someone who can help me sharpen my skills and give me that extra edge. When I’m not gaming, I’m usually watching old westerns; there’s something about the dusty landscapes and classic storytelling that really keeps me hooked. I’m pretty relaxed and upbeat, always ready to dive into a good match or a great film. I’m usually free on Saturday afternoons or in the evenings during the week, so we can schedule a time that works for both of us. I enjoy meeting like-minded people who share a love for gaming and good conversation, and I’m always up for a chill chat over coffee after a session. I’d love to connect with someone who’s ready to play, learn, and have a bit of fun along the way!\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0142.r1": {
+   "status": "ok",
+   "text": "I need you to be into Hollow Lantern, otherwise we’re not compatible. I’d strongly prefer that you’re available either Saturday afternoon or weekday evenings, though I won’t rule you out over it. It would matter a lot if you’re the one who coaches me, but I won’t rule you out over it. Nice if we’re into casual matches, but no big deal.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 1471957,
+     "text": "I need you to be into Hollow Lantern, otherwise we’re not compatible. I’d strongly prefer that you’re available either Saturday afternoon or weekday evenings, though I won’t rule you out over it. It would matter a lot if you’re the one who coaches me, but I won’t rule you out over it. Nice if we’re into casual matches, but no big deal.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 582,
+     "completion_tokens": 122,
+     "truncated": false,
+     "wall_s": 0.5175,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: gaming partner\nRequirements:\n- MUST: you are into Hollow Lantern\n- WISH: you are the one who coaches me\n- WISH: you are into casual matches\n- STRONG WISH: you are available any of Saturday afternoon or weekday evenings   [alternatives: Saturday afternoon | weekday evenings]"
+     },
+     "raw_output": "{\"text\":\"I need you to be into Hollow Lantern, otherwise we’re not compatible. I’d strongly prefer that you’re available either Saturday afternoon or weekday evenings, though I won’t rule you out over it. It would matter a lot if you’re the one who coaches me, but I won’t rule you out over it. Nice if we’re into casual matches, but no big deal.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 0.5174254999728873,
+       "prompt_tokens": 582,
+       "completion_tokens": 122,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: gaming partner\nRequirements:\n- MUST: you are into Hollow Lantern\n- WISH: you are the one who coaches me\n- WISH: you are into casual matches\n- STRONG WISH: you are available any of Saturday afternoon or weekday evenings   [alternatives: Saturday afternoon | weekday evenings]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 1471957,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you to be into Hollow Lantern, otherwise we’re not compatible. I’d strongly prefer that you’re available either Saturday afternoon or weekday evenings, though I won’t rule you out over it. It would matter a lot if you’re the one who coaches me, but I won’t rule you out over it. Nice if we’re into casual matches, but no big deal.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "37f5e96c43c56074"
+}

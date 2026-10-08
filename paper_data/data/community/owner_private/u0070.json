@@ -1,0 +1,35 @@
+{
+ "person_id": "u0070",
+ "name": "Irene",
+ "interaction_type": "gaming_partner",
+ "self_text": "I am Irene, a non-binary Australian in my late 30s. Outside of gaming, I enjoy urban gardening because I love seeing things grow in the city. I play on PC. I play Hollow Lantern in ranked matches. I am available on Saturday afternoons or weekday evenings. For communication, I use text chat or voice chat only.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0070.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Tidewatch. It'd be a small bonus if you are available Saturday afternoon or weekday evenings, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0070.game_id",
+   "u0070.mode",
+   "u0070.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0070.comm_modes"
+  ]
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

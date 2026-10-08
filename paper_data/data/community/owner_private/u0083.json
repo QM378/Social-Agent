@@ -1,0 +1,44 @@
+{
+ "person_id": "u0083",
+ "name": "Lucia",
+ "interaction_type": "study_partner",
+ "self_text": "I’m Lucia, a non‑binary design student from Egypt in my early twenties who loves to remix the past by restoring bikes. I get a kick out of turning a rusty frame into a gleaming ride, and I often find myself humming while I sand and polish. When I’m not at my workshop, I’m diving into statistics—an area that lets me see patterns and craft better designs. I enjoy tackling problems by working through them together, sharing the moment of discovery rather than giving or receiving formal tutoring. My sessions are all online, so we can connect from wherever we are, and I’m usually free on Sunday mornings to dive into a new challenge. I’m hopeful to meet someone who’s curious, patient, and ready to explore data or design together, all while sharing the joy of turning something old into something new. I’m excited for the next ride or calculation we’ll solve together.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0083.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into programming or statistics, otherwise it’s a deal‑breaker. I’d strongly prefer that you are into working through problems together or a step‑by‑step walkthrough session, though it’s not a requirement. Nice if you’re available Sunday morning, but that’s just a small bonus.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0083.r2",
+   "kind": "alternative",
+   "request_text": "I need you are into programming or statistics. I'd strongly prefer that you are into studying independently side by side, though it's not a requirement, and this time it’s that, not the usual working through problems together. Nice if you are available Sunday morning, but not essential.",
+   "this_time": [
+    "This time: studying independently side by side. Usually: working through problems together."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0083.topic",
+   "u0083.format",
+   "u0083.venue",
+   "u0083.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0083.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

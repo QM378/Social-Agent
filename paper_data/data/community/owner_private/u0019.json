@@ -1,0 +1,37 @@
+{
+ "person_id": "u0019",
+ "name": "Zain",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Zain, in my early 30s and proud of my Mexican roots, though I prefer not to label my gender. I love growing chillies in my spare time—they keep my hands busy and my senses sharp. When I’m not tending to the plants, I’m in the console world, where I enjoy tidewatch and casual matches. I play any position I’m asked to fill, keeping my role flexible and adaptable to the team’s needs. Communication is strictly via text chat—no voice, just clear, focused messages. I’m happy to coach teammates, sharing quick pointers or strategic insights whenever the opportunity arises. I’m free on Saturday afternoons, so that’s the best time to line up a game or two. If you’re looking for a player who can jump into any spot, keep the conversation text‑only, and drop in for a relaxed match on a Saturday, I’m ready to join the squad.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0019.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday afternoon; you have to be the one who gets coached by me; you must play a damage role or you must play a support role; you need to be into Tidewatch. I would strongly prefer that you are into casual matches, though it’s not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0019.game_id",
+   "u0019.mode",
+   "u0019.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0019.comm_modes",
+   "u0019.team_role",
+   "u0019.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "person_id": "u0189",
+ "name": "Yuki",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Yuki, a late‑twenties Chilean who spends most of my days on Tidewatch, especially enjoying the casual matches that let me relax and have fun. I’m all about the quick, easy communication—text chat is my go‑to, so I can jump into a game and chat without having to pause the action. I don’t do coaching; I’m here to play and share the experience, not to lead or train. My usual slot is Sunday afternoons, when the pool is lively and I can dive into a fresh round. Outside the screen I’m learning to sail, which keeps me feeling adventurous and grounded, and I love the calm of the marina at sunset.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0189.r1",
+   "kind": "primary",
+   "request_text": "I need to overlap on text chat, you must be into Skyforge Arena or casually into matches, and you should be into casual matches or into Skyforge Arena; I'd strongly prefer that you’re available Sunday afternoon, though it’s not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0189.game_id",
+   "u0189.mode",
+   "u0189.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0189.comm_modes",
+   "u0189.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "person_id": "u0022",
+ "name": "Hakim",
+ "interaction_type": "study_partner",
+ "self_text": "Coming from a nursing background, I have always appreciated the value of clear communication. These days, I spend my free time podcasting, which I find incredibly rewarding. I have turned to this activity right now as a way to focus on language practice. A typical session for me works best as a step-by-step walkthrough, as I get the most out of that format. I find that I do best with occasional short exchanges during our time together. I am happy to explain things to my partner, and I prefer meeting in person. Most weeks, I am available on Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0022.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who has things explained by me, and you have to be okay with either complete silence while working or occasional short exchanges. It's a deal-breaker unless you are into a step-by-step walkthrough session. I'd strongly prefer that we overlap on in person, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0022.topic",
+   "u0022.format",
+   "u0022.venue",
+   "u0022.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0022.quiet",
+   "u0022.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

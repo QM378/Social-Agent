@@ -1,0 +1,156 @@
+{
+ "A_directional_disclosable": {
+  "B2": {
+   "n": 3307,
+   "acc3": 0.653,
+   "n_rec": 1141,
+   "P": 0.994,
+   "WIR": 0.002,
+   "R": 0.697,
+   "InsRec": 0.97,
+   "errors": 0
+  },
+  "B3ft": {
+   "n": 3307,
+   "acc3": 0.837,
+   "n_rec": 1402,
+   "P": 0.986,
+   "WIR": 0.011,
+   "R": 0.85,
+   "InsRec": 0.967,
+   "errors": 0
+  },
+  "direct": {
+   "n": 3307,
+   "acc3": 0.576,
+   "n_rec": 1394,
+   "P": 0.793,
+   "WIR": 0.176,
+   "R": 0.68,
+   "InsRec": 0.698,
+   "errors": 0
+  },
+  "direct_cot": {
+   "n": 3307,
+   "acc3": 0.61,
+   "n_rec": 1299,
+   "P": 0.906,
+   "WIR": 0.079,
+   "R": 0.724,
+   "InsRec": 0.861,
+   "errors": 0
+  }
+ },
+ "A_directional_public": {
+  "B2": {
+   "n": 3307,
+   "acc3": 0.969,
+   "n_rec": 1141,
+   "P": 0.994,
+   "WIR": 0.002,
+   "R": 0.951,
+   "InsRec": 0.981,
+   "errors": 0
+  },
+  "B3ft": {
+   "n": 3307,
+   "acc3": 0.785,
+   "n_rec": 1402,
+   "P": 0.813,
+   "WIR": 0.011,
+   "R": 0.956,
+   "InsRec": 0.56,
+   "errors": 0
+  },
+  "direct": {
+   "n": 3307,
+   "acc3": 0.761,
+   "n_rec": 1394,
+   "P": 0.707,
+   "WIR": 0.176,
+   "R": 0.826,
+   "InsRec": 0.706,
+   "errors": 0
+  },
+  "direct_cot": {
+   "n": 3307,
+   "acc3": 0.876,
+   "n_rec": 1299,
+   "P": 0.863,
+   "WIR": 0.079,
+   "R": 0.94,
+   "InsRec": 0.876,
+   "errors": 0
+  }
+ },
+ "B_introduction": {
+  "B2": {
+   "n": 3307,
+   "acc3": 0.703,
+   "n_rec": 305,
+   "P": 0.984,
+   "WIR": 0.013,
+   "R": 0.542,
+   "InsRec": 0.966,
+   "errors": 0
+  },
+  "B3ft": {
+   "n": 3307,
+   "acc3": 0.971,
+   "n_rec": 539,
+   "P": 0.968,
+   "WIR": 0.03,
+   "R": 0.942,
+   "InsRec": 0.95,
+   "errors": 0
+  }
+ },
+ "cost": {
+  "B2": {
+   "calls_per_pair": 2.07,
+   "tokens_per_pair": 2146,
+   "questions_per_pair": 0.0
+  },
+  "B3ft": {
+   "calls_per_pair": 2.65,
+   "tokens_per_pair": 2248,
+   "questions_per_pair": 0.58
+  },
+  "direct": {
+   "calls_per_pair": 1.0,
+   "tokens_per_pair": 304,
+   "questions_per_pair": 0.0
+  },
+  "direct_cot": {
+   "calls_per_pair": 1.0,
+   "tokens_per_pair": 384,
+   "questions_per_pair": 0.0
+  }
+ },
+ "E2": {
+  "B2": {
+   "ref_same|correct_after": 337,
+   "ref_same|wrong_after": 126,
+   "ref_changed|correct_after": 39,
+   "ref_changed|wrong_after": 45
+  },
+  "B3ft": {
+   "ref_same|correct_after": 449,
+   "ref_changed|correct_after": 45,
+   "ref_changed|wrong_after": 39,
+   "ref_same|wrong_after": 14
+  }
+ },
+ "E3": {
+  "B2->B3ft": {
+   "pairs": 3307,
+   "fixed": 894,
+   "fixed:now_correct_reject": 672,
+   "unchanged": 2390,
+   "fixed:recovered_introduction": 222,
+   "changed_still_wrong": 17,
+   "broken": 6,
+   "broken:other": 6
+  }
+ }
+}

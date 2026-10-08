@@ -1,0 +1,264 @@
+{
+ "person_id": "u0173",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:05:16.173783+00:00",
+ "self": {
+  "status": "ok",
+  "text": "I’m Greta, mid‑30s, born and raised in the U.S., and I love a good photo walk. I’m looking for a relaxed outing, so I’m all about a slow pace and plenty of time to enjoy the scenery. There are no gear debates on my end—just a camera and an eye for moments. I’m not interested in a post‑processing lesson today; I want to capture what I see in the moment. I’ll bring my Sony camera, which I’ve trusted for years, and I prefer we keep the focus on the landscape, not on taking portraits of each other. I’m usually free on weekday evenings, so let’s plan a walk after work. Outside of photography, I’m an avid birdwatcher, so I’ll be on the lookout for feathered friends along the trail. I enjoy the quiet rhythm of hiking with a camera, and I’m excited to share that experience with someone who appreciates a calm, mindful stroll through nature.",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 7130618,
+    "text": "I’m Greta, mid‑30s, born and raised in the U.S., and I love a good photo walk. I’m looking for a relaxed outing, so I’m all about a slow pace and plenty of time to enjoy the scenery. There are no gear debates on my end—just a camera and an eye for moments. I’m not interested in a post‑processing lesson today; I want to capture what I see in the moment. I’ll bring my Sony camera, which I’ve trusted for years, and I prefer we keep the focus on the landscape, not on taking portraits of each other. I’m usually free on weekday evenings, so let’s plan a walk after work. Outside of photography, I’m an avid birdwatcher, so I’ll be on the lookout for feathered friends along the trail. I enjoy the quiet rhythm of hiking with a camera, and I’m excited to share that experience with someone who appreciates a calm, mindful stroll through nature.",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 420,
+    "completion_tokens": 228,
+    "truncated": false,
+    "wall_s": 0.9207,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Greta\nAge: mid 30s. Gender: woman. Nationality: American. Hobby outside this: birdwatching.\nBackground: camera brand: Sony\nFacts (stable):\n- Looking for a relaxed photo walk.\n- A slow pace.\n- No gear debates.\n- No post-processing lesson this time.\n- Not taking portraits of each other.\n- Available weekday evenings."
+    },
+    "raw_output": "{\"text\":\"I’m Greta, mid‑30s, born and raised in the U.S., and I love a good photo walk. I’m looking for a relaxed outing, so I’m all about a slow pace and plenty of time to enjoy the scenery. There are no gear debates on my end—just a camera and an eye for moments. I’m not interested in a post‑processing lesson today; I want to capture what I see in the moment. I’ll bring my Sony camera, which I’ve trusted for years, and I prefer we keep the focus on the landscape, not on taking portraits of each other. I’m usually free on weekday evenings, so let’s plan a walk after work. Outside of photography, I’m an avid birdwatcher, so I’ll be on the lookout for feathered friends along the trail. I enjoy the quiet rhythm of hiking with a camera, and I’m excited to share that experience with someone who appreciates a calm, mindful stroll through nature.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.9207005000207573,
+      "prompt_tokens": 420,
+      "completion_tokens": 228,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Greta\nAge: mid 30s. Gender: woman. Nationality: American. Hobby outside this: birdwatching.\nBackground: camera brand: Sony\nFacts (stable):\n- Looking for a relaxed photo walk.\n- A slow pace.\n- No gear debates.\n- No post-processing lesson this time.\n- Not taking portraits of each other.\n- Available weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 7130618,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m Greta, mid‑30s, born and raised in the U.S., and I love a good photo walk. I’m looking for a relaxed outing, so I’m all about a slow pace and plenty of time to enjoy the scenery. There are no gear debates on my end—just a camera and an eye for moments. I’m not interested in a post‑processing lesson today; I want to capture what I see in the moment. I’ll bring my Sony camera, which I’ve trusted for years, and I prefer we keep the focus on the landscape, not on taking portraits of each other. I’m usually free on weekday evenings, so let’s plan a walk after work. Outside of photography, I’m an avid birdwatcher, so I’ll be on the lookout for feathered friends along the trail. I enjoy the quiet rhythm of hiking with a camera, and I’m excited to share that experience with someone who appreciates a calm, mindful stroll through nature.\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0173.r1": {
+   "status": "ok",
+   "text": "I need you to be okay with not taking portraits of each other, and I need you to be okay with a slow pace or a moderate pace. I need you to be available weekday evenings. I'd strongly prefer that you are into a practice session working on specific shots, though it's not a requirement. Nice if you are okay with no gear debates or gear talk is fine but not the point.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 7130621,
+     "text": "I need you to be okay with not taking portraits of each other, and I need you to be okay with a slow pace or a moderate pace. I need you to be available weekday evenings. I'd strongly prefer that you are into a practice session working on specific shots, though it's not a requirement. Nice if you are okay with no gear debates or gear talk is fine but not the point.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 628,
+     "completion_tokens": 112,
+     "truncated": false,
+     "wall_s": 0.483,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: photography partner\nRequirements:\n- MUST: you are okay with not taking portraits of each other\n- MUST: you are okay with a slow pace or a moderate pace   [alternatives: a slow pace | a moderate pace]\n- MUST: you are available weekday evenings\n- WISH: you are okay with no gear debates or gear talk is fine but not the point   [alternatives: no gear debates | gear talk is fine but not the point]\n- STRONG WISH: you are into a practice session working on specific shots"
+     },
+     "raw_output": "{\"text\":\"I need you to be okay with not taking portraits of each other, and I need you to be okay with a slow pace or a moderate pace. I need you to be available weekday evenings. I'd strongly prefer that you are into a practice session working on specific shots, though it's not a requirement. Nice if you are okay with no gear debates or gear talk is fine but not the point.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 0.48291239992249757,
+       "prompt_tokens": 628,
+       "completion_tokens": 112,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: photography partner\nRequirements:\n- MUST: you are okay with not taking portraits of each other\n- MUST: you are okay with a slow pace or a moderate pace   [alternatives: a slow pace | a moderate pace]\n- MUST: you are available weekday evenings\n- WISH: you are okay with no gear debates or gear talk is fine but not the point   [alternatives: no gear debates | gear talk is fine but not the point]\n- STRONG WISH: you are into a practice session working on specific shots"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 7130621,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you to be okay with not taking portraits of each other, and I need you to be okay with a slow pace or a moderate pace. I need you to be available weekday evenings. I'd strongly prefer that you are into a practice session working on specific shots, though it's not a requirement. Nice if you are okay with no gear debates or gear talk is fine but not the point.\"}"
+      }
+     ]
+    }
+   ]
+  },
+  "u0173.r2": {
+   "status": "ok",
+   "text": "I need you to be okay with not taking portraits of each other, to be available on weekday evenings, and to be fine with either a slow pace or a moderate pace. I would strongly prefer that you are into a practice session working on specific shots, though I won't rule you out over it. A nice bonus is if you are okay with no gear debates or gear talk is fine but not the point. This time, it’s a structured instruction session, whereas we usually do a relaxed photo walk.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 7130635,
+     "text": "I need you to be okay with not taking portraits of each other, to be available on weekday evenings, and to be fine with either a slow pace or a moderate pace. I would strongly prefer that you are into a practice session working on specific shots, though I won't rule you out over it. A nice bonus is if you are okay with no gear debates or gear talk is fine but not the point. This time, it’s a structured instruction session, whereas we usually do a relaxed photo walk.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 647,
+     "completion_tokens": 262,
+     "truncated": false,
+     "wall_s": 1.0569,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: photography partner\nRequirements:\n- MUST: you are okay with not taking portraits of each other\n- MUST: you are okay with a slow pace or a moderate pace   [alternatives: a slow pace | a moderate pace]\n- MUST: you are available weekday evenings\n- WISH: you are okay with no gear debates or gear talk is fine but not the point   [alternatives: no gear debates | gear talk is fine but not the point]\n- STRONG WISH: you are into a practice session working on specific shots\nTHIS TIME: This time: a structured instruction session. Usually: a relaxed photo walk."
+     },
+     "raw_output": "{ \"text\": \"I need you to be okay with not taking portraits of each other, to be available on weekday evenings, and to be fine with either a slow pace or a moderate pace. I would strongly prefer that you are into a practice session working on specific shots, though I won't rule you out over it. A nice bonus is if you are okay with no gear debates or gear talk is fine but not the point. This time, it’s a structured instruction session, whereas we usually do a relaxed photo walk.\" }",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.0568457000190392,
+       "prompt_tokens": 647,
+       "completion_tokens": 262,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: photography partner\nRequirements:\n- MUST: you are okay with not taking portraits of each other\n- MUST: you are okay with a slow pace or a moderate pace   [alternatives: a slow pace | a moderate pace]\n- MUST: you are available weekday evenings\n- WISH: you are okay with no gear debates or gear talk is fine but not the point   [alternatives: no gear debates | gear talk is fine but not the point]\n- STRONG WISH: you are into a practice session working on specific shots\nTHIS TIME: This time: a structured instruction session. Usually: a relaxed photo walk."
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 7130635,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{ \"text\": \"I need you to be okay with not taking portraits of each other, to be available on weekday evenings, and to be fine with either a slow pace or a moderate pace. I would strongly prefer that you are into a practice session working on specific shots, though I won't rule you out over it. A nice bonus is if you are okay with no gear debates or gear talk is fine but not the point. This time, it’s a structured instruction session, whereas we usually do a relaxed photo walk.\" }"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "90d300c74f66ae97"
+}

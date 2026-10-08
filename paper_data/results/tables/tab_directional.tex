@@ -1,0 +1,22 @@
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{2.5pt}\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}\toprule
+Method & Acc$_3$ & P & WIR$\downarrow$ & R & UnkR \\ \midrule
+\multicolumn{6}{l}{\textit{Retrieval and graph}}\\
+BM25 (top-3) & -- & 0.549 & 0.388 & 0.242 & -- \\
+TF-IDF (top-3) & -- & 0.563 & 0.371 & 0.249 & -- \\
+Dense embedding (top-3) & -- & 0.563 & 0.408 & 0.248 & -- \\
+Hybrid RRF (top-3) & -- & 0.580 & 0.360 & 0.256 & -- \\
+Keyword-graph PPR (top-3) & -- & 0.531 & 0.417 & 0.235 & -- \\
+\multicolumn{6}{l}{\textit{Single LLM}}\\
+LLM 0--9 scorer (top-3) & -- & 0.608 & 0.327 & 0.268 & -- \\
+LLM listwise rerank (top-3) & -- & 0.603 & 0.337 & 0.264 & -- \\
+Direct LLM & 0.531 & 0.765 & 0.193 & 0.555 & 0.597 \\
+Direct LLM, conditions first & 0.563 & 0.788 & 0.177 & 0.655 & 0.630 \\
+\multicolumn{6}{l}{\textit{Ours}}\\
+Social Agent, no clarification & 0.602 & 0.938 & 0.047 & 0.642 & 0.864 \\
+Social Agent, $\le$1 question & 0.760 & 0.938 & 0.048 & 0.771 & 0.854 \\
+Social Agent, $\le$3 questions & 0.769 & 0.940 & 0.047 & 0.772 & 0.829 \\
+Social Agent, $\le$5 questions & 0.776 & 0.937 & 0.050 & 0.781 & 0.851 \\
+\bottomrule\end{tabular}}
+\caption{Directional judgment on the common completed set (3,289 requester--candidate pairs completed by every method; matcher gpt-oss-20b; partial view). All methods are scored against the same target: whether the requester's current request accepts the candidate given what the candidate would truthfully disclose. P: precision of recommendations; WIR: share of recommendations violating a required condition; R: recall of acceptable candidates; UnkR: recall of undetermined pairs. Rank-based methods recommend the top three and never reject.}
+\label{tab:directional}\end{table}

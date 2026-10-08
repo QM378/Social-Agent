@@ -1,0 +1,36 @@
+{
+ "person_id": "u0008",
+ "name": "Wes",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey! I’m Wes, a 40‑something non‑binary Chilean who loves collecting vinyl. Lately, I’ve been all about Skyforge Arena—mostly diving into ranked matches. I play on a console and’m usually on text chat or voice chat, whatever feels right. I’m happy to coach when I can. I’m usually free on Sunday afternoons or mornings, or in the evenings on weekdays. Outside the game I’m chasing the next great record. I’m just looking to connect with someone who’s into the same vibe. Let’s chat and see where it goes!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0008.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who gets coached by me. I'd strongly prefer that you are into ranked matches, though it's not a requirement. A big plus if you are into Skyforge Arena, although I won't rule you out over it. Nice if you are available any of Sunday afternoon | Sunday morning | weekday evenings, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0008.game_id",
+   "u0008.mode",
+   "u0008.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0008.comm_modes",
+   "u0008.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

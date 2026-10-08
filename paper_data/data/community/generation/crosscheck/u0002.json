@@ -1,0 +1,243 @@
+{
+ "person_id": "u0002",
+ "generator": "gptoss",
+ "checker": "gemma",
+ "checker_model": "social-gemma4-8k",
+ "prompt_version": "community_check_v3",
+ "issues": [
+  {
+   "where": "u0002.r1",
+   "type": "strength_changed",
+   "attribute": "time_window",
+   "expected": "preference",
+   "got": "required",
+   "severity": "decision"
+  },
+  {
+   "where": "u0002.r1",
+   "type": "weight_changed",
+   "attribute": "team_role",
+   "expected": "preference",
+   "got": "strong_preference",
+   "severity": "ranking"
+  }
+ ],
+ "texts_hash": "cbaceed0418e3792",
+ "checked": {
+  "self": true,
+  "u0002.r1": true
+ },
+ "checker_errors": 0,
+ "n_issues": 2,
+ "impact_counts": {
+  "decision": 1,
+  "ranking": 1
+ },
+ "adjudication": {
+  "status": "pending",
+  "by": null,
+  "notes": ""
+ },
+ "verdict": "needs_adjudication",
+ "checker_provenance": {
+  "served_model": "social-gemma4-8k",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "quantization": "Q4_K_M",
+  "family": "gemma4",
+  "parameter_size": "31.3B",
+  "modelfile_parameters": "top_k                          64\ntop_p                          0.95\nnum_ctx                        8192\nseed                           0\ntemperature                    0",
+  "server": "ollama 0.34.2",
+  "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-280af6832eca23cb322c4dcc65edfea98a21b8f8ab07dc7553bd6f7e6e7a3313",
+  "modified_at": "2026-09-22T21:50:54.8177644-05:00",
+  "license_excerpt": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      ",
+  "model_key": "gemma",
+  "prompt_version": "community_check_v3",
+  "temperature": 0.7
+ },
+ "checker_http_attempts": [
+  {
+   "item": "self",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.287457300000824,
+     "prompt_tokens": 542,
+     "completion_tokens": 65,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract this person's own facts using only the vocabulary. \"unknown\" if not stated. Set attributes return a list. Return {\"facts\": {...}}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I’m Valeria, a late‑30s Egyptian gamer who thrives on the thrill of the Hollow Lantern. My PC is my battlefield, and I love diving into casual matches where the pace is relaxed but the action stays sharp. I’m the damage dealer in the squad, always ready to pick up the fire and keep the momentum flowing. Communication is key to me—whether I’m shouting through voice chat or typing quick messages in text chat, I keep the lines open so my teammates know when a burst is coming or a target is locked. I’ve found that a clear, friendly chat keeps the game fun and the team coordinated. I’m also happy to coach; I enjoy showing teammates how to position, time their abilities, and use cover to maximize damage. When I’m not in the arena, I spend Saturday mornings or weekday evenings playing, because that’s when the servers are most lively and my schedule is clear. Outside of the game, I love birdwatching, a quiet pastime that lets me appreciate nature’s own patterns—just like the patterns I look for in a good match. I play for the excitement, the teamwork, and the chance to help others get better, all while staying true to the casual, friendly vibe I bring to every session."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtractedFacts",
+        "schema": {
+         "properties": {
+          "facts": {
+           "additionalProperties": {
+            "anyOf": [
+             {
+              "type": "string"
+             },
+             {
+              "items": {
+               "type": "string"
+              },
+              "type": "array"
+             }
+            ]
+           },
+           "title": "Facts",
+           "type": "object"
+          }
+         },
+         "required": [
+          "facts"
+         ],
+         "title": "_ExtractedFacts",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"facts\": {\"game_id\": \"Hollow_Lantern\", \"mode\": \"casual\", \"comm_modes\": [\"text\", \"voice\"], \"team_role\": \"damage\", \"coaching_role\": \"teach\", \"time_window\": [\"sat_morning\", \"weekday_evening\"]}}"
+    }
+   ]
+  },
+  {
+   "item": "u0002.r1",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 2.410120200016536,
+     "prompt_tokens": 504,
+     "completion_tokens": 138,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I need you to be into ranked matches, you need to be into Hollow Lantern, and you have to fit into either Saturday morning or weekday evenings. I'd strongly prefer that you play a support role or be flexible about your role, though it's not a requirement. Nice if you are the one who gets coached by me, but it won't stop me from considering you otherwise."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"requirements\": [{\"attribute\": \"mode\", \"accepted_values\": [\"ranked\"], \"strength\": \"required\"}, {\"attribute\": \"game_id\", \"accepted_values\": [\"Hollow_Lantern\"], \"strength\": \"required\"}, {\"attribute\": \"time_window\", \"accepted_values\": [\"sat_morning\", \"weekday_evening\"], \"strength\": \"required\"}, {\"attribute\": \"team_role\", \"accepted_values\": [\"support\", \"flexible\"], \"strength\": \"strong_preference\"}, {\"attribute\": \"coaching_role\", \"accepted_values\": [\"learn\"], \"strength\": \"preference\"}], \"changes_this_time\": []}"
+    }
+   ]
+  }
+ ]
+}

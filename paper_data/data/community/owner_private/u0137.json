@@ -1,0 +1,36 @@
+{
+ "person_id": "u0137",
+ "name": "Uriel",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Uriel, a mid‑thirties Aussie who loves to hit the trails on a good run. In my free time I dive into Tidewatch, mostly pairing up for casual matches where I communicate over voice chat. I’m happy to coach others when I can, and I’m usually free on Saturday afternoons, or on Sunday mornings and afternoons to jump into a game. It’s a relaxed, friendly vibe—just a couple of friends on the screen chatting as we battle it out.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0137.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap on voice chat, you must be into Tidewatch, and you are the one who gets coached by me. I'd strongly prefer that you are into ranked matches, though it's not a requirement. Nice if you’re available Saturday afternoon, Sunday afternoon, or Sunday morning, but not a deal‑breaker otherwise.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0137.game_id",
+   "u0137.mode",
+   "u0137.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0137.comm_modes",
+   "u0137.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

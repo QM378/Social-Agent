@@ -1,0 +1,36 @@
+{
+ "person_id": "u0193",
+ "name": "Samir",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi there! I'm Samir, a non-binary Kenyan in my mid 30s. When I'm not behind the lens, I spend a lot of my time podcasting, which I love because it lets me explore so many different stories. I use a Nikon for my photography. Regarding our time together, I'm honestly just looking for a structured instruction session. Fair warning, plenty of gear talk is my thing! As for editing, I'm happy to teach post-processing. I'm also cool with not taking portraits of each other during our outings. In terms of scheduling, most weeks I can do Saturday afternoon or weekday evenings. I'm looking forward to getting out there and capturing some great shots in a relaxed atmosphere.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0193.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who learns post-processing from me. It's a deal-breaker unless you are okay with plenty of gear talk or gear talk being fine but not the point. It would be nice if you are okay with not taking portraits of each other, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0193.purpose",
+   "u0193.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0193.gear_talk",
+   "u0193.editing_role",
+   "u0193.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

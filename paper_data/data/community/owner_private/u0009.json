@@ -1,0 +1,36 @@
+{
+ "person_id": "u0009",
+ "name": "Esme",
+ "interaction_type": "study_partner",
+ "self_text": "Hi, I’m Esme, a design student in my early twenties from Vietnam. I’m currently focusing on statistics, and I thrive when I tackle problems together with someone. I’d love a study buddy who can explain concepts clearly—whether we’re in person or online, I’m flexible. Most weeks I’m free on Saturday afternoons or Sunday afternoons, so we can set up a time that works for both of us. When I’m not hitting the books, I unwind by watching old westerns; the classic storytelling keeps me grounded and reminds me of the importance of patience and perspective. I appreciate a calm, collaborative learning environment and enjoy the rhythm of a shared problem‑solving session, where we can bounce ideas back and forth. I’m looking forward to connecting with someone who shares my enthusiasm for learning and has the same flexible schedule. Let’s make sense of statistics together and see how much we can achieve by working side‑by‑side.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0009.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into studying independently side by side or a step-by-step walkthrough session. I'd strongly prefer that you are into programming or statistics, though it's not a requirement. I want you to be the one who explains the material to me. It would matter a lot if you are available Saturday afternoon or Sunday afternoon, but I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0009.topic",
+   "u0009.format",
+   "u0009.venue",
+   "u0009.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0009.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

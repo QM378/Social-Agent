@@ -1,0 +1,37 @@
+{
+ "person_id": "u0110",
+ "name": "Anouk",
+ "interaction_type": "study_partner",
+ "self_text": "Hey there! I’m a late‑20s Canadian guy who’s deep into biology and currently juggling language practice. I thrive when I’m studying independently but side‑by‑side—so having a partner to keep me on track is huge. I really appreciate it when we can talk things through as we go; bouncing ideas off each other keeps the learning fresh. I’m on the lookout for someone who can explain concepts when I hit a snag—think of it as a gentle, collaborative learning session, not a formal tutorial. I’m happy to meet in person, and my schedule is pretty flexible on weekends: Saturday mornings or Sunday afternoons work best for me. Outside the books, I’m an amateur astronomer—I love stargazing because it reminds me how vast and beautiful the world is. I’m looking for a chill, supportive vibe where we can both grow and share a few laughs along the way.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0110.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available any of Saturday morning or Sunday afternoon, you must be into studying independently side by side, and we must overlap on in person. I’d strongly prefer that you are the one who explains the material to me, though it’s not a requirement. I also want you to be into language practice, but I won’t rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0110.topic",
+   "u0110.format",
+   "u0110.venue",
+   "u0110.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0110.quiet",
+   "u0110.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

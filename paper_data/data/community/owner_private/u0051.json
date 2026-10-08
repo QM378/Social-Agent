@@ -1,0 +1,37 @@
+{
+ "person_id": "u0051",
+ "name": "Nadia",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Canadian non-binary person in my mid 30s with a background in biology. In my spare time, I love growing chillies. I am looking for in person language practice. We can study independently side by side and talk things through as we go. There is no tutoring either way. I am available Sunday morning or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0051.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into working through problems together. It would be nice if you are okay with occasional short exchanges or talking things through as we go. Additionally, it's a small bonus if you are available any of Sunday afternoon or Sunday morning.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0051.topic",
+   "u0051.format",
+   "u0051.venue",
+   "u0051.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0051.quiet",
+   "u0051.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

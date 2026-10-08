@@ -1,0 +1,45 @@
+{
+ "person_id": "u0174",
+ "name": "Isaac",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm Isaac, a Korean man in my mid 20s. Outside of gaming, I've been spending my time learning to sail because I love the feeling of the wind. On my PC, these days it's all Hollow Lantern for me. I'm mostly into ranked matches, where I usually end up in a damage role. I'm available most weeks on Sunday afternoon and I'm on either text chat or voice chat during my sessions. In terms of coaching, I am looking for someone to coach me.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0174.r1",
+   "kind": "primary",
+   "request_text": "I'm searching for a gaming partner, and you have to be into Skyforge Arena. I'd strongly prefer that you are into ranked matches, though it's not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0174.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into Skyforge Arena. I'd strongly prefer that you are into casual matches—which is a change from my usual preference for ranked matches—though I won't rule you out over it.",
+   "this_time": [
+    "This time: casual matches. Usually: ranked matches."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0174.game_id",
+   "u0174.mode",
+   "u0174.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0174.comm_modes",
+   "u0174.team_role",
+   "u0174.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "person_id": "u0072",
+ "name": "Kit",
+ "interaction_type": "photography_partner",
+ "self_text": "I am Kit, a non-binary person from Turkey in my late 30s. Outside of photography, I enjoy urban gardening because it brings nature into the city. I use Canon equipment. I am looking for a practice session focusing on specific shots. I prefer a fast pace. I am open to plenty of gear talk. Regarding post-processing, I want no post-processing lesson this time. I am free Saturday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0072.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a practice session working on specific shots or a relaxed photo walk. You have to be okay with a fast pace or a slow pace, and it's a deal-breaker unless you are okay with gear talk being fine but not the point or plenty of gear talk. I'd strongly prefer that you are available Saturday morning, though it's not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0072.r2",
+   "kind": "alternative",
+   "request_text": "I'm looking for someone into a relaxed photo walk, which is a change from my usual practice sessions working on specific shots. You have to be okay with either a fast pace or a slow pace. It's a deal-breaker unless you are fine with plenty of gear talk or gear talk that is fine but not the point. I'd strongly prefer that you are available Saturday morning, though it's not a requirement.",
+   "this_time": [
+    "This time: a relaxed photo walk. Usually: a practice session working on specific shots."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0072.purpose",
+   "u0072.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0072.pace",
+   "u0072.gear_talk",
+   "u0072.editing_role"
+  ]
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

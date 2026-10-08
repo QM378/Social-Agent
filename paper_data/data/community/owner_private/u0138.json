@@ -1,0 +1,37 @@
+{
+ "person_id": "u0138",
+ "name": "Frankie",
+ "interaction_type": "study_partner",
+ "self_text": "I am an Egyptian in my late 20s. I studied engineering and I am currently studying programming. I enjoy sketching buildings in my spare time because it helps me relax. I can meet online. I am free Sunday morning or Sunday afternoon. I work best with working through problems together. I need occasional short exchanges. I am looking for someone to explain things to me.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0138.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap on online. Ideally, you are available Sunday afternoon or Sunday morning, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0138.topic",
+   "u0138.format",
+   "u0138.venue",
+   "u0138.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0138.quiet",
+   "u0138.tutor_role"
+  ]
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

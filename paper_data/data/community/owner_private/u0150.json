@@ -1,0 +1,36 @@
+{
+ "person_id": "u0150",
+ "name": "Henrik",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Henrik, a non-binary person from Spain in my late 30s who loves reading history. I play Hollow Lantern on console and I'm looking for ranked matches. I use voice chat only and want someone to coach me. I'm available on Saturday afternoon, Sunday morning, or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0150.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who coaches me, and it's a deal-breaker unless we overlap on voice chat. I'd strongly prefer that you are into Hollow Lantern, though I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0150.game_id",
+   "u0150.mode",
+   "u0150.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0150.comm_modes",
+   "u0150.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

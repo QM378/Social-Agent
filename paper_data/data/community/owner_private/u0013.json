@@ -1,0 +1,34 @@
+{
+ "person_id": "u0013",
+ "name": "Kaia",
+ "interaction_type": "study_partner",
+ "self_text": "I am an Italian in my 40s with a background in nursing. Outside of my studies, I love swing dancing for the energy and movement. I am currently studying language practice. I work best with working through problems together. I can meet in person, and I am free Saturday afternoon or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0013.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap on in person. It would be nice if you are into working through problems together or a step-by-step walkthrough session, and a small bonus if you are into language practice.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0013.topic",
+   "u0013.format",
+   "u0013.venue",
+   "u0013.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

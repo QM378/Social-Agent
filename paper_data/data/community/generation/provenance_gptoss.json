@@ -1,0 +1,29 @@
+{
+ "served_model": "social-gptoss-8k",
+ "base_url": "http://127.0.0.1:11434/v1",
+ "digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "quantization": "MXFP4",
+ "family": "gptoss",
+ "parameter_size": "20.9B",
+ "modelfile_parameters": "num_ctx                        8192\nseed                           0\ntemperature                    0",
+ "server": "ollama 0.34.2",
+ "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+ "modified_at": "2026-09-22T21:52:51.9507247-05:00",
+ "license_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n    ",
+ "model_key": "gptoss",
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low",
+  "json_schema_mode": true,
+  "max_repairs": 1
+ },
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "recorded_utc": "2026-09-23T20:03:35.059012+00:00"
+}

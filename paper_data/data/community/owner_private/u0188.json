@@ -1,0 +1,36 @@
+{
+ "person_id": "u0188",
+ "name": "Yara",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m Yara, early 20s, non‑binary, from India. I love running trails in my free time and I shoot with a Canon camera for the joy of capturing moments, not for portraits. I’m looking for a structured instruction session that keeps a fast pace. I’m open to talking about gear, but that’s not the focus. I’m available Sunday morning for a session. My goal is to learn a new skill efficiently, without spending time on each other’s portraits. I appreciate a clear, organized approach and a quick, energetic rhythm. I enjoy the challenge of mastering a new technique and the satisfaction of seeing progress in a short time. I’m excited to meet someone who shares a fast‑paced learning style and can keep up with my energy on a Sunday morning. Let’s make the most of our time together and push each other forward.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0188.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with gear talk being fine but not the point, you must be comfortable with a moderate pace, and you have to be okay with not taking portraits of each other; I'd strongly prefer you are available Sunday morning, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0188.purpose",
+   "u0188.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0188.pace",
+   "u0188.gear_talk",
+   "u0188.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

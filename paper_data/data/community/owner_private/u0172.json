@@ -1,0 +1,37 @@
+{
+ "person_id": "u0172",
+ "name": "Echo",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Japanese woman in my 40s with a background in nursing. In my free time, I love sketching buildings because it allows me to capture the intricate details of urban architecture. I have recently been focusing on language practice, and I find that studying independently side by side with someone else is a very productive way to spend time. A typical session for me involves complete silence while working, though I am happy to explain things if questions arise. I am open to meeting either in person or online, depending on what works best. My availability is limited to Saturday morning, Sunday morning, or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0172.r1",
+   "kind": "primary",
+   "request_text": "I'm searching for a study partner, and you have to be into statistics. I'd strongly prefer that you are into studying independently side by side, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0172.topic",
+   "u0172.format",
+   "u0172.venue",
+   "u0172.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0172.quiet",
+   "u0172.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

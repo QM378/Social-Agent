@@ -1,0 +1,42 @@
+{
+ "person_id": "u0020",
+ "name": "Avery",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm Avery, a Chilean man in my mid 20s. When I'm not watching old westerns, I spend my time on my handheld playing Hollow Lantern. I usually queue for ranked matches and communicate over text chat. I'm also happy to coach. I am free Saturday morning or Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0020.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available on Saturday morning or Saturday afternoon, and it's a deal-breaker unless we overlap on text chat. It would be a small bonus if you are into ranked matches, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0020.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be available Saturday morning or Saturday afternoon. I'd strongly prefer that we overlap on text chat, though it's not a requirement. Additionally, it would be a small bonus if you are into ranked matches.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0020.game_id",
+   "u0020.mode",
+   "u0020.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0020.comm_modes",
+   "u0020.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

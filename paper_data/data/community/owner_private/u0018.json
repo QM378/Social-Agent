@@ -1,0 +1,36 @@
+{
+ "person_id": "u0018",
+ "name": "Gia",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Gia, a Korean in my mid 20s. When I'm not on my PC, I love knitting because it's so relaxing. I'm looking to jump into some ranked matches in Tidewatch. I play a support role and prefer using voice chat only for communication. I'm available to play on Saturday morning or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0018.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either Saturday morning or Sunday morning, and you have to play a damage role or be flexible about your role. It's a deal-breaker unless you are into ranked matches. It would be a small bonus if you are into Tidewatch, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0018.game_id",
+   "u0018.mode",
+   "u0018.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0018.comm_modes",
+   "u0018.team_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

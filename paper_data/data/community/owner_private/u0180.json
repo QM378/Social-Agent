@@ -1,0 +1,37 @@
+{
+ "person_id": "u0180",
+ "name": "Ximena",
+ "interaction_type": "study_partner",
+ "self_text": "I’m a late‑30s Canadian economist who loves collecting vinyl. I’m studying language practice and work best with a step‑by‑step walkthrough session, needing complete silence while I work. I’m happy to explain things and can meet in person. I’m free Saturday afternoon to dive into a new conversation or language challenge.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0180.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice; I'd strongly prefer that we overlap on in person; nice if you are into a step‑by‑step walkthrough session, though it's not a requirement; a small bonus if you're okay with complete silence while we work.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0180.topic",
+   "u0180.format",
+   "u0180.venue",
+   "u0180.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0180.quiet",
+   "u0180.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

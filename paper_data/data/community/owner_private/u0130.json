@@ -1,0 +1,36 @@
+{
+ "person_id": "u0130",
+ "name": "Sofia",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm a Korean in my 50s who loves baking sourdough for the creative process. I use Nikon gear. I'm available Sunday mornings, Sunday afternoons, or weekday evenings. I'm looking for a structured instruction session with plenty of gear talk. I'm happy to teach post-processing. We can take portraits of each other.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0130.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a structured instruction session or a practice session working on specific shots. I'd strongly prefer that you are okay with taking portraits of each other, though it's not a requirement. It would be nice if you are the one who learns post-processing from me, and a small bonus if gear talk is fine but not the point or plenty of gear talk.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0130.purpose",
+   "u0130.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0130.gear_talk",
+   "u0130.editing_role",
+   "u0130.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

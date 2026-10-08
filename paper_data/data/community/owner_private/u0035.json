@@ -1,0 +1,37 @@
+{
+ "person_id": "u0035",
+ "name": "Nico",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Nico, an Australian in my late 20s. When I'm not gaming, I love swing dancing because the energy and music always put me in a great mood. I play on PC and mainly spend my time in Hollow Lantern. I usually queue for ranked matches and I play a damage role. In terms of communication, I use either text chat or voice chat. I'm not looking for any coaching, but I am free to play on Saturday morning or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0035.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either Saturday morning or Sunday morning. You have to play a damage role or be flexible about your role, and it's a deal-breaker unless you are into ranked matches. It would be nice if you are into Hollow Lantern, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0035.game_id",
+   "u0035.mode",
+   "u0035.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0035.comm_modes",
+   "u0035.team_role",
+   "u0035.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

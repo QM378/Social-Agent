@@ -1,0 +1,264 @@
+{
+ "person_id": "u0062",
+ "model_key": "gemma",
+ "model": "social-gemma4-8k",
+ "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+ "model_quantization": "Q4_K_M",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "reasoning_effort": "none"
+ },
+ "generated_utc": "2026-09-23T19:58:04.586737+00:00",
+ "self": {
+  "status": "ok",
+  "text": "Hi! I'm Wil, a Kenyan woman in my early 20s. When I'm not playing chess online, I love diving into Hollow Lantern on my handheld. I'm looking for some casual matches and I always take a support role. I'm available on Sunday mornings, Sunday afternoons, or any weekday evening. Regarding communication, I only use text chat or voice chat, and I don't do any coaching. I just really enjoy the atmospheric world of the game and the chill vibe of playing.",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 2773699,
+    "text": "Hi! I'm Wil, a Kenyan woman in my early 20s. When I'm not playing chess online, I love diving into Hollow Lantern on my handheld. I'm looking for some casual matches and I always take a support role. I'm available on Sunday mornings, Sunday afternoons, or any weekday evening. Regarding communication, I only use text chat or voice chat, and I don't do any coaching. I just really enjoy the atmospheric world of the game and the chill vibe of playing.",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 388,
+    "completion_tokens": 113,
+    "truncated": false,
+    "wall_s": 2.0684,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Wil\nAge: early 20s. Gender: woman. Nationality: Kenyan. Hobby outside this: playing chess online.\nBackground: platform: a handheld\nFacts (stable):\n- Hollow Lantern.\n- Casual matches.\n- Text chat or voice chat only.\n- A support role.\n- No coaching.\n- Available Sunday afternoon, Sunday morning or weekday evenings."
+    },
+    "raw_output": "{\"text\": \"Hi! I'm Wil, a Kenyan woman in my early 20s. When I'm not playing chess online, I love diving into Hollow Lantern on my handheld. I'm looking for some casual matches and I always take a support role. I'm available on Sunday mornings, Sunday afternoons, or any weekday evening. Regarding communication, I only use text chat or voice chat, and I don't do any coaching. I just really enjoy the atmospheric world of the game and the chill vibe of playing.\"}",
+    "reasoning_returned": false,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 2.0683888000203297,
+      "prompt_tokens": 388,
+      "completion_tokens": 113,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Wil\nAge: early 20s. Gender: woman. Nationality: Kenyan. Hobby outside this: playing chess online.\nBackground: platform: a handheld\nFacts (stable):\n- Hollow Lantern.\n- Casual matches.\n- Text chat or voice chat only.\n- A support role.\n- No coaching.\n- Available Sunday afternoon, Sunday morning or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gemma4-8k",
+       "temperature": 0.7,
+       "max_tokens": 1200,
+       "seed": 2773699,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "none"
+      },
+      "response_content": "{\"text\": \"Hi! I'm Wil, a Kenyan woman in my early 20s. When I'm not playing chess online, I love diving into Hollow Lantern on my handheld. I'm looking for some casual matches and I always take a support role. I'm available on Sunday mornings, Sunday afternoons, or any weekday evening. Regarding communication, I only use text chat or voice chat, and I don't do any coaching. I just really enjoy the atmospheric world of the game and the chill vibe of playing.\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0062.r1": {
+   "status": "ok",
+   "text": "I need you to be available on Sunday morning, Sunday afternoon, or weekday evenings. It would be nice if you are into casual matches. A small bonus if you play a damage role or are flexible about your role. Ideally, you are into Hollow Lantern or Skyforge Arena, but no big deal.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 2773702,
+     "text": "I need you to be available on Sunday morning, Sunday afternoon, or weekday evenings. It would be nice if you are into casual matches. A small bonus if you play a damage role or are flexible about your role. Ideally, you are into Hollow Lantern or Skyforge Arena, but no big deal.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 588,
+     "completion_tokens": 67,
+     "truncated": false,
+     "wall_s": 1.481,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: gaming partner\nRequirements:\n- MUST: you are available any of Sunday afternoon, Sunday morning or weekday evenings   [alternatives: Sunday afternoon | Sunday morning | weekday evenings]\n- WISH: you are into casual matches\n- WISH: you play a damage role or you to be flexible about your role   [alternatives: a damage role | a flexible role (I can fill any position)]\n- WISH: you are into Hollow Lantern or Skyforge Arena   [alternatives: Hollow Lantern | Skyforge Arena]"
+     },
+     "raw_output": "{\"text\": \"I need you to be available on Sunday morning, Sunday afternoon, or weekday evenings. It would be nice if you are into casual matches. A small bonus if you play a damage role or are flexible about your role. Ideally, you are into Hollow Lantern or Skyforge Arena, but no big deal.\"}",
+     "reasoning_returned": false,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.480962699977681,
+       "prompt_tokens": 588,
+       "completion_tokens": 67,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: gaming partner\nRequirements:\n- MUST: you are available any of Sunday afternoon, Sunday morning or weekday evenings   [alternatives: Sunday afternoon | Sunday morning | weekday evenings]\n- WISH: you are into casual matches\n- WISH: you play a damage role or you to be flexible about your role   [alternatives: a damage role | a flexible role (I can fill any position)]\n- WISH: you are into Hollow Lantern or Skyforge Arena   [alternatives: Hollow Lantern | Skyforge Arena]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gemma4-8k",
+        "temperature": 0.7,
+        "max_tokens": 1200,
+        "seed": 2773702,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "none"
+       },
+       "response_content": "{\"text\": \"I need you to be available on Sunday morning, Sunday afternoon, or weekday evenings. It would be nice if you are into casual matches. A small bonus if you play a damage role or are flexible about your role. Ideally, you are into Hollow Lantern or Skyforge Arena, but no big deal.\"}"
+      }
+     ]
+    }
+   ]
+  },
+  "u0062.r2": {
+   "status": "ok",
+   "text": "I need you to be available on weekday evenings, Sunday morning, or Sunday afternoon. Unlike my usual preference for casual matches, this time I'm looking for someone who is into ranked matches. It would be a small bonus if you play a damage role or are flexible about your role, and it's nice if you enjoy Skyforge Arena or Hollow Lantern.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 2773716,
+     "text": "I need you to be available on weekday evenings, Sunday morning, or Sunday afternoon. Unlike my usual preference for casual matches, this time I'm looking for someone who is into ranked matches. It would be a small bonus if you play a damage role or are flexible about your role, and it's nice if you enjoy Skyforge Arena or Hollow Lantern.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 603,
+     "completion_tokens": 79,
+     "truncated": false,
+     "wall_s": 1.4768,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: gaming partner\nRequirements:\n- MUST: you are available any of Sunday afternoon, Sunday morning or weekday evenings   [alternatives: Sunday afternoon | Sunday morning | weekday evenings]\n- WISH: you are into ranked matches\n- WISH: you play a damage role or you to be flexible about your role   [alternatives: a damage role | a flexible role (I can fill any position)]\n- WISH: you are into Hollow Lantern or Skyforge Arena   [alternatives: Hollow Lantern | Skyforge Arena]\nTHIS TIME: This time: ranked matches. Usually: casual matches."
+     },
+     "raw_output": "{\"text\": \"I need you to be available on weekday evenings, Sunday morning, or Sunday afternoon. Unlike my usual preference for casual matches, this time I'm looking for someone who is into ranked matches. It would be a small bonus if you play a damage role or are flexible about your role, and it's nice if you enjoy Skyforge Arena or Hollow Lantern.\"}",
+     "reasoning_returned": false,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.476794600021094,
+       "prompt_tokens": 603,
+       "completion_tokens": 79,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: gaming partner\nRequirements:\n- MUST: you are available any of Sunday afternoon, Sunday morning or weekday evenings   [alternatives: Sunday afternoon | Sunday morning | weekday evenings]\n- WISH: you are into ranked matches\n- WISH: you play a damage role or you to be flexible about your role   [alternatives: a damage role | a flexible role (I can fill any position)]\n- WISH: you are into Hollow Lantern or Skyforge Arena   [alternatives: Hollow Lantern | Skyforge Arena]\nTHIS TIME: This time: ranked matches. Usually: casual matches."
+        }
+       ],
+       "request_params": {
+        "model": "social-gemma4-8k",
+        "temperature": 0.7,
+        "max_tokens": 1200,
+        "seed": 2773716,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "none"
+       },
+       "response_content": "{\"text\": \"I need you to be available on weekday evenings, Sunday morning, or Sunday afternoon. Unlike my usual preference for casual matches, this time I'm looking for someone who is into ranked matches. It would be a small bonus if you play a damage role or are flexible about your role, and it's nice if you enjoy Skyforge Arena or Hollow Lantern.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "ec02f2ec6fa9bd39"
+}

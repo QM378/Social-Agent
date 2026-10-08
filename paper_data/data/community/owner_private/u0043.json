@@ -1,0 +1,35 @@
+{
+ "person_id": "u0043",
+ "name": "Edda",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey there! I’m Edda, a mid‑30s Italian gamer who loves the thrill of ranked matches in Hollow Lantern on my console. I’m all about voice chat, keeping the vibe live and fun. I’m free on Saturday afternoons, Sunday afternoons, or weekday evenings—just drop me a line when you’re ready to play and chat!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0043.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available any of Saturday afternoon, Sunday afternoon, or weekday evenings – no other times will work. I’d strongly prefer that we overlap on voice chat, but I won’t rule you out if we don’t. I’d strongly wish that you are into ranked matches, though it’s not a requirement. Nice if you’re into Hollow Lantern or Tidewatch, but that’s a small bonus.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0043.game_id",
+   "u0043.mode",
+   "u0043.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0043.comm_modes"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

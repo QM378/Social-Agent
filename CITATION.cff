@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Social Agent: An LLM Agent Framework for Reciprocal Recommendation in Online Dating and Friendship"
+type: software
+repository-code: "https://github.com/QM378/Social-Agent"
+license: MIT
+authors:
+  - family-names: Guo
+    given-names: Qiming
+    affiliation: "Texas A&M University-Corpus Christi"
+  - family-names: Tang
+    given-names: Jinwen
+    affiliation: "University of Missouri"
+  - family-names: Huang
+    given-names: Xingran
+    affiliation: "University of California, Riverside"
+  - family-names: Lin
+    given-names: Hung-Yu
+    affiliation: "Texas A&M University-Corpus Christi"
+  - family-names: Zhong
+    given-names: Yafu
+    affiliation: "University of South Florida"
+  - family-names: Zhuang
+    given-names: Xiatian
+    affiliation: "University of Missouri"
+preferred-citation:
+  type: article
+  title: "Social Agent: An LLM Agent Framework for Reciprocal Recommendation in Online Dating and Friendship"
+  authors:
+    - family-names: Guo
+      given-names: Qiming
+    - family-names: Tang
+      given-names: Jinwen
+    - family-names: Huang
+      given-names: Xingran
+    - family-names: Lin
+      given-names: Hung-Yu
+    - family-names: Zhong
+      given-names: Yafu
+    - family-names: Zhuang
+      given-names: Xiatian
+  year: 2026

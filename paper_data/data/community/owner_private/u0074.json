@@ -1,0 +1,36 @@
+{
+ "person_id": "u0074",
+ "name": "Dov",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm Dov, a Nigerian woman in my early 20s who loves learning to sail. I mainly play Skyforge Arena and usually queue for casual matches. I chat via voice and would like someone to coach me. I'm free Sunday morning, Sunday afternoon, or weekday evenings. I enjoy the game’s fast pace and friendly community.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0074.r1",
+   "kind": "primary",
+   "request_text": "I need you to coach me and be into ranked matches. I'd strongly prefer you to be free on Sunday afternoon or Sunday morning or weekday evenings, though I'm flexible if another time works. A nice bonus would be if we share a voice chat, and it's great if you're into Hollow Lantern or Skyforge Arena.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0074.game_id",
+   "u0074.mode",
+   "u0074.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0074.comm_modes",
+   "u0074.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

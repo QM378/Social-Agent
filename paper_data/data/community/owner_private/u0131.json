@@ -1,0 +1,34 @@
+{
+ "person_id": "u0131",
+ "name": "Faisal",
+ "interaction_type": "study_partner",
+ "self_text": "Hey, I’m Faisal—mid‑30s Aussie engineer who loves a good run on the trails. Right now I’m looking for language practice and I get the most out of studying independently side by side. I’m happy to meet in person or online, and I’m usually free on Saturday afternoons or weekday evenings. Looking forward to practicing together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0131.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice; that is a must. I'd strongly prefer you are available Saturday afternoon or weekday evenings, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0131.topic",
+   "u0131.format",
+   "u0131.venue",
+   "u0131.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

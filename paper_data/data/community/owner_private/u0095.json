@@ -1,0 +1,37 @@
+{
+ "person_id": "u0095",
+ "name": "Rowan",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m a late‑twenties, non‑binary Turkish gamer who loves Tidewatch, especially on my handheld. I usually queue for ranked matches, chat with teammates over voice, and play the support role. I’m not into coaching, just playing. I’m free Saturday afternoons and enjoy diving into the game’s history and strategy during those sessions.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0095.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap on voice chat, and you have to play a damage role; only if you meet these two conditions can we play together. I'd strongly prefer that you're into ranked matches, though it's not a requirement. A small bonus if you're available Saturday afternoon, but I won't rule you out over it. Big plus if you're into Tidewatch, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0095.game_id",
+   "u0095.mode",
+   "u0095.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0095.comm_modes",
+   "u0095.team_role",
+   "u0095.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

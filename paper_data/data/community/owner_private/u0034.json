@@ -1,0 +1,37 @@
+{
+ "person_id": "u0034",
+ "name": "Xen",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Xen, a 40‑something Italian who loves to explore the skies—both in birdwatching and in Skyforge Arena. I enjoy casual matches where I can adapt to any role, chatting only through text. I’m on PC, never coaching, and I’m free to play Saturday mornings. If you’re up for a relaxed, flexible gaming session, let’s connect!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0034.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into casual matches, you must be available Saturday morning, and you have to be into Skyforge Arena; you must also be flexible about your role or you must play a support role. I'd strongly prefer that we overlap on text chat, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0034.game_id",
+   "u0034.mode",
+   "u0034.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0034.comm_modes",
+   "u0034.team_role",
+   "u0034.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

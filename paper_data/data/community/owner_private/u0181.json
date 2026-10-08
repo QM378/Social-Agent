@@ -1,0 +1,35 @@
+{
+ "person_id": "u0181",
+ "name": "Talia",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Talia, early 30s, Kenyan, and I live for Tidewatch on PC, diving into casual matches whenever I can. Voice chat is my lifeline in the game, and I usually free up Sunday afternoons for play sessions. Outside of gaming, I’m a vinyl collector, enjoying the crackle and cover art as much as the battle strategy.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0181.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern or Tidewatch—only if you enjoy those games do we click. I'd strongly prefer that you are available Sunday afternoon, though it's not a requirement and I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0181.game_id",
+   "u0181.mode",
+   "u0181.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0181.comm_modes"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

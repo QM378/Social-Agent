@@ -1,0 +1,36 @@
+{
+ "person_id": "u0136",
+ "name": "Ida",
+ "interaction_type": "study_partner",
+ "self_text": "Hi, I’m Ida, early 20s, Indian, studying nursing. I love watching old westerns in my downtime. I’m looking for a partner to practice language skills and tackle problems together. We’ll work through challenges side‑by‑side, no tutoring involved. I’m flexible – we can meet in person or online. I’m free on Saturday mornings, Saturday afternoons, or weekday evenings. Let’s share a relaxed learning vibe and a bit of fun.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0136.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available any of Saturday afternoon or Saturday morning or weekday evenings, otherwise it’s off. I’d strongly prefer that you are into working through problems together or a step‑by‑step walkthrough session, though it’s not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0136.topic",
+   "u0136.format",
+   "u0136.venue",
+   "u0136.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0136.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

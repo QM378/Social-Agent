@@ -1,0 +1,43 @@
+{
+ "person_id": "u0046",
+ "name": "Lars",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi! I'm Lars, a non-binary Mexican in my mid 20s. When I'm not spending time on my woodworking projects, I love getting out with my Fuji camera. Honestly, I'm just looking for a relaxed photo walk. Fair warning, gear talk is fine but not the point is my thing. As for editing, I'm happy to teach post-processing. Most weeks I can do Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0046.r1",
+   "kind": "primary",
+   "request_text": "I'm searching for a photography partner and you have to be okay with gear talk being fine but not the point. It would be a small bonus if you are the one who learns post-processing from me, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0046.r2",
+   "kind": "alternative",
+   "request_text": "I'm looking for a photography partner. I need you to be okay with gear talk being fine but not the point. It would be a small bonus if you are the one who learns post-processing from me. Unlike my usual relaxed photo walks, this time I want a structured instruction session.",
+   "this_time": [
+    "This time: a structured instruction session. Usually: a relaxed photo walk."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0046.purpose",
+   "u0046.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0046.gear_talk",
+   "u0046.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "person_id": "u0049",
+ "name": "Femi",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m a Spanish woman in my early 30s, passionate about learning to sail. I love capturing moments—my Fuji camera is always ready for portraits. I’m looking for a structured instruction session, and I’m happy to take photos of each other during our time together. Most weeks I can meet on Saturday afternoon. I enjoy a relaxed, goal‑oriented approach, and I’m eager to share the joy of sailing and photography in a clear, step‑by‑step format.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0049.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with taking portraits of each other, or you are not okay with taking portraits of each other. I'd strongly prefer that you are into a structured instruction session, or you are not into a structured instruction session, though it's not a requirement. Nice if you are available Saturday afternoon, or you are not available Saturday afternoon.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0049.purpose",
+   "u0049.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0049.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

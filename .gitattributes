@@ -1,0 +1,5 @@
+# Keep data and records byte-identical on every platform: the experiment code fingerprints these files.
+*.json   -text
+*.jsonl  -text
+*.csv    -text
+*.yaml   -text

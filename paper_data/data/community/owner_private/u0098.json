@@ -1,0 +1,37 @@
+{
+ "person_id": "u0098",
+ "name": "Arden",
+ "interaction_type": "study_partner",
+ "self_text": "With a background in design, I've recently turned my focus toward programming. I find that I get the most out of working through problems together and do best with talking things through as we go, including having someone to explain things to me. I'm happy online and am available most weeks on Saturday afternoons or weekday evenings. Outside of coding, I enjoy the mental challenge of playing chess online.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0098.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who explains the material to me. You have to be into statistics or language practice, and it's a deal-breaker unless you are into a step-by-step walkthrough session or working through problems together. I'd strongly prefer that we overlap on online, though I won't rule you out over it. It would be nice if you are available weekday evenings or Saturday afternoon, and a small bonus if you are okay with talking things through as we go or occasional short exchanges.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0098.topic",
+   "u0098.format",
+   "u0098.venue",
+   "u0098.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0098.quiet",
+   "u0098.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

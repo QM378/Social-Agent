@@ -1,0 +1,186 @@
+{
+ "person_id": "u0168",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:06:39.020407+00:00",
+ "self": {
+  "status": "ok",
+  "text": "I’m Oz, a mid‑30s Nigerian designer who loves turning statistics into visual stories. My typical Saturday morning or Sunday afternoon sessions are in person and unfold as a step‑by‑step walkthrough—no tutoring, just guiding you through the process with occasional short exchanges. I enjoy knitting in my free time, which keeps my creative hands busy.",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 1595775,
+    "text": "I’m Oz, a mid‑30s Nigerian designer who loves turning statistics into visual stories. My typical Saturday morning or Sunday afternoon sessions are in person and unfold as a step‑by‑step walkthrough—no tutoring, just guiding you through the process with occasional short exchanges. I enjoy knitting in my free time, which keeps my creative hands busy.",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 425,
+    "completion_tokens": 96,
+    "truncated": false,
+    "wall_s": 0.4257,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Oz\nAge: mid 30s. Gender: woman. Nationality: Nigerian. Hobby outside this: knitting.\nBackground: field of study: design\nFacts (stable):\n- Statistics.\n- A step-by-step walkthrough session.\n- Occasional short exchanges.\n- No tutoring either way.\n- In person.\n- Available Saturday morning, Sunday afternoon or Sunday morning."
+    },
+    "raw_output": "{\"text\":\"I’m Oz, a mid‑30s Nigerian designer who loves turning statistics into visual stories. My typical Saturday morning or Sunday afternoon sessions are in person and unfold as a step‑by‑step walkthrough—no tutoring, just guiding you through the process with occasional short exchanges. I enjoy knitting in my free time, which keeps my creative hands busy.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.4256287000607699,
+      "prompt_tokens": 425,
+      "completion_tokens": 96,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Oz\nAge: mid 30s. Gender: woman. Nationality: Nigerian. Hobby outside this: knitting.\nBackground: field of study: design\nFacts (stable):\n- Statistics.\n- A step-by-step walkthrough session.\n- Occasional short exchanges.\n- No tutoring either way.\n- In person.\n- Available Saturday morning, Sunday afternoon or Sunday morning."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 1595775,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m Oz, a mid‑30s Nigerian designer who loves turning statistics into visual stories. My typical Saturday morning or Sunday afternoon sessions are in person and unfold as a step‑by‑step walkthrough—no tutoring, just guiding you through the process with occasional short exchanges. I enjoy knitting in my free time, which keeps my creative hands busy.\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0168.r1": {
+   "status": "ok",
+   "text": "I need you to be into working through problems together or studying independently side by side. I’d strongly prefer that you are okay with complete silence while working or occasional short exchanges, though it’s not a requirement. Nice if you are into statistics.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 1595778,
+     "text": "I need you to be into working through problems together or studying independently side by side. I’d strongly prefer that you are okay with complete silence while working or occasional short exchanges, though it’s not a requirement. Nice if you are into statistics.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 594,
+     "completion_tokens": 183,
+     "truncated": false,
+     "wall_s": 0.7316,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: study partner\nRequirements:\n- MUST: you are into working through problems together or studying independently side by side   [alternatives: working through problems together | studying independently side by side]\n- WISH: you are okay with complete silence while working or occasional short exchanges   [alternatives: complete silence while working | occasional short exchanges]\n- WISH: you are into statistics"
+     },
+     "raw_output": "{\"text\":\"I need you to be into working through problems together or studying independently side by side. I’d strongly prefer that you are okay with complete silence while working or occasional short exchanges, though it’s not a requirement. Nice if you are into statistics.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 0.7315231000538915,
+       "prompt_tokens": 594,
+       "completion_tokens": 183,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: study partner\nRequirements:\n- MUST: you are into working through problems together or studying independently side by side   [alternatives: working through problems together | studying independently side by side]\n- WISH: you are okay with complete silence while working or occasional short exchanges   [alternatives: complete silence while working | occasional short exchanges]\n- WISH: you are into statistics"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 1595778,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you to be into working through problems together or studying independently side by side. I’d strongly prefer that you are okay with complete silence while working or occasional short exchanges, though it’s not a requirement. Nice if you are into statistics.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "2d09c3ab9c14f9cb"
+}

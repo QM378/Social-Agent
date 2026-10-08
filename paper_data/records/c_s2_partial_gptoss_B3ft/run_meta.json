@@ -1,0 +1,46 @@
+{
+  "run_id": "c_s2_partial_gptoss_B3ft",
+  "created_utc": "2026-09-25T06:39:57.876442+00:00",
+  "purpose": "campaign s2_partial_gptoss: B3ft",
+  "data": {
+    "data_dir": "data\\community_v3_200_seed2_formal",
+    "status": "review_pending",
+    "frozen": false,
+    "human_review": "not_reviewed",
+    "seed": 2,
+    "rules_version": "community_rules_v2",
+    "texts_sha256": "6f5c655952dc3232",
+    "generation_status_counts": {
+      "ok": 191,
+      "needs_review": 9
+    }
+  },
+  "view": "partial",
+  "methods": {
+    "B3ft": {
+      "max_questions": 3,
+      "reassess": false,
+      "answer_mode": "facts_text",
+      "desc": "B3 with program answers from facts extracted from the owner's NATURAL texts (quote-anchored)"
+    }
+  },
+  "pool": {
+    "k": 8,
+    "embed_model": "nomic-embed-text"
+  },
+  "request_kinds": [
+    "primary",
+    "alternative"
+  ],
+  "subset": null,
+  "exp_version": "community_exp_v1",
+  "agent_prompt_version": "agent_v5",
+  "vocab_descriptions_in_prompts": true,
+  "model": "social-gptoss-8k",
+  "params": {
+    "temperature": 0.0,
+    "seed": 0,
+    "max_tokens": 2048,
+    "reasoning_effort": "low"
+  }
+}

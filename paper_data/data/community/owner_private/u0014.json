@@ -1,0 +1,37 @@
+{
+ "person_id": "u0014",
+ "name": "Casey",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Casey, a mid‑20s non‑binary gamer from Japan. I mainly play Skyforge Arena and usually queue for casual matches. I communicate over text chat and play a damage role. I’d love someone to coach me. I’m free Saturday morning or Sunday morning. When I’m not gaming, I watch old westerns. I enjoy the calm focus of the game and the thrill of strategy. I love the glow of a well‑aimed skill and the camaraderie of a quick text exchange. My favorite spot to unwind is a quiet corner of my apartment with a vintage movie poster on the wall.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0014.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into casual matches and we must overlap on text chat, otherwise it's off. I'd strongly prefer that you are available either Saturday morning or Sunday morning, though it's not a requirement, but I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0014.game_id",
+   "u0014.mode",
+   "u0014.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0014.comm_modes",
+   "u0014.team_role",
+   "u0014.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

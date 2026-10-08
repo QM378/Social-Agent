@@ -1,0 +1,42 @@
+{
+ "person_id": "u0024",
+ "name": "Celia",
+ "interaction_type": "gaming_partner",
+ "self_text": "I am a Spanish woman in my late 30s who spends a lot of my free time reading history. When I turn to my console, these days it's all Skyforge Arena for me. I first discovered the game a while back and have since found myself drawn to the competitive side of things, so I'm mostly into ranked matches. A typical session involves me being on voice chat while I play, and I usually end up in a support role. Most weeks I can do Saturday afternoon for gaming.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0024.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday afternoon and we have to overlap on voice chat. It would be nice if you are into Skyforge Arena, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0024.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be available Saturday afternoon. I'd strongly prefer that we overlap on voice chat, though it's not a requirement. A small bonus if you are into Skyforge Arena.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0024.game_id",
+   "u0024.mode",
+   "u0024.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0024.comm_modes",
+   "u0024.team_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

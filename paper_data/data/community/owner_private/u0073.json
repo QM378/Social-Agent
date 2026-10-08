@@ -1,0 +1,37 @@
+{
+ "person_id": "u0073",
+ "name": "Hugo",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Polish woman in my mid 30s with a background in biology. I enjoy fermenting hot sauce in my spare time. I am studying programming and work best with working through problems together. I need complete silence while working. I am happy to explain things. I can meet online and am free Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0073.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday afternoon. You have to be into working through problems together or a step-by-step walkthrough session, and it's a deal-breaker unless you are the one who has things explained by me. I'd strongly prefer that you are into programming, though I won't rule you out over it. It would be nice if you are okay with talking things through as we go or occasional short exchanges, and a small bonus if we overlap on online.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0073.topic",
+   "u0073.format",
+   "u0073.venue",
+   "u0073.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0073.quiet",
+   "u0073.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

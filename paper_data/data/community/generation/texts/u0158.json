@@ -1,0 +1,186 @@
+{
+ "person_id": "u0158",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:03:46.602178+00:00",
+ "self": {
+  "status": "ok",
+  "text": "Hey there! I’m Aditi, a Japanese guy in my late 30s who loves a good game of chess—especially online. I usually play on a console, so I’ve got a comfy setup that’s perfect for virtual tournaments or just a chill match. When I’m not busy with work, I like to unwind with some casual matches; nothing too intense, just a relaxed game to clear my mind. I’m also a fan of Tidewatch, a cool online community where we can discuss strategies, share tips, and keep the fun going. I’m free on Sunday afternoons, so if you’re up for a friendly game or just want to chat about chess, let’s connect. I’m all about keeping things light, friendly, and a bit competitive—just the right mix to make evenings enjoyable. Looking forward to meeting someone who shares my love for the game and the laid‑back vibe of Sunday afternoons!",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 1765039,
+    "text": "Hey there! I’m Aditi, a Japanese guy in my late 30s who loves a good game of chess—especially online. I usually play on a console, so I’ve got a comfy setup that’s perfect for virtual tournaments or just a chill match. When I’m not busy with work, I like to unwind with some casual matches; nothing too intense, just a relaxed game to clear my mind. I’m also a fan of Tidewatch, a cool online community where we can discuss strategies, share tips, and keep the fun going. I’m free on Sunday afternoons, so if you’re up for a friendly game or just want to chat about chess, let’s connect. I’m all about keeping things light, friendly, and a bit competitive—just the right mix to make evenings enjoyable. Looking forward to meeting someone who shares my love for the game and the laid‑back vibe of Sunday afternoons!",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 396,
+    "completion_tokens": 215,
+    "truncated": false,
+    "wall_s": 0.8576,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Aditi\nAge: late 30s. Gender: man. Nationality: Japanese. Hobby outside this: playing chess online.\nBackground: platform: console\nFacts (stable):\n- Tidewatch.\n- Casual matches.\n- Available Sunday afternoon."
+    },
+    "raw_output": "{\"text\":\"Hey there! I’m Aditi, a Japanese guy in my late 30s who loves a good game of chess—especially online. I usually play on a console, so I’ve got a comfy setup that’s perfect for virtual tournaments or just a chill match. When I’m not busy with work, I like to unwind with some casual matches; nothing too intense, just a relaxed game to clear my mind. I’m also a fan of Tidewatch, a cool online community where we can discuss strategies, share tips, and keep the fun going. I’m free on Sunday afternoons, so if you’re up for a friendly game or just want to chat about chess, let’s connect. I’m all about keeping things light, friendly, and a bit competitive—just the right mix to make evenings enjoyable. Looking forward to meeting someone who shares my love for the game and the laid‑back vibe of Sunday afternoons!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.8574868000578135,
+      "prompt_tokens": 396,
+      "completion_tokens": 215,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Aditi\nAge: late 30s. Gender: man. Nationality: Japanese. Hobby outside this: playing chess online.\nBackground: platform: console\nFacts (stable):\n- Tidewatch.\n- Casual matches.\n- Available Sunday afternoon."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 1765039,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey there! I’m Aditi, a Japanese guy in my late 30s who loves a good game of chess—especially online. I usually play on a console, so I’ve got a comfy setup that’s perfect for virtual tournaments or just a chill match. When I’m not busy with work, I like to unwind with some casual matches; nothing too intense, just a relaxed game to clear my mind. I’m also a fan of Tidewatch, a cool online community where we can discuss strategies, share tips, and keep the fun going. I’m free on Sunday afternoons, so if you’re up for a friendly game or just want to chat about chess, let’s connect. I’m all about keeping things light, friendly, and a bit competitive—just the right mix to make evenings enjoyable. Looking forward to meeting someone who shares my love for the game and the laid‑back vibe of Sunday afternoons!\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0158.r1": {
+   "status": "ok",
+   "text": "I need you to be into Tidewatch; you have to play that game or else we’ll never sync. I would strongly prefer that you are into casual matches, though it’s not a requirement. I would strongly prefer that you are available Sunday afternoon, but I won’t rule you out over it.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 1765042,
+     "text": "I need you to be into Tidewatch; you have to play that game or else we’ll never sync. I would strongly prefer that you are into casual matches, though it’s not a requirement. I would strongly prefer that you are available Sunday afternoon, but I won’t rule you out over it.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 556,
+     "completion_tokens": 308,
+     "truncated": false,
+     "wall_s": 1.2348,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: gaming partner\nRequirements:\n- MUST: you are into Tidewatch\n- STRONG WISH: you are into casual matches\n- STRONG WISH: you are available Sunday afternoon"
+     },
+     "raw_output": "{\"text\":\"I need you to be into Tidewatch; you have to play that game or else we’ll never sync. I would strongly prefer that you are into casual matches, though it’s not a requirement. I would strongly prefer that you are available Sunday afternoon, but I won’t rule you out over it.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.2347388999769464,
+       "prompt_tokens": 556,
+       "completion_tokens": 308,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: gaming partner\nRequirements:\n- MUST: you are into Tidewatch\n- STRONG WISH: you are into casual matches\n- STRONG WISH: you are available Sunday afternoon"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 1765042,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you to be into Tidewatch; you have to play that game or else we’ll never sync. I would strongly prefer that you are into casual matches, though it’s not a requirement. I would strongly prefer that you are available Sunday afternoon, but I won’t rule you out over it.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "2628aa7a5cae8009"
+}

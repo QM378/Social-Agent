@@ -1,0 +1,36 @@
+{
+ "person_id": "u0028",
+ "name": "Javi",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Javi, a non-binary Brazilian in my early 30s. I studied engineering, and when I'm not focusing on that, I spend my time on amateur astronomy because I love exploring the mysteries of the night sky. I'm looking to get into Statistics and would prefer to do this online. In terms of how we'd work, I'm looking for a step-by-step walkthrough session where we can spend time talking things through as we go. As for my schedule, I'm available on Sunday afternoons or during weekday evenings. I'm really looking forward to diving into this and seeing where it leads!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0028.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into statistics, and you have to be available either Sunday afternoon or weekday evenings. I'd strongly prefer that we overlap on online, though it's not a requirement. It would be a small bonus if you are into a step-by-step walkthrough session.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0028.topic",
+   "u0028.format",
+   "u0028.venue",
+   "u0028.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0028.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

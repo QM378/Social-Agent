@@ -1,0 +1,35 @@
+{
+ "person_id": "u0059",
+ "name": "Maya",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m Maya, a mid‑20s Italian who loves birdwatching in my spare time. I’m looking for a structured instruction session where we can dive into camera gear talk, exploring Fuji gear in depth. I’m fine with not taking portraits of each other, just sharing the focus on learning. I’m free on Sunday afternoons or weekday evenings to set up a session that fits into my schedule. I’m excited to discuss lenses, settings and technique, and I enjoy the clarity that comes from a well‑structured plan. Let’s share a quiet corner, a good spot, and get into the details of photography together.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0059.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with taking portraits of each other, otherwise we’re not compatible. I’d strongly prefer that you are into a structured instruction session or a practice session working on specific shots, though I won’t rule you out over it. It would matter a lot if you’re available either Sunday afternoon or weekday evenings, but that’s not a requirement. Nice if you’re comfortable with gear talk is fine but not the point or plenty of gear talk.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0059.purpose",
+   "u0059.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0059.gear_talk",
+   "u0059.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,409 @@
+{
+ "person_id": "u0182",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:04:54.738866+00:00",
+ "self": {
+  "status": "ok",
+  "text": "I’m a late‑30s Korean gamer who’s all about Tidewatch these days, diving into ranked matches whenever I can. I stick to text chat and love the flexibility of filling any role on the team. I’m not coaching anyone—just playing for fun. Most of my sessions happen Saturday mornings or weekday evenings, and on the off‑beat I’ll be knitting away, because the quiet rhythm of yarn is a perfect counterbalance to the game’s intensity.",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 4663038,
+    "text": "I’m in my late 30s, Korean, and I love knitting in my downtime. Lately, Tidewatch is all I play, mostly in ranked matches, and I stick to text chat. I’m flexible and can jump into any role. I don’t coach, but I’m usually free Saturday mornings or weekday evenings for a session.",
+    "issues": [
+     "fact_not_mentioned:Coaching-wise, no coaching."
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 446,
+    "completion_tokens": 99,
+    "truncated": false,
+    "wall_s": 0.437,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"I’m in my late 30s, Korean, and I love knitting in my downtime. Lately, Tidewatch is all I play, mostly in ranked matches, and I stick to text chat. I’m flexible and can jump into any role. I don’t coach, but I’m usually free Saturday mornings or weekday evenings for a session.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.43696850002743304,
+      "prompt_tokens": 446,
+      "completion_tokens": 99,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 4663038,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m in my late 30s, Korean, and I love knitting in my downtime. Lately, Tidewatch is all I play, mostly in ranked matches, and I stick to text chat. I’m flexible and can jump into any role. I don’t coach, but I’m usually free Saturday mornings or weekday evenings for a session.\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 1,
+    "seed": 4663039,
+    "text": "I’m life‑long PC gamer, living in late 30s Korean vibes, and lately Tidewatch has become my playground. I thrive in ranked matches and communicate through text chat, always ready to slot into any role. I’m not a coach—just a player. My free time is Saturday mornings or weekday evenings, and when I’m off the grid I knit to unwind.",
+    "issues": [
+     "fact_not_mentioned:I usually end up in a flexible role (I can fill any position).",
+     "fact_not_mentioned:Coaching-wise, no coaching."
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 481,
+    "completion_tokens": 150,
+    "truncated": false,
+    "wall_s": 0.6202,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:Coaching-wise, no coaching.']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"I’m life‑long PC gamer, living in late 30s Korean vibes, and lately Tidewatch has become my playground. I thrive in ranked matches and communicate through text chat, always ready to slot into any role. I’m not a coach—just a player. My free time is Saturday mornings or weekday evenings, and when I’m off the grid I knit to unwind.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.6201884999172762,
+      "prompt_tokens": 481,
+      "completion_tokens": 150,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:Coaching-wise, no coaching.']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 4663039,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m life‑long PC gamer, living in late 30s Korean vibes, and lately Tidewatch has become my playground. I thrive in ranked matches and communicate through text chat, always ready to slot into any role. I’m not a coach—just a player. My free time is Saturday mornings or weekday evenings, and when I’m off the grid I knit to unwind.\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 2,
+    "seed": 4663040,
+    "text": "I’m a late‑30s Korean gamer who spends most evenings and Saturday mornings diving into Tidewatch ranked matches on PC. I chat in text, hopping into any role the team needs. Outside the arena I knit, enjoying the quiet rhythm it brings. Each session is a quick, flexible dive into strategy and teamwork, all from the comfort of my home setup.",
+    "issues": [
+     "fact_not_mentioned:Coaching-wise, no coaching."
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 502,
+    "completion_tokens": 111,
+    "truncated": false,
+    "wall_s": 0.4796,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:I usually end up in a flexible role (I can fill any position).', 'fact_not_mentioned:Coaching-wise, no coaching.']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"I’m a late‑30s Korean gamer who spends most evenings and Saturday mornings diving into Tidewatch ranked matches on PC. I chat in text, hopping into any role the team needs. Outside the arena I knit, enjoying the quiet rhythm it brings. Each session is a quick, flexible dive into strategy and teamwork, all from the comfort of my home setup.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.47952109994366765,
+      "prompt_tokens": 502,
+      "completion_tokens": 111,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:I usually end up in a flexible role (I can fill any position).', 'fact_not_mentioned:Coaching-wise, no coaching.']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 4663040,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m a late‑30s Korean gamer who spends most evenings and Saturday mornings diving into Tidewatch ranked matches on PC. I chat in text, hopping into any role the team needs. Outside the arena I knit, enjoying the quiet rhythm it brings. Each session is a quick, flexible dive into strategy and teamwork, all from the comfort of my home setup.\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 3,
+    "seed": 4663041,
+    "text": "I’m a late‑30s Korean gamer who’s all about Tidewatch these days, diving into ranked matches whenever I can. I stick to text chat and love the flexibility of filling any role on the team. I’m not coaching anyone—just playing for fun. Most of my sessions happen Saturday mornings or weekday evenings, and on the off‑beat I’ll be knitting away, because the quiet rhythm of yarn is a perfect counterbalance to the game’s intensity.",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 481,
+    "completion_tokens": 161,
+    "truncated": false,
+    "wall_s": 0.672,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:Coaching-wise, no coaching.']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+    },
+    "raw_output": "{\"text\":\"I’m a late‑30s Korean gamer who’s all about Tidewatch these days, diving into ranked matches whenever I can. I stick to text chat and love the flexibility of filling any role on the team. I’m not coaching anyone—just playing for fun. Most of my sessions happen Saturday mornings or weekday evenings, and on the off‑beat I’ll be knitting away, because the quiet rhythm of yarn is a perfect counterbalance to the game’s intensity.\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.6719701000256464,
+      "prompt_tokens": 481,
+      "completion_tokens": 161,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: A bit of story: how you got into this, what a typical session looks like.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:Coaching-wise, no coaching.']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Vida\nAge: late 30s. Gender: prefer not to say. Nationality: Korean. Hobby outside this: knitting.\nBackground: platform: PC\nFacts (stable):\n- These days it's all Tidewatch for me.\n- I'm mostly into ranked matches.\n- I'm on text chat.\n- I usually end up in a flexible role (I can fill any position).\n- Coaching-wise, no coaching.\n- Most weeks I can do Saturday morning or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 4663041,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"I’m a late‑30s Korean gamer who’s all about Tidewatch these days, diving into ranked matches whenever I can. I stick to text chat and love the flexibility of filling any role on the team. I’m not coaching anyone—just playing for fun. Most of my sessions happen Saturday mornings or weekday evenings, and on the off‑beat I’ll be knitting away, because the quiet rhythm of yarn is a perfect counterbalance to the game’s intensity.\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0182.r1": {
+   "status": "ok",
+   "text": "I need you to be available on Saturday morning or weekday evenings, and we must overlap on text chat. I'd strongly prefer that you are into Tidewatch, though it's not a requirement. A big plus if you enjoy ranked matches, but I won't rule you out over it. A small bonus if you play a damage role or you can play a support role.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 4663041,
+     "text": "I need you to be available on Saturday morning or weekday evenings, and we must overlap on text chat. I'd strongly prefer that you are into Tidewatch, though it's not a requirement. A big plus if you enjoy ranked matches, but I won't rule you out over it. A small bonus if you play a damage role or you can play a support role.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 606,
+     "completion_tokens": 118,
+     "truncated": false,
+     "wall_s": 0.5113,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: gaming partner\nRequirements:\n- MUST: you are available any of Saturday morning or weekday evenings   [alternatives: Saturday morning | weekday evenings]\n- MUST: we overlap on text chat\n- WISH: you are into Tidewatch\n- WISH: you are into ranked matches\n- WISH: you play a damage role or you to play a support role   [alternatives: a damage role | a support role]"
+     },
+     "raw_output": "{\"text\":\"I need you to be available on Saturday morning or weekday evenings, and we must overlap on text chat. I'd strongly prefer that you are into Tidewatch, though it's not a requirement. A big plus if you enjoy ranked matches, but I won't rule you out over it. A small bonus if you play a damage role or you can play a support role.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 0.5112394000170752,
+       "prompt_tokens": 606,
+       "completion_tokens": 118,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: gaming partner\nRequirements:\n- MUST: you are available any of Saturday morning or weekday evenings   [alternatives: Saturday morning | weekday evenings]\n- MUST: we overlap on text chat\n- WISH: you are into Tidewatch\n- WISH: you are into ranked matches\n- WISH: you play a damage role or you to play a support role   [alternatives: a damage role | a support role]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 4663041,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you to be available on Saturday morning or weekday evenings, and we must overlap on text chat. I'd strongly prefer that you are into Tidewatch, though it's not a requirement. A big plus if you enjoy ranked matches, but I won't rule you out over it. A small bonus if you play a damage role or you can play a support role.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "f341aa0e60142bff"
+}

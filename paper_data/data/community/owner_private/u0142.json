@@ -1,0 +1,35 @@
+{
+ "person_id": "u0142",
+ "name": "Jamal",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey there! I’m Jamal, in my early 30s and a proud Korean. I love getting lost in the world of Hollow Lantern most of the time, and I usually queue for casual matches when I have a chance. I play on a handheld platform, which makes it super convenient to jump into a game no matter where I am. I’m on the lookout for a coach—someone who can help me sharpen my skills and give me that extra edge. When I’m not gaming, I’m usually watching old westerns; there’s something about the dusty landscapes and classic storytelling that really keeps me hooked. I’m pretty relaxed and upbeat, always ready to dive into a good match or a great film. I’m usually free on Saturday afternoons or in the evenings during the week, so we can schedule a time that works for both of us. I enjoy meeting like-minded people who share a love for gaming and good conversation, and I’m always up for a chill chat over coffee after a session. I’d love to connect with someone who’s ready to play, learn, and have a bit of fun along the way!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0142.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern, otherwise we’re not compatible. I’d strongly prefer that you’re available either Saturday afternoon or weekday evenings, though I won’t rule you out over it. It would matter a lot if you’re the one who coaches me, but I won’t rule you out over it. Nice if we’re into casual matches, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0142.game_id",
+   "u0142.mode",
+   "u0142.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0142.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

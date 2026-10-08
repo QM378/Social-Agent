@@ -1,0 +1,234 @@
+{
+ "person_id": "u0030",
+ "generator": "gptoss",
+ "checker": "gemma",
+ "checker_model": "social-gemma4-8k",
+ "prompt_version": "community_check_v3",
+ "issues": [
+  {
+   "where": "u0030.r1",
+   "type": "weight_changed",
+   "attribute": "editing_role",
+   "expected": "preference",
+   "got": "strong_preference",
+   "severity": "ranking"
+  }
+ ],
+ "texts_hash": "e595ffe279525da6",
+ "checked": {
+  "self": true,
+  "u0030.r1": true
+ },
+ "checker_errors": 0,
+ "n_issues": 1,
+ "impact_counts": {
+  "ranking": 1
+ },
+ "adjudication": {
+  "status": "pending",
+  "by": null,
+  "notes": ""
+ },
+ "verdict": "needs_adjudication",
+ "checker_provenance": {
+  "served_model": "social-gemma4-8k",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "quantization": "Q4_K_M",
+  "family": "gemma4",
+  "parameter_size": "31.3B",
+  "modelfile_parameters": "top_k                          64\ntop_p                          0.95\nnum_ctx                        8192\nseed                           0\ntemperature                    0",
+  "server": "ollama 0.34.2",
+  "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-280af6832eca23cb322c4dcc65edfea98a21b8f8ab07dc7553bd6f7e6e7a3313",
+  "modified_at": "2026-09-22T21:50:54.8177644-05:00",
+  "license_excerpt": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      ",
+  "model_key": "gemma",
+  "prompt_version": "community_check_v3",
+  "temperature": 0.7
+ },
+ "checker_http_attempts": [
+  {
+   "item": "self",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.155694399960339,
+     "prompt_tokens": 485,
+     "completion_tokens": 54,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract this person's own facts using only the vocabulary. \"unknown\" if not stated. Set attributes return a list. Return {\"facts\": {...}}.\n- purpose (single): casual_walk = this person wants a relaxed, low-pressure outing; practice = this person wants to practise specific shots or skills; instruction = this person wants a structured, lesson-like session\n- pace (single): slow = this person moves slowly and unhurriedly; moderate = this person keeps a medium pace; fast = this person moves quickly and covers a lot\n- gear_talk (single): avoid = this person does not want to discuss equipment; optional = this person is fine with some equipment talk but it is not the focus; desired = this person actively wants to discuss equipment\n- editing_role (single): none = this person wants no post-processing lesson either way; learn = this person wants to be taught post-processing (a learner); teach = this person is willing to teach post-processing (a teacher)\n- mutual_portraits (single): yes = this person is willing to take portraits of the partner and be photographed; no = this person does not want mutual portraits\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "Hey there! I’m Oren, a mid‑twenties Aussie who loves a good photo walk. I’m all about a relaxed stroll with a fast pace—so let’s keep the momentum going while we snap some cool shots. I carry just a phone for gear, so no debates over equipment—just the moment. When it comes to post‑processing, I’m happy to share what I know and teach a few tricks if you’re interested. I’m free most weekday evenings, so we can plan a sunset walk or a quick cityscape session after work. Outside the camera, I’m a chillie grower, which means I appreciate good food and a relaxed vibe. I’m looking forward to connecting with someone who’s up for a relaxed yet energetic photo adventure. Let’s capture some memories together!"
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtractedFacts",
+        "schema": {
+         "properties": {
+          "facts": {
+           "additionalProperties": {
+            "anyOf": [
+             {
+              "type": "string"
+             },
+             {
+              "items": {
+               "type": "string"
+              },
+              "type": "array"
+             }
+            ]
+           },
+           "title": "Facts",
+           "type": "object"
+          }
+         },
+         "required": [
+          "facts"
+         ],
+         "title": "_ExtractedFacts",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"facts\": {\"purpose\": \"casual_walk\", \"pace\": \"fast\", \"gear_talk\": \"avoid\", \"editing_role\": \"teach\", \"mutual_portraits\": \"unknown\", \"time_window\": [\"weekday_evening\"]}}"
+    }
+   ]
+  },
+  {
+   "item": "u0030.r1",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 2.319621399976313,
+     "prompt_tokens": 560,
+     "completion_tokens": 132,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- purpose (single): casual_walk = this person wants a relaxed, low-pressure outing; practice = this person wants to practise specific shots or skills; instruction = this person wants a structured, lesson-like session\n- pace (single): slow = this person moves slowly and unhurriedly; moderate = this person keeps a medium pace; fast = this person moves quickly and covers a lot\n- gear_talk (single): avoid = this person does not want to discuss equipment; optional = this person is fine with some equipment talk but it is not the focus; desired = this person actively wants to discuss equipment\n- editing_role (single): none = this person wants no post-processing lesson either way; learn = this person wants to be taught post-processing (a learner); teach = this person is willing to teach post-processing (a teacher)\n- mutual_portraits (single): yes = this person is willing to take portraits of the partner and be photographed; no = this person does not want mutual portraits\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I need you to be into a practice session working on specific shots, and you must be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are okay with a fast pace or a slow pace, though it's not a requirement. It would matter a lot if you are the one who learns post‑processing from me, but I won't rule you out over it. Nice if you are available weekday evenings, a small bonus if so."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"requirements\": [{\"attribute\": \"purpose\", \"accepted_values\": [\"practice\"], \"strength\": \"required\"}, {\"attribute\": \"gear_talk\", \"accepted_values\": [\"avoid\", \"optional\"], \"strength\": \"required\"}, {\"attribute\": \"pace\", \"accepted_values\": [\"fast\", \"slow\"], \"strength\": \"strong_preference\"}, {\"attribute\": \"editing_role\", \"accepted_values\": [\"learn\"], \"strength\": \"strong_preference\"}, {\"attribute\": \"time_window\", \"accepted_values\": [\"weekday_evening\"], \"strength\": \"preference\"}], \"changes_this_time\": []}"
+    }
+   ]
+  }
+ ]
+}

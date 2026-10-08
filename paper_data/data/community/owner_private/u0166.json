@@ -1,0 +1,45 @@
+{
+ "person_id": "u0166",
+ "name": "Selin",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Selin, a non-binary Australian in my late 30s with a background in biology. Outside of my studies, I love podcasting because it lets me explore new stories. Right now, I'm focusing on programming. I find that I get the most out of studying independently side by side, and I do best with occasional short exchanges. I'm looking for someone to explain things to me during our sessions. I'm happy to meet in person, and most weeks I can do weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0166.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into studying independently side by side. It would be nice if you are available weekday evenings. Additionally, it's a small bonus if you are okay with complete silence while working or occasional short exchanges, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0166.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into studying independently side by side. This time, I'm looking for someone to work through problems together, which is a change from my usual preference for independent study. It would be nice if you are available weekday evenings, and a small bonus if you are okay with complete silence while working or occasional short exchanges.",
+   "this_time": [
+    "This time: working through problems together. Usually: studying independently side by side."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0166.topic",
+   "u0166.format",
+   "u0166.venue",
+   "u0166.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0166.quiet",
+   "u0166.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

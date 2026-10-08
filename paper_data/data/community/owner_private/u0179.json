@@ -1,0 +1,36 @@
+{
+ "person_id": "u0179",
+ "name": "Hana",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Hana, in my 50s, from Australia, and I prefer not to say my gender. I love swing dancing; I move to music and feel alive. I mainly play Tidewatch on PC and usually queue for casual matches. I chat via text or voice, and I’m happy to coach others when I can. I’m free Saturday afternoons, Sunday mornings, or weekday evenings. I enjoy the friendly community vibe and the challenge of strategy games. When I’m not gaming, I spin around on the dance floor.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0179.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern, you are the one who gets coached by me, and you are available any of Saturday afternoon | Sunday morning | weekday evenings; I’d strongly prefer that you are into casual matches, though it’s not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0179.game_id",
+   "u0179.mode",
+   "u0179.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0179.comm_modes",
+   "u0179.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

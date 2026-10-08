@@ -1,0 +1,42 @@
+{
+ "person_id": "u0084",
+ "name": "Petra",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Petra, a Vietnamese guy in my early 20s who loves running trails in the quiet mornings, but the real thrill comes when I hop onto my console to dive into Skyforge Arena. I mostly queue for casual games, keeping the vibe relaxed and fun. When we’re in a match, I stick to text chat, sending quick updates and coordinating moves without the noise of voice. My role is flexible – I’m happy to fill any spot the team needs, whether that’s support, DPS, or tank. I’m free on Saturday mornings and either Sunday morning or afternoon, so we can jump in whenever the squad’s ready. It’s all about teamwork, good pacing, and enjoying the game together.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0084.r1",
+   "kind": "primary",
+   "request_text": "I need a partner who is into casual matches and we overlap on text chat. I would strongly prefer that you play a damage role or you’re flexible about your role, though it’s not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0084.r2",
+   "kind": "alternative",
+   "request_text": "I need us to overlap on text chat, otherwise it's off. I'd strongly prefer that you are into casual matches, though it's not a requirement. I'd strongly prefer that you play a damage role or you are flexible about your role (a damage role | a flexible role (I can fill any position)), but I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0084.game_id",
+   "u0084.mode",
+   "u0084.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0084.comm_modes",
+   "u0084.team_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

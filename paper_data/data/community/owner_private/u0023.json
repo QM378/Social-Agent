@@ -1,0 +1,37 @@
+{
+ "person_id": "u0023",
+ "name": "Chiara",
+ "interaction_type": "study_partner",
+ "self_text": "I’m Chiara, a late‑20s Kenyan who works as a nurse and loves sketching buildings in my spare time. When I’m not nursing patients or doodling cityscapes, I’m passionate about statistics—turning raw numbers into stories that help people understand their health better. I’d love to share that enthusiasm with someone who enjoys a step‑by‑step walkthrough session, where we can explore data together, move through each calculation slowly, and make sense of the outcomes. I’m open to occasional short exchanges—quick chats that keep the momentum going, whether it’s a quick coffee or a quick text. I’ll be the one to explain things to you, breaking down complex ideas into digestible bits, because I believe learning is a conversation, not a lecture. We’d meet in person, because I value the energy of face‑to‑face interaction. I’m available on Saturday mornings, Sunday mornings, or weekday evenings, so we can fit a session into our schedules whenever it’s convenient. If you’re looking for a friendly, analytical companion who can walk you through the numbers step by step and keep the discussion lively yet clear, let’s connect and see where the data takes us.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0023.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a step-by-step walkthrough session and into statistics, otherwise that's a deal‑breaker. I'd strongly prefer you are available any of Saturday morning, Sunday morning, or weekday evenings, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0023.topic",
+   "u0023.format",
+   "u0023.venue",
+   "u0023.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0023.quiet",
+   "u0023.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

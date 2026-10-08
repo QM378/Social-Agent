@@ -1,0 +1,45 @@
+{
+ "person_id": "u0068",
+ "name": "Tal",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m Tal, a man in my early 30s from Turkey who loves restoring vintage bikes in my free time. I shoot with a Sony camera and enjoy a relaxed photo walk that keeps a fast pace. I’m happy to teach post‑processing and love taking portraits of each other. I don’t get into gear debates—just good shots. I’m free Saturday mornings for a quick session. When I’m not behind the lens, I’m tinkering with a motorcycle, a hobby that keeps me grounded. I enjoy the thrill of turning a rusted frame into a sleek ride, and it gives me a sense of satisfaction that I carry into my photography. I’m looking for a partner who shares a relaxed vibe, appreciates a quick pace, and doesn’t fuss over gear. Let’s capture moments together in the city’s hidden corners and enjoy the process of learning and growing side by side.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0068.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday morning; I need you to accept that no gear debates or gear talk is fine but not the point; I need you to be okay with a moderate pace or a slow pace. I'd strongly prefer that we take portraits of each other, though it's not a requirement. A small bonus if you are the one who learns post‑processing from me, but I won’t rule you out over it.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0068.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be available Saturday morning, you must be okay with no gear debates | gear talk is fine but not the point, you must be okay with a moderate pace | a slow pace—this time a slow pace, usually a fast pace, you would strongly prefer that you are okay with taking portraits of each other though it's not a requirement, a small bonus if you are the one who learns post‑processing from me.",
+   "this_time": [
+    "This time: a slow pace. Usually: a fast pace."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0068.purpose",
+   "u0068.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0068.pace",
+   "u0068.gear_talk",
+   "u0068.editing_role",
+   "u0068.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

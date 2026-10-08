@@ -1,0 +1,43 @@
+{
+ "person_id": "u0069",
+ "name": "Fox",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Turkish person in my early 30s with a background in history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. I work best when studying independently side by side. I need talking things through as we go. There is no tutoring either way. I can meet in person. I am free on Saturday afternoons or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0069.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into studying independently side by side, and you have to be okay with complete silence while working or occasional short exchanges. It would matter a lot if we overlap on in person, though it's not a requirement. I'd strongly prefer that you are available weekday evenings or Saturday afternoon, but I won't rule you out over it. It's a small bonus if you are into statistics.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0069.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with either complete silence while working or occasional short exchanges. I'd strongly prefer that we overlap on in person, though it's not a requirement. It would matter a lot if you are available on weekday evenings or Saturday afternoon, but I won't rule you out over it. A big plus if you are into studying independently side by side, though it's not a requirement. It would be a small bonus if you are into statistics.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0069.topic",
+   "u0069.format",
+   "u0069.venue",
+   "u0069.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0069.quiet",
+   "u0069.tutor_role"
+  ]
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

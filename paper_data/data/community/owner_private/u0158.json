@@ -1,0 +1,33 @@
+{
+ "person_id": "u0158",
+ "name": "Aditi",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey there! I’m Aditi, a Japanese guy in my late 30s who loves a good game of chess—especially online. I usually play on a console, so I’ve got a comfy setup that’s perfect for virtual tournaments or just a chill match. When I’m not busy with work, I like to unwind with some casual matches; nothing too intense, just a relaxed game to clear my mind. I’m also a fan of Tidewatch, a cool online community where we can discuss strategies, share tips, and keep the fun going. I’m free on Sunday afternoons, so if you’re up for a friendly game or just want to chat about chess, let’s connect. I’m all about keeping things light, friendly, and a bit competitive—just the right mix to make evenings enjoyable. Looking forward to meeting someone who shares my love for the game and the laid‑back vibe of Sunday afternoons!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0158.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Tidewatch; you have to play that game or else we’ll never sync. I would strongly prefer that you are into casual matches, though it’s not a requirement. I would strongly prefer that you are available Sunday afternoon, but I won’t rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0158.game_id",
+   "u0158.mode",
+   "u0158.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

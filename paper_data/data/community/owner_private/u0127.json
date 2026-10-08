@@ -1,0 +1,42 @@
+{
+ "person_id": "u0127",
+ "name": "Ivy",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi, I’m Ivy, a mid‑30s American who’s non‑binary. I love running trails; the rhythm of the path and the fresh air keeps me grounded. I shoot with a Canon camera and I’m always up for a practice session working on specific shots. Gear talk is my thing—I’ll dive into lenses, settings, and lighting details. Most weeks I’m available on Saturday, either morning or afternoon, so we can find a slot that works. I’m excited to swap ideas, try new angles, and run through the same shots until they feel just right. Let’s create some great images together.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0127.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with plenty of gear talk. I'd strongly prefer that you are available either Saturday afternoon or Saturday morning, though it's not a requirement. A small bonus if you are into a practice session working on specific shots or a relaxed photo walk, but I won't rule you out over it.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0127.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with plenty of gear talk. I'd strongly prefer that you are available either Saturday afternoon or Saturday morning, though it's not a requirement. It would matter a lot if you are into a structured instruction session, but I won't rule you out over it, noting that this time we focus on instruction rather than the usual practice session working on specific shots.",
+   "this_time": [
+    "This time: a structured instruction session. Usually: a practice session working on specific shots."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0127.purpose",
+   "u0127.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0127.gear_talk"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

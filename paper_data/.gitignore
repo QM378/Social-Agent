@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# your own runs (records/ holds the published runs and is part of the repository)
+outputs/

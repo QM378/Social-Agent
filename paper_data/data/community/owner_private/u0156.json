@@ -1,0 +1,35 @@
+{
+ "person_id": "u0156",
+ "name": "Aiko",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I’m Aiko, a mid‑20s Italian who loves wandering through city streets with my Sony camera. I’m looking for a relaxed photo walk at a moderate pace—no rush, just a good vibe. I’m happy to chat about gear if you’re into it, but it’s not the main focus—let’s just enjoy the moment. I’m free on Saturday afternoons, Saturday mornings, or Sunday mornings, so we can plan a chill stroll whenever works best for you. Oh, and when I’m not behind the lens, I love sketching buildings; it’s my way of capturing the city’s soul. Let’s explore together and see where the light takes us!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0156.r1",
+   "kind": "primary",
+   "request_text": "I need a partner who is okay with a fast pace or a moderate pace. I'd strongly prefer that you are available Saturday afternoon or Saturday morning or Sunday morning, though it's not a requirement. Nice if you are into a relaxed photo walk, and a small bonus if you are okay with plenty of gear talk or gear talk is fine but not the point.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0156.purpose",
+   "u0156.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0156.pace",
+   "u0156.gear_talk"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

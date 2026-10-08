@@ -1,0 +1,34 @@
+{
+ "person_id": "u0100",
+ "name": "Glen",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Nigerian man in my 40s. My background is in economics. Outside of this, I enjoy sketching buildings because I love architectural detail. I am looking to do Statistics. I prefer a step-by-step walkthrough session. This can be in person or online. I am available Saturday morning, Sunday afternoon, or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0100.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a step-by-step walkthrough session. I'd strongly prefer that you are into statistics, though it's not a requirement. It would be a small bonus if you are available Saturday morning, Sunday afternoon or weekday evenings.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0100.topic",
+   "u0100.format",
+   "u0100.venue",
+   "u0100.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

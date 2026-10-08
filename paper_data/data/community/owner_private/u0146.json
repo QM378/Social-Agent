@@ -1,0 +1,37 @@
+{
+ "person_id": "u0146",
+ "name": "Bay",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey there! I'm Bay, a 40‑something from Japan who loves late‑night skies and stargazing with a telescope in my backyard. When I'm not chasing constellations, I dive into Tidewatch on my PC, chasing high‑level ranked matches with an aim for precision and teamwork—though I stick to the damage role to keep the action fast and my focus sharp. I’m all about text chat only; nothing beats the thrill of quick, clear communication through typing. I’m not into coaching or teaching anyone, just playing the game as it is and enjoying the flow of the match. My free time is pretty set: I’m usually around on Saturday afternoons or Sunday mornings, ready to jump into a game or chat about the latest patch. If you share the same love for intense, skill‑based play and prefer to keep things text‑focused, we’ll get along great. Looking forward to some exciting matches and maybe swapping astronomy stories over a cup of coffee!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0146.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday afternoon or Sunday morning, and I need you to be into ranked matches. I would strongly prefer that we overlap on text chat, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0146.game_id",
+   "u0146.mode",
+   "u0146.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0146.comm_modes",
+   "u0146.team_role",
+   "u0146.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

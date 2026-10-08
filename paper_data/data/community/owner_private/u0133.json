@@ -1,0 +1,34 @@
+{
+ "person_id": "u0133",
+ "name": "Pip",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Pip, a non-binary Italian in my mid 30s. I studied economics and in my free time I love playing chess online because it keeps my mind sharp. Currently, I am studying language practice. Regarding how I work, I find that I work best with studying independently side by side. I am flexible with where we meet, as I can meet in person or online. As for my availability, I am free Saturday morning, Saturday afternoon, or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0133.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice. It would be nice if you are available Saturday afternoon, Saturday morning, or Sunday morning, and it's a small bonus if you are into studying independently side by side.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0133.topic",
+   "u0133.format",
+   "u0133.venue",
+   "u0133.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

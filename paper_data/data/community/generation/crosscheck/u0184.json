@@ -1,0 +1,234 @@
+{
+ "person_id": "u0184",
+ "generator": "gptoss",
+ "checker": "gemma",
+ "checker_model": "social-gemma4-8k",
+ "prompt_version": "community_check_v3",
+ "issues": [
+  {
+   "where": "u0184.r1",
+   "type": "weight_changed",
+   "attribute": "format",
+   "expected": "preference",
+   "got": "strong_preference",
+   "severity": "ranking"
+  }
+ ],
+ "texts_hash": "1b89d50c29310771",
+ "checked": {
+  "self": true,
+  "u0184.r1": true
+ },
+ "checker_errors": 0,
+ "n_issues": 1,
+ "impact_counts": {
+  "ranking": 1
+ },
+ "adjudication": {
+  "status": "pending",
+  "by": null,
+  "notes": ""
+ },
+ "verdict": "needs_adjudication",
+ "checker_provenance": {
+  "served_model": "social-gemma4-8k",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "quantization": "Q4_K_M",
+  "family": "gemma4",
+  "parameter_size": "31.3B",
+  "modelfile_parameters": "top_k                          64\ntop_p                          0.95\nnum_ctx                        8192\nseed                           0\ntemperature                    0",
+  "server": "ollama 0.34.2",
+  "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-280af6832eca23cb322c4dcc65edfea98a21b8f8ab07dc7553bd6f7e6e7a3313",
+  "modified_at": "2026-09-22T21:50:54.8177644-05:00",
+  "license_excerpt": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      ",
+  "model_key": "gemma",
+  "prompt_version": "community_check_v3",
+  "temperature": 0.7
+ },
+ "checker_http_attempts": [
+  {
+   "item": "self",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.1485972000518814,
+     "prompt_tokens": 440,
+     "completion_tokens": 56,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract this person's own facts using only the vocabulary. \"unknown\" if not stated. Set attributes return a list. Return {\"facts\": {...}}.\n- topic (single): statistics = this person studies statistics; programming = this person studies programming; language_practice = this person practises a language\n- format (single): independent = this person studies alone but alongside someone; discussion = this person works through problems together with the partner; tutoring = this person wants a guided walkthrough session where one person explains and the other follows; this says nothing about which side they are on\n- quiet (single): silent = this person needs complete silence while working; occasional_talk = this person is fine with occasional short exchanges; interactive = this person prefers talking things through continuously\n- tutor_role (single): none = this person wants no tutoring either way; learn = this person wants things explained to them (a learner); teach = this person is willing to explain things (a tutor)\n- venue (set): online = this person can meet online; in_person = this person can meet in person\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I’m Pavel, a mid‑30s engineer from Turkey who’s diving into programming right now. I love tackling code with a partner—working through problems together feels like a puzzle we solve side by side. When I hit a snag, I look for someone to explain the tricky bits; it’s a two‑way flow of ideas, not a lecture. I’m happy to meet in person, and my free windows are Saturday afternoons and Sunday mornings. Outside the screen, I bake sourdough, and the quiet rhythm of kneading dough is my kind of meditation. If you’re into collaborative coding and a bit of bread‑making, let’s sync our schedules and see what we can build together."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtractedFacts",
+        "schema": {
+         "properties": {
+          "facts": {
+           "additionalProperties": {
+            "anyOf": [
+             {
+              "type": "string"
+             },
+             {
+              "items": {
+               "type": "string"
+              },
+              "type": "array"
+             }
+            ]
+           },
+           "title": "Facts",
+           "type": "object"
+          }
+         },
+         "required": [
+          "facts"
+         ],
+         "title": "_ExtractedFacts",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"facts\": {\"topic\": \"programming\", \"format\": \"discussion\", \"quiet\": \"unknown\", \"tutor_role\": \"learn\", \"venue\": [\"in_person\"], \"time_window\": [\"sat_afternoon\", \"sun_morning\"]}}"
+    }
+   ]
+  },
+  {
+   "item": "u0184.r1",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 2.346354400040582,
+     "prompt_tokens": 506,
+     "completion_tokens": 135,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- topic (single): statistics = this person studies statistics; programming = this person studies programming; language_practice = this person practises a language\n- format (single): independent = this person studies alone but alongside someone; discussion = this person works through problems together with the partner; tutoring = this person wants a guided walkthrough session where one person explains and the other follows; this says nothing about which side they are on\n- quiet (single): silent = this person needs complete silence while working; occasional_talk = this person is fine with occasional short exchanges; interactive = this person prefers talking things through continuously\n- tutor_role (single): none = this person wants no tutoring either way; learn = this person wants things explained to them (a learner); teach = this person is willing to explain things (a tutor)\n- venue (set): online = this person can meet online; in_person = this person can meet in person\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I need you to be into programming, to explain the material to me, and to be available on Saturday afternoon or Sunday morning. I'd strongly prefer you to be into working through problems together or a step‑by‑step walkthrough session, though it's not a requirement. A small bonus would be if we can meet in person."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"requirements\": [{\"attribute\": \"topic\", \"accepted_values\": [\"programming\"], \"strength\": \"required\"}, {\"attribute\": \"tutor_role\", \"accepted_values\": [\"teach\"], \"strength\": \"required\"}, {\"attribute\": \"time_window\", \"accepted_values\": [\"sat_afternoon\", \"sun_morning\"], \"strength\": \"required\"}, {\"attribute\": \"format\", \"accepted_values\": [\"discussion\", \"tutoring\"], \"strength\": \"strong_preference\"}, {\"attribute\": \"venue\", \"accepted_values\": [\"in_person\"], \"strength\": \"preference\"}], \"changes_this_time\": []}"
+    }
+   ]
+  }
+ ]
+}

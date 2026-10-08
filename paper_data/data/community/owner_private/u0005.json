@@ -1,0 +1,37 @@
+{
+ "person_id": "u0005",
+ "name": "Koa",
+ "interaction_type": "study_partner",
+ "self_text": "I’m a mid‑twenties Mexican non‑binary nurse turned coder. Right now it’s programming for me, and I get the most out of a step‑by‑step walkthrough session. I do best with complete silence while working, and tutoring‑wise I’m happy to explain things. I’m happy in person and most weeks can meet Saturday afternoon, Sunday morning or weekday evenings. I love sketching buildings because the lines feel alive, and I often do it on a quiet terrace overlooking the city.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0005.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap in person, you are the one who has things explained by me, and you are into programming. I would strongly prefer that you are okay with talking things through as we go, though it's not a requirement. Nice if you are into working through problems together or a step‑by‑step walkthrough session. A small bonus if you are available Saturday afternoon or Sunday morning or weekday evenings.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0005.topic",
+   "u0005.format",
+   "u0005.venue",
+   "u0005.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0005.quiet",
+   "u0005.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

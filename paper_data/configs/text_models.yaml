@@ -1,0 +1,24 @@
+# Generator / checker models for the community dataset (Ollama, one resident model at a time).
+# Generation uses temperature 0.7 with a per-item seed (recorded); checking uses temperature 0.
+gemma:
+  base_url: http://127.0.0.1:11434/v1
+  model: social-gemma4-8k
+  api_key: ollama
+  temperature: 0.7
+  seed: 0
+  max_tokens: 1200
+  reasoning_effort: none        # Gemma 4 thinks by default and spends the whole budget on it; 'none' disables thinking on Ollama /v1
+  json_schema_mode: true
+  max_repairs: 1
+  timeout_s: 600
+gptoss:
+  base_url: http://127.0.0.1:11434/v1
+  model: social-gptoss-8k
+  api_key: ollama
+  temperature: 0.7
+  seed: 0
+  max_tokens: 1500
+  reasoning_effort: low
+  json_schema_mode: true
+  max_repairs: 1
+  timeout_s: 600

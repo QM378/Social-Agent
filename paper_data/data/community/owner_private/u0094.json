@@ -1,0 +1,34 @@
+{
+ "person_id": "u0094",
+ "name": "Sana",
+ "interaction_type": "study_partner",
+ "self_text": "Hey there! I’m a mid‑30s Kenyan guy who’s currently studying programming. I love getting my hands on code and tackling puzzles, and I thrive when I can work through problems together with someone else. I’m all about collaboration and learning by doing. Outside of coding, I’m a bit of a podcaster – I enjoy sharing stories and insights on history and tech over a good conversation. I’m open to meeting in person, and I’m free on Saturday afternoons or Sunday afternoons if you’re around. Let’s grab a coffee and dive into a coding challenge or chat about our latest podcast episode. Looking forward to connecting!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0094.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday afternoon or Sunday afternoon. I'd strongly prefer that you're into studying independently side by side, though it's not a requirement. Nice if you're into programming or statistics, but no big deal. Nice if we overlap on in person, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0094.topic",
+   "u0094.format",
+   "u0094.venue",
+   "u0094.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

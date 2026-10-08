@@ -1,0 +1,36 @@
+{
+ "person_id": "u0132",
+ "name": "Rafael",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm a Vietnamese woman in my late 30s. I enjoy woodworking in my free time. I use a phone for my photos. I am looking for a structured instruction session at a moderate pace. I am fine with not taking portraits of each other, and I want no post-processing lesson this time. I am free Saturday afternoon, Sunday morning, or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0132.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with a moderate pace or a slow pace, and you have to be available Saturday afternoon, Sunday morning or weekday evenings. I'd strongly prefer that you are okay with taking portraits of each other, though it's not a requirement. It would also be nice if you are into a structured instruction session.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0132.purpose",
+   "u0132.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0132.pace",
+   "u0132.editing_role",
+   "u0132.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

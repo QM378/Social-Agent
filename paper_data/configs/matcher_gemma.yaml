@@ -1,0 +1,15 @@
+# Model used by the agents and the LLM baselines: Gemma 4 31B served by Ollama with an 8k context window.
+# Create the alias once: ollama create social-gemma4-8k -f configs/ollama/Modelfile.gemma4-8k
+# Values are those of the recorded runs (see records/registry.csv).
+llm:
+  base_url: http://127.0.0.1:11434/v1
+  model: social-gemma4-8k
+  api_key: ollama
+  temperature: 0.0
+  seed: 0
+  max_tokens: 2048
+  max_json_tokens: 512
+  reasoning_effort: none
+  json_schema_mode: true
+  max_repairs: 1
+  timeout_s: 300

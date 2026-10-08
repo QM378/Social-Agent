@@ -1,0 +1,37 @@
+{
+ "person_id": "u0082",
+ "name": "Lane",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m Lane, a 40‑something Polish woman who loves swing dancing and captures moments with my Leica. I’m looking for a structured photography session with a moderate pace—no post‑processing this time. We’ll focus on taking portraits of each other, and I’m happy to talk gear, but that’s not the main point. I’m free Saturday afternoon or Sunday afternoon for a relaxed, focused shoot.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0082.r1",
+   "kind": "primary",
+   "request_text": "I need a photography partner who is okay with plenty of gear talk or gear talk is fine but not the point. I would strongly prefer that you are into a structured instruction session, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0082.purpose",
+   "u0082.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0082.pace",
+   "u0082.gear_talk",
+   "u0082.editing_role",
+   "u0082.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

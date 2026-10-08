@@ -1,0 +1,36 @@
+{
+ "person_id": "u0196",
+ "name": "Tamsin",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm Tamsin, a non-binary Italian in my early 20s. Outside of gaming, I love the thrill of climbing. I mainly play Hollow Lantern on a handheld. I usually queue for casual matches and communicate over text chat. I am looking for someone to coach me. I am free Sunday morning or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0196.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who coaches me. It would be a small bonus if you are into Hollow Lantern or Skyforge Arena, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0196.game_id",
+   "u0196.mode",
+   "u0196.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0196.comm_modes",
+   "u0196.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

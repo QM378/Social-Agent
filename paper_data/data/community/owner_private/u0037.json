@@ -1,0 +1,36 @@
+{
+ "person_id": "u0037",
+ "name": "Joaquin",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Joaquin, a 50‑something non‑binary native of Korea who loves to sketch buildings in my spare time. When I’m not drawing, I’m in the world of Skyforge Arena, where I focus on ranked matches and stay in voice chat to coordinate with teammates. I’ve never been in a coaching role—my play is all about personal growth and strategy. Most of my practice sessions happen on weekends, usually Saturday mornings or Sunday mornings, when I can dive into the game without rush. I enjoy the steady rhythm of climbing the ranks, the camaraderie that voice chat brings, and the satisfaction of turning a well‑played match into a story to share over a sketch of a city skyline.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0037.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into ranked matches, no exceptions. I'd strongly prefer that you’re available either Saturday morning or Sunday morning, though it’s not a requirement if you can’t make those times.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0037.game_id",
+   "u0037.mode",
+   "u0037.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0037.comm_modes",
+   "u0037.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

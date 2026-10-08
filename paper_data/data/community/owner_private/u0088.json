@@ -1,0 +1,35 @@
+{
+ "person_id": "u0088",
+ "name": "Bastian",
+ "interaction_type": "gaming_partner",
+ "self_text": "I am a Spanish non-binary person in my mid 30s. When I am not spending my time fermenting hot sauce to get the perfect heat, I am usually on my console. I got into Skyforge Arena a while back and it has become a staple for me. A typical session involves playing casual matches, and I prefer to keep things simple with no coaching involved. I am available to play on Sunday morning or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0088.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern or Skyforge Arena, and you have to be available Sunday morning or Sunday afternoon. I'd strongly prefer that you are into casual matches, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0088.game_id",
+   "u0088.mode",
+   "u0088.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0088.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "person_id": "u0091",
+ "name": "Dale",
+ "interaction_type": "photography_partner",
+ "self_text": "I am a Nigerian non-binary person in my early 20s. I enjoy knitting to relax. I use a Sony camera. I am looking for a structured instruction session at a slow pace. I also want someone to teach me post-processing. I am free on Saturday afternoons, Sunday afternoons, or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0091.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with a slow pace or a moderate pace, and you have to be into a structured instruction session or a practice session working on specific shots. It's a deal-breaker unless you are the one who teaches me post-processing. It would be nice if you are available Saturday afternoon, Sunday afternoon, or weekday evenings, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0091.purpose",
+   "u0091.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0091.pace",
+   "u0091.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

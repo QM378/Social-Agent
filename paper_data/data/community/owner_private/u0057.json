@@ -1,0 +1,35 @@
+{
+ "person_id": "u0057",
+ "name": "Reza",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi! I'm Reza, a non-binary German in my 40s. When I'm not out with my Leica, I usually spend my time watching old westerns, which I find incredibly relaxing. I'm honestly just looking for a structured instruction session. As for editing, I don't need any post-processing lesson this time. I'm also cool with not taking portraits of each other during our time together. Most weeks, I can do Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0057.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a structured instruction session. It would be a small bonus if you are available Saturday afternoon, and it's also nice if you are okay with not taking portraits of each other, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0057.purpose",
+   "u0057.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0057.editing_role",
+   "u0057.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

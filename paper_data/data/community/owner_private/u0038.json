@@ -1,0 +1,36 @@
+{
+ "person_id": "u0038",
+ "name": "Tam",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Tam, a Brazilian in my early 30s. When I'm not gaming, I spend my time on urban gardening because I love bringing a bit of nature into the city. I play on a handheld and I'm currently into Hollow Lantern. I'm looking to jump into some ranked matches, but I'm specifically looking for someone to coach me. In terms of communication, I use text chat only. I'm usually available to play on Saturday mornings or Sunday afternoons. I'm really excited to get better at the game and see how far I can climb!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0038.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into ranked matches and you have to be the one who coaches me. I'd strongly prefer that we overlap on text chat, though it's not a requirement. It would be nice if you are available Saturday morning or Sunday afternoon, and a small bonus if you are into Skyforge Arena.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0038.game_id",
+   "u0038.mode",
+   "u0038.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0038.comm_modes",
+   "u0038.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

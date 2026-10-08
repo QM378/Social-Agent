@@ -1,0 +1,45 @@
+{
+ "person_id": "u0101",
+ "name": "Pat",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm a Brazilian woman in my 40s who loves playing chess online in my free time. I use a Nikon and I'm looking for a practice session on Sunday morning to work on specific shots at a slow pace. I'd like to take portraits of each other and have someone teach me post-processing, without any gear debates.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0101.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Sunday morning for our photography. I'd strongly prefer that you are okay with a slow pace or a moderate pace, though it's not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0101.r2",
+   "kind": "alternative",
+   "request_text": "I am looking for a photography partner for a relaxed photo walk, which is a change from my usual practice sessions working on specific shots. You have to be available Sunday morning. I'd strongly prefer that you are okay with a slow pace or a moderate pace, though it's not a requirement.",
+   "this_time": [
+    "This time: a relaxed photo walk. Usually: a practice session working on specific shots."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0101.purpose",
+   "u0101.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0101.pace",
+   "u0101.gear_talk",
+   "u0101.editing_role",
+   "u0101.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

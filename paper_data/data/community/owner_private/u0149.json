@@ -1,0 +1,37 @@
+{
+ "person_id": "u0149",
+ "name": "Tatum",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Tatum. I studied design and love knitting in my free time. Right now, I'm focusing on language practice. I get the most out of studying independently side by side and do best with complete silence while working, though I'm happy to explain things. I'm open to meeting in person or online. Most weeks, I'm available Sunday morning, Sunday afternoon, or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0149.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into statistics, and it's a deal-breaker unless you are the one who has things explained by me. You have to be into working through problems together. It would be nice if you are okay with talking things through as we go or complete silence while working, and ideally you are available Sunday afternoon, Sunday morning or weekday evenings, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0149.topic",
+   "u0149.format",
+   "u0149.venue",
+   "u0149.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0149.quiet",
+   "u0149.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "person_id": "u0011",
+ "name": "Nova",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I’m Nova, a Japanese guy in my early 30s who loves hitting the trails on a run and then chasing the perfect light with my Leica. I’m not here to argue about gear—just to focus on getting better at specific shots. I’m looking for a practice partner for one‑on‑one sessions where we can work through those tricky angles and compositions together. If you’re up for it, I’d love to have someone who can guide me through post‑processing so we can both sharpen our editing skills. I’m usually free on Saturday mornings or Sunday mornings, so we can plan our shoots around that. I enjoy the quiet of a quiet park or a quiet corner of a local studio, and I find that the calm vibe helps me stay focused and creative. Let’s meet up, share a coffee, and shoot some great photos together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0011.r1",
+   "kind": "primary",
+   "request_text": "I need you to be a practice session working on specific shots or a relaxed photo walk. I'd strongly prefer that you are available Saturday morning or Sunday morning, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0011.purpose",
+   "u0011.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0011.gear_talk",
+   "u0011.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

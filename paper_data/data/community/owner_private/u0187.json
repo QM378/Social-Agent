@@ -1,0 +1,37 @@
+{
+ "person_id": "u0187",
+ "name": "Dorian",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey there! I’m Dorian, a late‑30s gamer from Nigeria who lives in the world of console gaming. Lately, Tidewatch has become my go‑to, and I love diving into ranked matches that keep me on my toes. I’m all about the chat—whether it’s text or voice, I’m always ready to connect. In most games, I find myself slipping into a support role, helping my team win by keeping everyone in line. I’m happy to coach whenever I can, sharing tips and strategies to improve. My schedule is pretty flexible: I can jump in on Saturday afternoons, Sunday afternoons, or weekday evenings. Outside the game, I’m also a podcast enthusiast, which keeps my creative juices flowing.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0187.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern, to let me coach you, and to play in ranked matches. I'd strongly prefer that you play a damage role or be flexible about your role (I can fill any position), though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0187.game_id",
+   "u0187.mode",
+   "u0187.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0187.comm_modes",
+   "u0187.team_role",
+   "u0187.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

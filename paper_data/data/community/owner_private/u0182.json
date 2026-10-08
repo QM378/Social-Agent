@@ -1,0 +1,37 @@
+{
+ "person_id": "u0182",
+ "name": "Vida",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m a late‑30s Korean gamer who’s all about Tidewatch these days, diving into ranked matches whenever I can. I stick to text chat and love the flexibility of filling any role on the team. I’m not coaching anyone—just playing for fun. Most of my sessions happen Saturday mornings or weekday evenings, and on the off‑beat I’ll be knitting away, because the quiet rhythm of yarn is a perfect counterbalance to the game’s intensity.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0182.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available on Saturday morning or weekday evenings, and we must overlap on text chat. I'd strongly prefer that you are into Tidewatch, though it's not a requirement. A big plus if you enjoy ranked matches, but I won't rule you out over it. A small bonus if you play a damage role or you can play a support role.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0182.game_id",
+   "u0182.mode",
+   "u0182.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0182.comm_modes",
+   "u0182.team_role",
+   "u0182.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

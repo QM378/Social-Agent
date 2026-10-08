@@ -1,0 +1,16 @@
+{
+ "served_model": "social-gptoss-8k",
+ "base_url": "http://127.0.0.1:11434/v1",
+ "digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "quantization": "MXFP4",
+ "family": "gptoss",
+ "parameter_size": "20.9B",
+ "modelfile_parameters": "num_ctx                        8192\nseed                           0\ntemperature                    0",
+ "server": "ollama 0.34.2",
+ "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+ "modified_at": "2026-09-22T21:52:51.9507247-05:00",
+ "license_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n    ",
+ "model_key": "gptoss",
+ "prompt_version": "community_check_v3",
+ "temperature": 0.7
+}

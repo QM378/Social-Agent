@@ -1,0 +1,44 @@
+{
+ "person_id": "u0118",
+ "name": "Lev",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm Lev, a 40‑something Polish woman who loves running trails in her spare time. I play Hollow Lantern on PC, usually queueing for ranked matches and filling any role I need. I’m not a coach—just a flexible player. I’m free on Sunday mornings or weekday evenings for new gaming adventures.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0118.r1",
+   "kind": "primary",
+   "request_text": "I need you to play a damage role or be flexible about your role (I can fill any position), I need you to be available on Sunday morning or weekday evenings, and a small bonus if you are into ranked matches.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0118.r2",
+   "kind": "alternative",
+   "request_text": "I need you to play a damage role or a flexible role (I can fill any position). I need you to be available Sunday morning or weekday evenings. I'd strongly prefer that you are into casual matches, though it's not a requirement; this time we’re looking for casual matches, whereas normally we’d play ranked matches.",
+   "this_time": [
+    "This time: casual matches. Usually: ranked matches."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0118.game_id",
+   "u0118.mode",
+   "u0118.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0118.team_role",
+   "u0118.coaching_role"
+  ]
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

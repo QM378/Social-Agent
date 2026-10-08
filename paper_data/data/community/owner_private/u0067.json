@@ -1,0 +1,45 @@
+{
+ "person_id": "u0067",
+ "name": "Flynn",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m a mid‑30s Japanese woman who loves Hollow Lantern, mostly in casual queues. I play support, chatting by text or voice. I’m free on Saturday mornings, Sunday mornings or Sunday afternoons. Outside gaming I craft woodwork, a hobby that lets me unwind and build things from scratch.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0067.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into ranked matches. I'd strongly prefer that you play a damage role or you be flexible about your role (a damage role or a flexible role (I can fill any position)) though it's not a requirement. Nice if you're into Hollow Lantern. A big plus if you're available Saturday morning or Sunday afternoon or Sunday morning, though it's not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0067.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into ranked matches; only if we both play in ranked will we stay. I'd strongly prefer you either play a damage role or be flexible about your role (a damage role | a flexible role (I can fill any position)), though it's not a requirement. A nice bonus if you are into Hollow Lantern. I’d strongly prefer you are available Saturday morning, Sunday afternoon or Sunday morning (Saturday morning | Sunday afternoon | Sunday morning), but I won’t rule you out over it. This time, we focus on ranked matches; normally we play casual.",
+   "this_time": [
+    "This time: ranked matches. Usually: casual matches."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0067.game_id",
+   "u0067.mode",
+   "u0067.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0067.comm_modes",
+   "u0067.team_role",
+   "u0067.coaching_role"
+  ]
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

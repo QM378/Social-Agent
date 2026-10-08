@@ -1,0 +1,44 @@
+{
+ "person_id": "u0120",
+ "name": "Camila",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I’m Camila, a mid‑30s non‑binary American who loves chasing fresh angles with my Canon. I’m on the hunt for a quick, fast‑paced practice session where we can focus on some specific shots—no gear debates or post‑processing lessons this time. I’m all about keeping the energy up and making the most of our time together. Saturday afternoons are my sweet spot, so that’s when I’m free to dive into a session and get those compositions nailed. I’m a fan of running trails, so I appreciate a bit of movement and outdoor vibes. If you’re up for a lively, no‑frills shoot that keeps the momentum going, let’s connect and capture something great!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0120.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with plenty of gear talk or gear talk is fine but not the point. I need you to be available Saturday afternoon. Nice if you are okay with a moderate pace or a fast pace, though no big deal. I’d strongly prefer that you are into a practice session working on specific shots or a relaxed photo walk, but I won't rule you out over it.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0120.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with plenty of gear talk or gear talk is fine but not the point, and you must be available Saturday afternoon. I'd strongly prefer that you are into a structured instruction session, though it's not a requirement. A nice bonus would be if you are okay with a moderate pace or a fast pace, but no big deal.",
+   "this_time": [
+    "This time: a structured instruction session. Usually: a practice session working on specific shots."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0120.purpose",
+   "u0120.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0120.pace",
+   "u0120.gear_talk",
+   "u0120.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

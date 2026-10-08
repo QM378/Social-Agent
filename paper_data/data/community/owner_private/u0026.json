@@ -1,0 +1,36 @@
+{
+ "person_id": "u0026",
+ "name": "Tove",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Tove, an Indian man in my 40s. My academic background is in economics, though outside of my current focus, I really love reading history to get a better sense of how the world evolved. Lately, I have been studying programming. When it comes to the actual work, I find that I work best with working through problems together, although I do need complete silence while working to stay focused. In terms of scheduling, I am free Sunday morning, Sunday afternoon, or weekday evenings. I'm flexible with how we connect, as I can meet in person or online.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0026.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into working through problems together or a step-by-step walkthrough session. It would be nice if you are okay with occasional short exchanges or complete silence while working, and it's a small bonus if you are into programming.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0026.topic",
+   "u0026.format",
+   "u0026.venue",
+   "u0026.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0026.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

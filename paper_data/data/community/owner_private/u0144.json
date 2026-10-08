@@ -1,0 +1,37 @@
+{
+ "person_id": "u0144",
+ "name": "Gabriel",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Gabriel, a non-binary Italian in my mid 30s with a background in economics. I've been learning to sail lately because I love the open water. Right now, I'm looking for language practice and find that working through problems together is most effective, though I do best with complete silence while working. I'm happy to explain things and can meet in person or online on Saturday mornings, Sunday mornings, or Sunday afternoons.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0144.r1",
+   "kind": "primary",
+   "request_text": "I'm searching for a study partner. I need you to be okay with complete silence while working. It would be a nice bonus if you are into working through problems together, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0144.topic",
+   "u0144.format",
+   "u0144.venue",
+   "u0144.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0144.quiet",
+   "u0144.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

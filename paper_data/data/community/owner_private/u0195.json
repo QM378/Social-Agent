@@ -1,0 +1,36 @@
+{
+ "person_id": "u0195",
+ "name": "Clara",
+ "interaction_type": "study_partner",
+ "self_text": "Hey there! I’m Clara, a design‑savvy Turkish gal in my mid‑30s who loves growing chillies in my spare time. Lately I’ve been looking for a language practice buddy, and I learn best when we tackle problems side‑by‑side, with the room in total silence so we can focus. I’m happiest meeting up in person – there’s nothing like a good conversation over a cup of tea. I’m usually free on Sunday afternoons or in the evenings during the week, so let’s pick a time that works for both of us and dive into some fun, quiet problem‑solving together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0195.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with complete silence while working. I need you to be into working through problems together or a step‑by‑step walkthrough session. I'd strongly prefer that you are available any of Sunday afternoon or weekday evenings, though it's not a requirement. I'd strongly prefer that we overlap on in person, but I won't rule you out over it. I'd strongly prefer that you are into language practice or statistics, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0195.topic",
+   "u0195.format",
+   "u0195.venue",
+   "u0195.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0195.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

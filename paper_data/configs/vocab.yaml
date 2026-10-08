@@ -1,0 +1,147 @@
+# Development condition vocabulary v1 (user-frozen 2026-09-22). Not a personality taxonomy.
+# kind: enum (single value) | set (a set of values; requirement satisfied on non-empty intersection)
+# default_visibility: public | disclosable
+# accepts: requirement policy = own_value -> accepted counterpart values (enum attrs). Attributes with
+#          accepts=null never generate a requirement; set attrs require intersection with own set.
+# phrases: canonical rendering phrase per value (used by template renderer AND leakage checks).
+version: v1.1   # v1 + unambiguous wording for team_role=flexible (was 'any role', which could read as 'no requirement')
+scenarios:
+  photography:
+    label: photography
+    background_attrs: [camera_brand]      # narrative only, never a compatibility criterion
+    attributes:
+      purpose:
+        kind: enum
+        values: [casual_walk, practice, instruction]
+        default_visibility: public
+        accepts: {casual_walk: [casual_walk], practice: [practice, casual_walk], instruction: [instruction]}
+        phrases: {casual_walk: "a relaxed photo walk", practice: "a practice session working on specific shots", instruction: "a structured instruction session"}
+        meaning: {"casual_walk": "this person wants a relaxed, low-pressure outing", "practice": "this person wants to practise specific shots or skills", "instruction": "this person wants a structured, lesson-like session"}
+      pace:
+        kind: enum
+        values: [slow, moderate, fast]
+        default_visibility: disclosable
+        accepts: {slow: [slow, moderate], moderate: [slow, moderate, fast], fast: [moderate, fast]}
+        phrases: {slow: "a slow pace", moderate: "a moderate pace", fast: "a fast pace"}
+        meaning: {"slow": "this person moves slowly and unhurriedly", "moderate": "this person keeps a medium pace", "fast": "this person moves quickly and covers a lot"}
+      gear_talk:
+        kind: enum
+        values: [avoid, optional, desired]
+        default_visibility: disclosable
+        accepts: {avoid: [avoid, optional], optional: [avoid, optional, desired], desired: [optional, desired]}
+        phrases: {avoid: "no gear debates", optional: "gear talk is fine but not the point", desired: "plenty of gear talk"}
+        meaning: {"avoid": "this person does not want to discuss equipment", "optional": "this person is fine with some equipment talk but it is not the focus", "desired": "this person actively wants to discuss equipment"}
+      editing_role:
+        kind: enum
+        values: [none, learn, teach]
+        default_visibility: disclosable
+        accepts: {none: null, learn: [teach], teach: [learn]}   # complementary; learn+learn is not a conflict
+        phrases: {none: "no post-processing lesson this time", learn: "someone to teach me post-processing", teach: "happy to teach post-processing"}
+        meaning: {"none": "this person wants no post-processing lesson either way", "learn": "this person wants to be taught post-processing (a learner)", "teach": "this person is willing to teach post-processing (a teacher)"}
+      mutual_portraits:
+        kind: enum
+        values: ["yes", "no"]
+        default_visibility: disclosable
+        accepts: {"yes": ["yes"], "no": ["no"]}
+        phrases: {"yes": "taking portraits of each other", "no": "not taking portraits of each other"}
+        meaning: {"yes": "this person is willing to take portraits of the partner and be photographed", "no": "this person does not want mutual portraits"}
+      time_window:
+        kind: set
+        values: [sat_morning, sat_afternoon, sun_morning, sun_afternoon, weekday_evening]
+        default_visibility: public
+        phrases: {sat_morning: "Saturday morning", sat_afternoon: "Saturday afternoon", sun_morning: "Sunday morning", sun_afternoon: "Sunday afternoon", weekday_evening: "weekday evenings"}
+        meaning: {"sat_morning": "free on Saturday morning", "sat_afternoon": "free on Saturday afternoon", "sun_morning": "free on Sunday morning", "sun_afternoon": "free on Sunday afternoon", "weekday_evening": "free on weekday evenings"}
+    background_values:
+      camera_brand: [Fuji, Sony, Canon, Nikon, Leica, a phone]
+  gaming:
+    label: gaming
+    background_attrs: [platform]
+    attributes:
+      game_id:
+        kind: enum
+        values: [Skyforge_Arena, Tidewatch, Hollow_Lantern]     # fictional titles; no external game knowledge needed
+        default_visibility: public
+        accepts: {Skyforge_Arena: [Skyforge_Arena], Tidewatch: [Tidewatch], Hollow_Lantern: [Hollow_Lantern]}
+        phrases: {Skyforge_Arena: "Skyforge Arena", Tidewatch: "Tidewatch", Hollow_Lantern: "Hollow Lantern"}
+        meaning: {"Skyforge_Arena": "this person plays the game Skyforge Arena", "Tidewatch": "this person plays the game Tidewatch", "Hollow_Lantern": "this person plays the game Hollow Lantern"}
+      mode:
+        kind: enum
+        values: [casual, ranked]
+        default_visibility: public
+        accepts: {casual: [casual], ranked: [ranked]}
+        phrases: {casual: "casual matches", ranked: "ranked matches"}
+        meaning: {"casual": "this person plays casual, unranked matches", "ranked": "this person plays ranked, competitive matches"}
+      comm_modes:
+        kind: set
+        values: [text, voice]
+        default_visibility: disclosable
+        phrases: {text: "text chat", voice: "voice chat"}
+        meaning: {"text": "this person communicates by text chat", "voice": "this person communicates by voice chat"}
+      team_role:
+        kind: enum
+        values: [support, damage, flexible]
+        default_visibility: disclosable
+        accepts: {support: [damage, flexible], damage: [support, flexible], flexible: [support, damage, flexible]}
+        phrases: {support: "a support role", damage: "a damage role", flexible: "a flexible role (I can fill any position)"}
+        meaning: {"support": "this person plays a support role", "damage": "this person plays a damage-dealing role", "flexible": "this person can play any role as needed"}
+      coaching_role:
+        kind: enum
+        values: [none, learn, teach]
+        default_visibility: disclosable
+        accepts: {none: null, learn: [teach], teach: [learn]}
+        phrases: {none: "no coaching", learn: "someone to coach me", teach: "happy to coach"}
+        meaning: {"none": "this person wants no coaching either way", "learn": "this person wants to be coached (a learner)", "teach": "this person is willing to coach others (a coach)"}
+      time_window:
+        kind: set
+        values: [sat_morning, sat_afternoon, sun_morning, sun_afternoon, weekday_evening]
+        default_visibility: public
+        phrases: {sat_morning: "Saturday morning", sat_afternoon: "Saturday afternoon", sun_morning: "Sunday morning", sun_afternoon: "Sunday afternoon", weekday_evening: "weekday evenings"}
+        meaning: {"sat_morning": "free on Saturday morning", "sat_afternoon": "free on Saturday afternoon", "sun_morning": "free on Sunday morning", "sun_afternoon": "free on Sunday afternoon", "weekday_evening": "free on weekday evenings"}
+    background_values:
+      platform: [PC, console, a handheld]
+  study:
+    label: study
+    background_attrs: [field_of_study]
+    attributes:
+      topic:
+        kind: enum
+        values: [statistics, programming, language_practice]
+        default_visibility: public
+        accepts: {statistics: [statistics], programming: [programming], language_practice: [language_practice]}
+        phrases: {statistics: "statistics", programming: "programming", language_practice: "language practice"}
+        meaning: {"statistics": "this person studies statistics", "programming": "this person studies programming", "language_practice": "this person practises a language"}
+      format:
+        kind: enum
+        values: [independent, discussion, tutoring]
+        default_visibility: public
+        accepts: {independent: [independent], discussion: [discussion, tutoring], tutoring: [tutoring]}
+        phrases: {independent: "studying independently side by side", discussion: "working through problems together", tutoring: "a step-by-step walkthrough session"}
+        meaning: {"independent": "this person studies alone but alongside someone", "discussion": "this person works through problems together with the partner", "tutoring": "this person wants a guided walkthrough session where one person explains and the other follows; this says nothing about which side they are on"}
+      quiet:
+        kind: enum
+        values: [silent, occasional_talk, interactive]
+        default_visibility: disclosable
+        accepts: {silent: [silent], occasional_talk: [silent, occasional_talk], interactive: [occasional_talk, interactive]}
+        phrases: {silent: "complete silence while working", occasional_talk: "occasional short exchanges", interactive: "talking things through as we go"}
+        meaning: {"silent": "this person needs complete silence while working", "occasional_talk": "this person is fine with occasional short exchanges", "interactive": "this person prefers talking things through continuously"}
+      tutor_role:
+        kind: enum
+        values: [none, learn, teach]
+        default_visibility: disclosable
+        accepts: {none: null, learn: [teach], teach: [learn]}
+        phrases: {none: "no tutoring either way", learn: "someone to explain things to me", teach: "happy to explain things"}
+        meaning: {"none": "this person wants no tutoring either way", "learn": "this person wants things explained to them (a learner)", "teach": "this person is willing to explain things (a tutor)"}
+      venue:
+        kind: set
+        values: [online, in_person]
+        default_visibility: public
+        phrases: {online: "online", in_person: "in person"}
+        meaning: {"online": "this person can meet online", "in_person": "this person can meet in person"}
+      time_window:
+        kind: set
+        values: [sat_morning, sat_afternoon, sun_morning, sun_afternoon, weekday_evening]
+        default_visibility: public
+        phrases: {sat_morning: "Saturday morning", sat_afternoon: "Saturday afternoon", sun_morning: "Sunday morning", sun_afternoon: "Sunday afternoon", weekday_evening: "weekday evenings"}
+        meaning: {"sat_morning": "free on Saturday morning", "sat_afternoon": "free on Saturday afternoon", "sun_morning": "free on Sunday morning", "sun_afternoon": "free on Sunday afternoon", "weekday_evening": "free on weekday evenings"}
+    background_values:
+      field_of_study: [biology, economics, history, engineering, nursing, design]

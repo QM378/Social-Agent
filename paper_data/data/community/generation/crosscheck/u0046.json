@@ -1,0 +1,348 @@
+{
+ "person_id": "u0046",
+ "generator": "gemma",
+ "checker": "gptoss",
+ "checker_model": "social-gptoss-8k",
+ "prompt_version": "community_check_v3",
+ "issues": [
+  {
+   "where": "u0046.r2",
+   "type": "requirement_missing",
+   "attribute": "editing_role",
+   "required": false,
+   "severity": "ranking"
+  }
+ ],
+ "texts_hash": "4edbe3cf4375477d",
+ "checked": {
+  "self": true,
+  "u0046.r1": true,
+  "u0046.r2": true
+ },
+ "checker_errors": 0,
+ "n_issues": 1,
+ "impact_counts": {
+  "ranking": 1
+ },
+ "adjudication": {
+  "status": "pending",
+  "by": null,
+  "notes": ""
+ },
+ "verdict": "needs_adjudication",
+ "checker_provenance": {
+  "served_model": "social-gptoss-8k",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "quantization": "MXFP4",
+  "family": "gptoss",
+  "parameter_size": "20.9B",
+  "modelfile_parameters": "num_ctx                        8192\nseed                           0\ntemperature                    0",
+  "server": "ollama 0.34.2",
+  "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+  "modified_at": "2026-09-22T21:52:51.9507247-05:00",
+  "license_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n    ",
+  "model_key": "gptoss",
+  "prompt_version": "community_check_v3",
+  "temperature": 0.7
+ },
+ "checker_http_attempts": [
+  {
+   "item": "self",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 0.5522332000546157,
+     "prompt_tokens": 439,
+     "completion_tokens": 133,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract this person's own facts using only the vocabulary. \"unknown\" if not stated. Set attributes return a list. Return {\"facts\": {...}}.\n- purpose (single): casual_walk = this person wants a relaxed, low-pressure outing; practice = this person wants to practise specific shots or skills; instruction = this person wants a structured, lesson-like session\n- pace (single): slow = this person moves slowly and unhurriedly; moderate = this person keeps a medium pace; fast = this person moves quickly and covers a lot\n- gear_talk (single): avoid = this person does not want to discuss equipment; optional = this person is fine with some equipment talk but it is not the focus; desired = this person actively wants to discuss equipment\n- editing_role (single): none = this person wants no post-processing lesson either way; learn = this person wants to be taught post-processing (a learner); teach = this person is willing to teach post-processing (a teacher)\n- mutual_portraits (single): yes = this person is willing to take portraits of the partner and be photographed; no = this person does not want mutual portraits\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "Hi! I'm Lars, a non-binary Mexican in my mid 20s. When I'm not spending time on my woodworking projects, I love getting out with my Fuji camera. Honestly, I'm just looking for a relaxed photo walk. Fair warning, gear talk is fine but not the point is my thing. As for editing, I'm happy to teach post-processing. Most weeks I can do Sunday morning."
+      }
+     ],
+     "request_params": {
+      "model": "social-gptoss-8k",
+      "temperature": 0.7,
+      "max_tokens": 1500,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtractedFacts",
+        "schema": {
+         "properties": {
+          "facts": {
+           "additionalProperties": {
+            "anyOf": [
+             {
+              "type": "string"
+             },
+             {
+              "items": {
+               "type": "string"
+              },
+              "type": "array"
+             }
+            ]
+           },
+           "title": "Facts",
+           "type": "object"
+          }
+         },
+         "required": [
+          "facts"
+         ],
+         "title": "_ExtractedFacts",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "low"
+     },
+     "response_content": "{\"facts\":{\"purpose\":\"casual_walk\",\"pace\":\"unknown\",\"gear_talk\":\"optional\",\"editing_role\":\"teach\",\"mutual_portraits\":\"unknown\",\"time_window\":[\"sun_morning\"]}}"
+    }
+   ]
+  },
+  {
+   "item": "u0046.r1",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.5052260999800637,
+     "prompt_tokens": 545,
+     "completion_tokens": 387,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- purpose (single): casual_walk = this person wants a relaxed, low-pressure outing; practice = this person wants to practise specific shots or skills; instruction = this person wants a structured, lesson-like session\n- pace (single): slow = this person moves slowly and unhurriedly; moderate = this person keeps a medium pace; fast = this person moves quickly and covers a lot\n- gear_talk (single): avoid = this person does not want to discuss equipment; optional = this person is fine with some equipment talk but it is not the focus; desired = this person actively wants to discuss equipment\n- editing_role (single): none = this person wants no post-processing lesson either way; learn = this person wants to be taught post-processing (a learner); teach = this person is willing to teach post-processing (a teacher)\n- mutual_portraits (single): yes = this person is willing to take portraits of the partner and be photographed; no = this person does not want mutual portraits\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I'm searching for a photography partner and you have to be okay with gear talk being fine but not the point. It would be a small bonus if you are the one who learns post-processing from me, but no big deal."
+      }
+     ],
+     "request_params": {
+      "model": "social-gptoss-8k",
+      "temperature": 0.7,
+      "max_tokens": 1500,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "low"
+     },
+     "response_content": "{\"requirements\":[{\"attribute\":\"gear_talk\",\"accepted_values\":[\"optional\"],\"strength\":\"required\"},{\"attribute\":\"editing_role\",\"accepted_values\":[\"learn\"],\"strength\":\"preference\"}],\"changes_this_time\":[]}"
+    }
+   ]
+  },
+  {
+   "item": "u0046.r2",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.3041029999731109,
+     "prompt_tokens": 557,
+     "completion_tokens": 335,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- purpose (single): casual_walk = this person wants a relaxed, low-pressure outing; practice = this person wants to practise specific shots or skills; instruction = this person wants a structured, lesson-like session\n- pace (single): slow = this person moves slowly and unhurriedly; moderate = this person keeps a medium pace; fast = this person moves quickly and covers a lot\n- gear_talk (single): avoid = this person does not want to discuss equipment; optional = this person is fine with some equipment talk but it is not the focus; desired = this person actively wants to discuss equipment\n- editing_role (single): none = this person wants no post-processing lesson either way; learn = this person wants to be taught post-processing (a learner); teach = this person is willing to teach post-processing (a teacher)\n- mutual_portraits (single): yes = this person is willing to take portraits of the partner and be photographed; no = this person does not want mutual portraits\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I'm looking for a photography partner. I need you to be okay with gear talk being fine but not the point. It would be a small bonus if you are the one who learns post-processing from me. Unlike my usual relaxed photo walks, this time I want a structured instruction session."
+      }
+     ],
+     "request_params": {
+      "model": "social-gptoss-8k",
+      "temperature": 0.7,
+      "max_tokens": 1500,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "low"
+     },
+     "response_content": "{\"requirements\":[{\"attribute\":\"gear_talk\",\"accepted_values\":[\"optional\"],\"strength\":\"required\"}],\"changes_this_time\":[{\"attribute\":\"purpose\",\"value\":\"instruction\"}]}"
+    }
+   ]
+  }
+ ]
+}

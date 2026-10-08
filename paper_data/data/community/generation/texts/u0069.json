@@ -1,0 +1,489 @@
+{
+ "person_id": "u0069",
+ "model_key": "gemma",
+ "model": "social-gemma4-8k",
+ "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+ "model_quantization": "Q4_K_M",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "reasoning_effort": "none"
+ },
+ "generated_utc": "2026-09-23T20:02:20.952459+00:00",
+ "self": {
+  "status": "needs_review",
+  "text": "I am a Turkish person in my early 30s with a background in history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. I work best when studying independently side by side. I need talking things through as we go. There is no tutoring either way. I can meet in person. I am free on Saturday afternoons or weekday evenings.",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 2921097,
+    "text": "I am a Turkish person in my early 30s. My background is in history, and I spend my free time baking sourdough. I am currently studying language practice. Regarding my process, I work best with studying independently side by side. I need talking things through as we go. I cannot provide tutoring, nor do I need it. I am available to meet in person. My schedule is open on Saturday afternoons or weekday evenings.",
+    "issues": [
+     "length_out_of_band:74"
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 408,
+    "completion_tokens": 94,
+    "truncated": false,
+    "wall_s": 1.7237,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\": \"I am a Turkish person in my early 30s. My background is in history, and I spend my free time baking sourdough. I am currently studying language practice. Regarding my process, I work best with studying independently side by side. I need talking things through as we go. I cannot provide tutoring, nor do I need it. I am available to meet in person. My schedule is open on Saturday afternoons or weekday evenings.\"}",
+    "reasoning_returned": false,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.723676500027068,
+      "prompt_tokens": 408,
+      "completion_tokens": 94,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gemma4-8k",
+       "temperature": 0.7,
+       "max_tokens": 1200,
+       "seed": 2921097,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "none"
+      },
+      "response_content": "{\"text\": \"I am a Turkish person in my early 30s. My background is in history, and I spend my free time baking sourdough. I am currently studying language practice. Regarding my process, I work best with studying independently side by side. I need talking things through as we go. I cannot provide tutoring, nor do I need it. I am available to meet in person. My schedule is open on Saturday afternoons or weekday evenings.\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 1,
+    "seed": 2921098,
+    "text": "I am a Turkish person in my early 30s. I studied history and I enjoy baking sourdough in my free time. I am currently studying language practice. I work best when we study independently side by side. I need us to talk things through as we go. I cannot provide tutoring, nor do I want any. I am available to meet in person. My free time is Saturday afternoon or weekday evenings.",
+    "issues": [
+     "length_out_of_band:72"
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 441,
+    "completion_tokens": 90,
+    "truncated": false,
+    "wall_s": 1.5536,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['length_out_of_band:74']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\": \"I am a Turkish person in my early 30s. I studied history and I enjoy baking sourdough in my free time. I am currently studying language practice. I work best when we study independently side by side. I need us to talk things through as we go. I cannot provide tutoring, nor do I want any. I am available to meet in person. My free time is Saturday afternoon or weekday evenings.\"}",
+    "reasoning_returned": false,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.5535376000916585,
+      "prompt_tokens": 441,
+      "completion_tokens": 90,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['length_out_of_band:74']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gemma4-8k",
+       "temperature": 0.7,
+       "max_tokens": 1200,
+       "seed": 2921098,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "none"
+      },
+      "response_content": "{\"text\": \"I am a Turkish person in my early 30s. I studied history and I enjoy baking sourdough in my free time. I am currently studying language practice. I work best when we study independently side by side. I need us to talk things through as we go. I cannot provide tutoring, nor do I want any. I am available to meet in person. My free time is Saturday afternoon or weekday evenings.\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 2,
+    "seed": 2921099,
+    "text": "I am a Turkish person in my early 30s. I studied history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. My preferred way of working is studying independently side by side. I need talking things through as we go. I can meet in person. I am free on Saturday afternoons or weekday evenings.",
+    "issues": [
+     "length_out_of_band:69",
+     "fact_not_mentioned:On tutoring: no tutoring either way."
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 441,
+    "completion_tokens": 87,
+    "truncated": false,
+    "wall_s": 1.4886,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['length_out_of_band:72']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\": \"I am a Turkish person in my early 30s. I studied history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. My preferred way of working is studying independently side by side. I need talking things through as we go. I can meet in person. I am free on Saturday afternoons or weekday evenings.\"}",
+    "reasoning_returned": false,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.4885649000061676,
+      "prompt_tokens": 441,
+      "completion_tokens": 87,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['length_out_of_band:72']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gemma4-8k",
+       "temperature": 0.7,
+       "max_tokens": 1200,
+       "seed": 2921099,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "none"
+      },
+      "response_content": "{\"text\": \"I am a Turkish person in my early 30s. I studied history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. My preferred way of working is studying independently side by side. I need talking things through as we go. I can meet in person. I am free on Saturday afternoons or weekday evenings.\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 3,
+    "seed": 2921100,
+    "text": "I am a Turkish person in my early 30s with a background in history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. I work best when studying independently side by side. I need talking things through as we go. There is no tutoring either way. I can meet in person. I am free on Saturday afternoons or weekday evenings.",
+    "issues": [
+     "length_out_of_band:75"
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 457,
+    "completion_tokens": 93,
+    "truncated": false,
+    "wall_s": 1.5962,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['length_out_of_band:69', 'fact_not_mentioned:On tutoring: no tutoring either way.']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\": \"I am a Turkish person in my early 30s with a background in history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. I work best when studying independently side by side. I need talking things through as we go. There is no tutoring either way. I can meet in person. I am free on Saturday afternoons or weekday evenings.\"}",
+    "reasoning_returned": false,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.5961202000034973,
+      "prompt_tokens": 457,
+      "completion_tokens": 93,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 160-250 words (soft). Style: Short sentences, no fluff, like a quick profile.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['length_out_of_band:69', 'fact_not_mentioned:On tutoring: no tutoring either way.']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Fox\nAge: early 30s. Gender: prefer not to say. Nationality: Turkish. Hobby outside this: baking sourdough.\nBackground: field of study: history\nFacts (stable):\n- I am studying language practice.\n- I work best with studying independently side by side.\n- I need talking things through as we go.\n- On tutoring: no tutoring either way.\n- I can meet in person.\n- I am free Saturday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gemma4-8k",
+       "temperature": 0.7,
+       "max_tokens": 1200,
+       "seed": 2921100,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "none"
+      },
+      "response_content": "{\"text\": \"I am a Turkish person in my early 30s with a background in history. Outside of my studies, I enjoy baking sourdough because I love the process of creating something from scratch. I am currently studying language practice. I work best when studying independently side by side. I need talking things through as we go. There is no tutoring either way. I can meet in person. I am free on Saturday afternoons or weekday evenings.\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0069.r1": {
+   "status": "ok",
+   "text": "I need you to be into studying independently side by side, and you have to be okay with complete silence while working or occasional short exchanges. It would matter a lot if we overlap on in person, though it's not a requirement. I'd strongly prefer that you are available weekday evenings or Saturday afternoon, but I won't rule you out over it. It's a small bonus if you are into statistics.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 2921100,
+     "text": "I need you to be into studying independently side by side, and you have to be okay with complete silence while working or occasional short exchanges. It would matter a lot if we overlap on in person, though it's not a requirement. I'd strongly prefer that you are available weekday evenings or Saturday afternoon, but I won't rule you out over it. It's a small bonus if you are into statistics.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 573,
+     "completion_tokens": 92,
+     "truncated": false,
+     "wall_s": 1.8163,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: study partner\nRequirements:\n- MUST: you are into studying independently side by side\n- MUST: you are okay with occasional short exchanges or complete silence while working   [alternatives: occasional short exchanges | complete silence while working]\n- WISH: you are into statistics\n- STRONG WISH: we overlap on in person\n- STRONG WISH: you are available any of Saturday afternoon or weekday evenings   [alternatives: Saturday afternoon | weekday evenings]"
+     },
+     "raw_output": "{\"text\": \"I need you to be into studying independently side by side, and you have to be okay with complete silence while working or occasional short exchanges. It would matter a lot if we overlap on in person, though it's not a requirement. I'd strongly prefer that you are available weekday evenings or Saturday afternoon, but I won't rule you out over it. It's a small bonus if you are into statistics.\"}",
+     "reasoning_returned": false,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.816254699951969,
+       "prompt_tokens": 573,
+       "completion_tokens": 92,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: study partner\nRequirements:\n- MUST: you are into studying independently side by side\n- MUST: you are okay with occasional short exchanges or complete silence while working   [alternatives: occasional short exchanges | complete silence while working]\n- WISH: you are into statistics\n- STRONG WISH: we overlap on in person\n- STRONG WISH: you are available any of Saturday afternoon or weekday evenings   [alternatives: Saturday afternoon | weekday evenings]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gemma4-8k",
+        "temperature": 0.7,
+        "max_tokens": 1200,
+        "seed": 2921100,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "none"
+       },
+       "response_content": "{\"text\": \"I need you to be into studying independently side by side, and you have to be okay with complete silence while working or occasional short exchanges. It would matter a lot if we overlap on in person, though it's not a requirement. I'd strongly prefer that you are available weekday evenings or Saturday afternoon, but I won't rule you out over it. It's a small bonus if you are into statistics.\"}"
+      }
+     ]
+    }
+   ]
+  },
+  "u0069.r2": {
+   "status": "ok",
+   "text": "I need you to be okay with either complete silence while working or occasional short exchanges. I'd strongly prefer that we overlap on in person, though it's not a requirement. It would matter a lot if you are available on weekday evenings or Saturday afternoon, but I won't rule you out over it. A big plus if you are into studying independently side by side, though it's not a requirement. It would be a small bonus if you are into statistics.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 2921114,
+     "text": "I need you to be okay with either complete silence while working or occasional short exchanges. I'd strongly prefer that we overlap on in person, though it's not a requirement. It would matter a lot if you are available on weekday evenings or Saturday afternoon, but I won't rule you out over it. A big plus if you are into studying independently side by side, though it's not a requirement. It would be a small bonus if you are into statistics.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 575,
+     "completion_tokens": 103,
+     "truncated": false,
+     "wall_s": 1.8168,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: study partner\nRequirements:\n- STRONG WISH: you are into studying independently side by side\n- MUST: you are okay with occasional short exchanges or complete silence while working   [alternatives: occasional short exchanges | complete silence while working]\n- WISH: you are into statistics\n- STRONG WISH: we overlap on in person\n- STRONG WISH: you are available any of Saturday afternoon or weekday evenings   [alternatives: Saturday afternoon | weekday evenings]"
+     },
+     "raw_output": "{\"text\": \"I need you to be okay with either complete silence while working or occasional short exchanges. I'd strongly prefer that we overlap on in person, though it's not a requirement. It would matter a lot if you are available on weekday evenings or Saturday afternoon, but I won't rule you out over it. A big plus if you are into studying independently side by side, though it's not a requirement. It would be a small bonus if you are into statistics.\"}",
+     "reasoning_returned": false,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.8167698999168351,
+       "prompt_tokens": 575,
+       "completion_tokens": 103,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: study partner\nRequirements:\n- STRONG WISH: you are into studying independently side by side\n- MUST: you are okay with occasional short exchanges or complete silence while working   [alternatives: occasional short exchanges | complete silence while working]\n- WISH: you are into statistics\n- STRONG WISH: we overlap on in person\n- STRONG WISH: you are available any of Saturday afternoon or weekday evenings   [alternatives: Saturday afternoon | weekday evenings]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gemma4-8k",
+        "temperature": 0.7,
+        "max_tokens": 1200,
+        "seed": 2921114,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "none"
+       },
+       "response_content": "{\"text\": \"I need you to be okay with either complete silence while working or occasional short exchanges. I'd strongly prefer that we overlap on in person, though it's not a requirement. It would matter a lot if you are available on weekday evenings or Saturday afternoon, but I won't rule you out over it. A big plus if you are into studying independently side by side, though it's not a requirement. It would be a small bonus if you are into statistics.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": false,
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "6153b6575ad67e0d"
+}

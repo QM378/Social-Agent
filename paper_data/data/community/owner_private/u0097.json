@@ -1,0 +1,35 @@
+{
+ "person_id": "u0097",
+ "name": "Vanya",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi, I'm Vanya! I'm a Spanish guy in my late 20s. When I'm not gaming on my PC, I love fermenting my own hot sauce because I really enjoy the chemistry and the kick of a good brew. These days it's all Hollow Lantern for me, and I'm mostly into ranked matches. Regarding coaching, there is no coaching. As for my schedule, most weeks I can do Sunday afternoon or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0097.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either on Sunday afternoon or weekday evenings. I'd strongly prefer that you are into ranked matches, though it's not a requirement. It would be a small bonus if you are into Hollow Lantern or Tidewatch.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0097.game_id",
+   "u0097.mode",
+   "u0097.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0097.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

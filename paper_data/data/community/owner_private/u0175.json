@@ -1,0 +1,37 @@
+{
+ "person_id": "u0175",
+ "name": "Emery",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Emery, early 20s, Indian, and I love working the city soil in my urban garden. On my PC I dive into Skyforge Arena for casual matches, always in the support slot. I chat only via text and would love someone to coach me. I’m free Saturday afternoons, and both Sunday mornings and afternoons.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0175.r1",
+   "kind": "primary",
+   "request_text": "I need you to play a damage role or a flexible role (I can fill any position), you must be into ranked matches, I strongly prefer you to be available Saturday afternoon or Sunday afternoon or Sunday morning (though it's not a requirement), and it would be nice if you are the one who coaches me.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0175.game_id",
+   "u0175.mode",
+   "u0175.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0175.comm_modes",
+   "u0175.team_role",
+   "u0175.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

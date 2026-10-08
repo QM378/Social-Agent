@@ -1,0 +1,44 @@
+{
+ "person_id": "u0191",
+ "name": "Sven",
+ "interaction_type": "study_partner",
+ "self_text": "I'm a Canadian in my late 30s with a background in biology. I love amateur astronomy for the peace of the night sky. Right now, I am focusing on programming. I get the most out of studying independently side by side, and I would like someone to explain things to me. I am happy in person or online. Most weeks I can do Saturday afternoon, Sunday afternoon, or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0191.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into studying independently side by side. It would be a small bonus if you are the one who explains the material to me, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0191.r2",
+   "kind": "alternative",
+   "request_text": "I'm looking for a study partner, and you have to be into a step-by-step walkthrough session, which is a change from my usual preference for studying independently side by side. It would be a small bonus if you are the one who explains the material to me, but no big deal.",
+   "this_time": [
+    "This time: a step-by-step walkthrough session. Usually: studying independently side by side."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0191.topic",
+   "u0191.format",
+   "u0191.venue",
+   "u0191.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0191.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

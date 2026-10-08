@@ -1,0 +1,42 @@
+{
+ "person_id": "u0192",
+ "name": "Vin",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Vin, a German guy in my mid 20s. In my free time, I love sketching buildings. I mainly play Skyforge Arena on a handheld, usually queuing for casual matches. I communicate over text chat while playing. I'm looking for someone to coach me. I am free Saturday morning or Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0192.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either Saturday morning or Saturday afternoon, and it's a deal-breaker unless we overlap on text chat. It would be nice if you are the one who coaches me, and it's a small bonus if you are into casual matches.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0192.r2",
+   "kind": "alternative",
+   "request_text": "I need us to overlap on text chat. I'd strongly prefer that you are available Saturday morning or Saturday afternoon, though it's not a requirement. It would be nice if you are the one who coaches me, and a small bonus if you are into casual matches.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0192.game_id",
+   "u0192.mode",
+   "u0192.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0192.comm_modes",
+   "u0192.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

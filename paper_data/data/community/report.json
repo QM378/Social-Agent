@@ -1,0 +1,102 @@
+{
+ "n_people": 200,
+ "n_requests": 240,
+ "n_switches": 40,
+ "scenario_counts": {
+  "photography": 67,
+  "gaming": 67,
+  "study": 66
+ },
+ "strict_requests": 20,
+ "required_count_dist": {
+  "1": 111,
+  "2": 73,
+  "3": 51,
+  "4": 5
+ },
+ "requirement_sources": {
+  "derived": 685,
+  "independent": 209
+ },
+ "switch_factors": {
+  "relax": 11,
+  "activity": 23,
+  "willingness": 6
+ },
+ "duplicate_requirement_vectors": 9,
+ "same_activity_cells": 13134,
+ "score_band_counts": {
+  "4-6": 2287,
+  "0-3": 8863,
+  "7-9": 1984
+ },
+ "high_partner_count_per_person": {
+  "0": 2,
+  "1": 16,
+  "2": 13,
+  "3": 10,
+  "4": 17,
+  "5": 16,
+  "6": 14,
+  "7": 15,
+  "8": 12,
+  "9": 10,
+  "10": 4,
+  "11": 5,
+  "12": 5,
+  "13": 4,
+  "14": 9,
+  "15": 9,
+  "16": 2,
+  "17": 6,
+  "18": 3,
+  "19": 4,
+  "20": 3,
+  "21": 1,
+  "22": 1,
+  "23": 3,
+  "24": 2,
+  "25": 3,
+  "26": 2,
+  "28": 1,
+  "29": 2,
+  "30": 1,
+  "33": 1,
+  "36": 1,
+  "39": 1,
+  "41": 1,
+  "45": 1
+ },
+ "people_with_no_acceptable_partner": 0,
+ "same_activity_pairs": 6567,
+ "mutual_acceptable_pairs": 768,
+ "one_way_acceptable_pairs": 2735,
+ "switches_changing_high_sets": 37,
+ "status_public_counts": {
+  "insufficient_info": 3942,
+  "reject": 6534,
+  "recommend": 2658
+ },
+ "status_disclosable_counts": {
+  "insufficient_info": 1151,
+  "reject": 8242,
+  "recommend": 3741
+ },
+ "missing_required_facts_per_cell_public": {
+  "0": 6162,
+  "1": 5260,
+  "2": 1514,
+  "3": 198
+ },
+ "length_band_counts": {
+  "long": 60,
+  "medium": 72,
+  "short": 68
+ },
+ "text_style_counts": {
+  "conversational": 80,
+  "narrative": 59,
+  "concise": 61
+ },
+ "names_unique": true
+}

@@ -1,0 +1,260 @@
+{
+ "person_id": "u0170",
+ "model_key": "gptoss",
+ "model": "social-gptoss-8k",
+ "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+ "model_quantization": "MXFP4",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1500,
+  "reasoning_effort": "low"
+ },
+ "generated_utc": "2026-09-23T20:04:28.368321+00:00",
+ "self": {
+  "status": "ok",
+  "text": "Hey there! I’m Ines, a mid‑30s Kenyan who loves to learn to sail—there’s nothing like watching the wind guide you. I mainly play Tidewatch on PC, usually jumping into casual matches to keep things light and fun. I’m a support player, so I love keeping the team together and helping teammates win. I chat either through text or voice, depending on the vibe. I’m not into coaching or giving lessons, but I’m happy to share tips if it helps. I’ve got free afternoons on Saturdays and Sundays, so let’s connect and sail—oops, I mean, play—some great games together!",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 3707884,
+    "text": "Hey! I’m Ines, a mid‑30s Kenyan who’s all about the vibe of tide‑watching on my PC. I mainly play Tidewatch and usually queue for casual matches, so I’m all about a relaxed, fun time. I like staying in touch through text or voice chat – whatever works best for the moment. I love playing the support role, helping teammates get the edge they need. I don’t coach or give lessons, I just enjoy the game for its own sake. I’m free on Saturday afternoons or Sunday afternoons, so if that works for you, let’s hop in and have a good time together. Oh, and I’m learning to sail, which is a neat escape from the screen!",
+    "issues": [
+     "fact_not_mentioned:About coaching: no coaching."
+    ],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 435,
+    "completion_tokens": 174,
+    "truncated": false,
+    "wall_s": 0.7335,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Ines\nAge: mid 30s. Gender: prefer not to say. Nationality: Kenyan. Hobby outside this: learning to sail.\nBackground: platform: PC\nFacts (stable):\n- I mainly play Tidewatch.\n- I usually queue for casual matches.\n- I communicate over text chat or voice chat.\n- I play a support role.\n- About coaching: no coaching.\n- I am free Saturday afternoon or Sunday afternoon."
+    },
+    "raw_output": "{\"text\":\"Hey! I’m Ines, a mid‑30s Kenyan who’s all about the vibe of tide‑watching on my PC. I mainly play Tidewatch and usually queue for casual matches, so I’m all about a relaxed, fun time. I like staying in touch through text or voice chat – whatever works best for the moment. I love playing the support role, helping teammates get the edge they need. I don’t coach or give lessons, I just enjoy the game for its own sake. I’m free on Saturday afternoons or Sunday afternoons, so if that works for you, let’s hop in and have a good time together. Oh, and I’m learning to sail, which is a neat escape from the screen!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.7335005999775603,
+      "prompt_tokens": 435,
+      "completion_tokens": 174,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Ines\nAge: mid 30s. Gender: prefer not to say. Nationality: Kenyan. Hobby outside this: learning to sail.\nBackground: platform: PC\nFacts (stable):\n- I mainly play Tidewatch.\n- I usually queue for casual matches.\n- I communicate over text chat or voice chat.\n- I play a support role.\n- About coaching: no coaching.\n- I am free Saturday afternoon or Sunday afternoon."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 3707884,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey! I’m Ines, a mid‑30s Kenyan who’s all about the vibe of tide‑watching on my PC. I mainly play Tidewatch and usually queue for casual matches, so I’m all about a relaxed, fun time. I like staying in touch through text or voice chat – whatever works best for the moment. I love playing the support role, helping teammates get the edge they need. I don’t coach or give lessons, I just enjoy the game for its own sake. I’m free on Saturday afternoons or Sunday afternoons, so if that works for you, let’s hop in and have a good time together. Oh, and I’m learning to sail, which is a neat escape from the screen!\"}"
+     }
+    ]
+   },
+   {
+    "attempt": 1,
+    "seed": 3707885,
+    "text": "Hey there! I’m Ines, a mid‑30s Kenyan who loves to learn to sail—there’s nothing like watching the wind guide you. I mainly play Tidewatch on PC, usually jumping into casual matches to keep things light and fun. I’m a support player, so I love keeping the team together and helping teammates win. I chat either through text or voice, depending on the vibe. I’m not into coaching or giving lessons, but I’m happy to share tips if it helps. I’ve got free afternoons on Saturdays and Sundays, so let’s connect and sail—oops, I mean, play—some great games together!",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 469,
+    "completion_tokens": 229,
+    "truncated": false,
+    "wall_s": 0.9473,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:About coaching: no coaching.']. Keep everything else, fix only these, and return only JSON.",
+     "user": "Name: Ines\nAge: mid 30s. Gender: prefer not to say. Nationality: Kenyan. Hobby outside this: learning to sail.\nBackground: platform: PC\nFacts (stable):\n- I mainly play Tidewatch.\n- I usually queue for casual matches.\n- I communicate over text chat or voice chat.\n- I play a support role.\n- About coaching: no coaching.\n- I am free Saturday afternoon or Sunday afternoon."
+    },
+    "raw_output": "{\"text\":\"Hey there! I’m Ines, a mid‑30s Kenyan who loves to learn to sail—there’s nothing like watching the wind guide you. I mainly play Tidewatch on PC, usually jumping into casual matches to keep things light and fun. I’m a support player, so I love keeping the team together and helping teammates win. I chat either through text or voice, depending on the vibe. I’m not into coaching or giving lessons, but I’m happy to share tips if it helps. I’ve got free afternoons on Saturdays and Sundays, so let’s connect and sail—oops, I mean, play—some great games together!\"}",
+    "reasoning_returned": true,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 0.9472711000125855,
+      "prompt_tokens": 469,
+      "completion_tokens": 229,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 80-160 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}\n\nYour previous draft had these problems: ['fact_not_mentioned:About coaching: no coaching.']. Keep everything else, fix only these, and return only JSON."
+       },
+       {
+        "role": "user",
+        "content": "Name: Ines\nAge: mid 30s. Gender: prefer not to say. Nationality: Kenyan. Hobby outside this: learning to sail.\nBackground: platform: PC\nFacts (stable):\n- I mainly play Tidewatch.\n- I usually queue for casual matches.\n- I communicate over text chat or voice chat.\n- I play a support role.\n- About coaching: no coaching.\n- I am free Saturday afternoon or Sunday afternoon."
+       }
+      ],
+      "request_params": {
+       "model": "social-gptoss-8k",
+       "temperature": 0.7,
+       "max_tokens": 1500,
+       "seed": 3707885,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "low"
+      },
+      "response_content": "{\"text\":\"Hey there! I’m Ines, a mid‑30s Kenyan who loves to learn to sail—there’s nothing like watching the wind guide you. I mainly play Tidewatch on PC, usually jumping into casual matches to keep things light and fun. I’m a support player, so I love keeping the team together and helping teammates win. I chat either through text or voice, depending on the vibe. I’m not into coaching or giving lessons, but I’m happy to share tips if it helps. I’ve got free afternoons on Saturdays and Sundays, so let’s connect and sail—oops, I mean, play—some great games together!\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0170.r1": {
+   "status": "ok",
+   "text": "I need you are into Tidewatch. I need you play a damage role or you to be flexible about your role (a damage role | a flexible role (I can fill any position)). I need you are available any of Saturday afternoon or Sunday afternoon (Saturday afternoon | Sunday afternoon). I'd strongly prefer that you are into casual matches, though it's not a requirement.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 3707887,
+     "text": "I need you are into Tidewatch. I need you play a damage role or you to be flexible about your role (a damage role | a flexible role (I can fill any position)). I need you are available any of Saturday afternoon or Sunday afternoon (Saturday afternoon | Sunday afternoon). I'd strongly prefer that you are into casual matches, though it's not a requirement.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 603,
+     "completion_tokens": 263,
+     "truncated": false,
+     "wall_s": 1.085,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: gaming partner\nRequirements:\n- MUST: you are into Tidewatch\n- MUST: you play a damage role or you to be flexible about your role   [alternatives: a damage role | a flexible role (I can fill any position)]\n- MUST: you are available any of Saturday afternoon or Sunday afternoon   [alternatives: Saturday afternoon | Sunday afternoon]\n- STRONG WISH: you are into casual matches"
+     },
+     "raw_output": "{\"text\":\"I need you are into Tidewatch. I need you play a damage role or you to be flexible about your role (a damage role | a flexible role (I can fill any position)). I need you are available any of Saturday afternoon or Sunday afternoon (Saturday afternoon | Sunday afternoon). I'd strongly prefer that you are into casual matches, though it's not a requirement.\"}",
+     "reasoning_returned": true,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 1.084991900017485,
+       "prompt_tokens": 603,
+       "completion_tokens": 263,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: gaming partner\nRequirements:\n- MUST: you are into Tidewatch\n- MUST: you play a damage role or you to be flexible about your role   [alternatives: a damage role | a flexible role (I can fill any position)]\n- MUST: you are available any of Saturday afternoon or Sunday afternoon   [alternatives: Saturday afternoon | Sunday afternoon]\n- STRONG WISH: you are into casual matches"
+        }
+       ],
+       "request_params": {
+        "model": "social-gptoss-8k",
+        "temperature": 0.7,
+        "max_tokens": 1500,
+        "seed": 3707887,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "low"
+       },
+       "response_content": "{\"text\":\"I need you are into Tidewatch. I need you play a damage role or you to be flexible about your role (a damage role | a flexible role (I can fill any position)). I need you are available any of Saturday afternoon or Sunday afternoon (Saturday afternoon | Sunday afternoon). I'd strongly prefer that you are into casual matches, though it's not a requirement.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "fda898c8de9c7a66"
+}

@@ -1,0 +1,35 @@
+{
+ "person_id": "u0036",
+ "name": "Zoltan",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey! I’m Zoltan, mid‑30s, from Kenya, and I love the rhythm of swing dancing—nothing beats moving to music after a long day. I’m a Canon enthusiast, always eager to capture the perfect shot, but I’m not into gear debates. I’m looking for a focused practice session on specific shots, and I’d love someone to walk me through post‑processing techniques. I’m free Sunday afternoon, so let’s pick a spot that’s quiet and inspiring. I’m all about learning together and sharing good vibes. Looking forward to shooting and chatting about the craft over a cup of coffee afterwards!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0036.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a relaxed photo walk or a practice session working on specific shots, I need you to be available Sunday afternoon. I'd strongly prefer you to be the one who teaches me post‑processing, though it's not a requirement. Nice if you are okay with no gear debates or gear talk is fine but not the point.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0036.purpose",
+   "u0036.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0036.gear_talk",
+   "u0036.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

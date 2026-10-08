@@ -1,0 +1,36 @@
+{
+ "person_id": "u0064",
+ "name": "Val",
+ "interaction_type": "gaming_partner",
+ "self_text": "I'm an Australian man in my 50s who loves the focus of knitting. On PC, I mainly play Hollow Lantern and usually queue for ranked matches. I play a flexible role, so I can fill any position. I am free Sunday afternoon for games. No coaching.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0064.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern and you have to be available Sunday afternoon. I'd strongly prefer that you play a damage role or be flexible about your role, though it's not a requirement. Additionally, it would be nice if you are into ranked matches, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0064.game_id",
+   "u0064.mode",
+   "u0064.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0064.team_role",
+   "u0064.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

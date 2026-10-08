@@ -1,0 +1,37 @@
+{
+ "person_id": "u0159",
+ "name": "Juno",
+ "interaction_type": "study_partner",
+ "self_text": "I am an Egyptian woman in my mid 30s with a background in economics. Outside of my studies, I love climbing because it keeps me active and focused. Right now, I am focusing on programming. A typical session for me is a step-by-step walkthrough where I can talk things through as we go, as I do best when someone explains things to me. I am happy to do this online, and most weeks I am available on Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0159.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with occasional short exchanges or talking things through as we go. I'd strongly prefer that you are into a step-by-step walkthrough session, though it's not a requirement. It would matter a lot if you are available Saturday afternoon, but I won't rule you out over it. It would be nice if you are the one who explains the material to me.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0159.topic",
+   "u0159.format",
+   "u0159.venue",
+   "u0159.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0159.quiet",
+   "u0159.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

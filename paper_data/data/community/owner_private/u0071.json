@@ -1,0 +1,36 @@
+{
+ "person_id": "u0071",
+ "name": "Oakley",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I’m Oakley, a mid‑20s Kenyan who loves baking sourdough and shooting with my Nikon. I’m looking for a structured instruction session at a fast pace, and I’m happy to teach post‑processing in return. I’m fine with swapping portraits and I’m free Sunday afternoon if you’re around. Let’s capture something great together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0071.r1",
+   "kind": "primary",
+   "request_text": "I need you to be comfortable taking portraits of each other, you must be into a structured instruction session, and you have to be the one who learns post‑processing from me. I'd strongly prefer that you are okay with a moderate pace or a fast pace, though it's not a requirement. Nice if you are available Sunday afternoon.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0071.purpose",
+   "u0071.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0071.pace",
+   "u0071.editing_role",
+   "u0071.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

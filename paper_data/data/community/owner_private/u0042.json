@@ -1,0 +1,36 @@
+{
+ "person_id": "u0042",
+ "name": "Fabio",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m a 40‑something American who loves the calm of a Sunday morning photo walk. I keep the pace moderate, enjoy chatting about my Sony gear but it’s not the focus. I’m not planning any post‑processing lessons—just getting out and capturing the moment. Outside work I’m an avid climber, which keeps me energized for a relaxed stroll with a camera in hand.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0042.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with a moderate pace, and I'd strongly prefer that you are available Sunday morning, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0042.purpose",
+   "u0042.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0042.pace",
+   "u0042.gear_talk",
+   "u0042.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

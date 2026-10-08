@@ -1,0 +1,37 @@
+{
+ "person_id": "u0194",
+ "name": "Fern",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm an Italian guy in my late 20s who spends free time fermenting hot sauce. I use a Sony and honestly, I'm just looking for a relaxed photo walk. I tend to go at a moderate pace, that's how I enjoy it. I'm cool with taking portraits of each other. Gear talk is fine but not the point is my thing, and I'd like someone to teach me post-processing. Most weeks I can do Saturday morning or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0194.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either on Saturday morning or weekday evenings. I'd strongly prefer that you are okay with a fast pace or a slow pace, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0194.purpose",
+   "u0194.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0194.pace",
+   "u0194.gear_talk",
+   "u0194.editing_role",
+   "u0194.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

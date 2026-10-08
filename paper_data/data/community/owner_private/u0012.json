@@ -1,0 +1,37 @@
+{
+ "person_id": "u0012",
+ "name": "Nikolai",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Nikolai, a non-binary Egyptian in my mid 20s. When I'm not sketching buildings, which I find incredibly relaxing, I'm usually on my console playing Skyforge Arena. I mainly queue for casual matches and play a damage role. I communicate over text chat while playing. I'm looking for someone to coach me. I am free Saturday afternoon or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0012.r1",
+   "kind": "primary",
+   "request_text": "I need you to play a damage role or a support role, and you have to be into casual matches. It's a deal-breaker unless you are available Saturday afternoon or Sunday morning. I'd strongly prefer that you are the one who coaches me, though it's not a requirement. Additionally, it would be nice if we overlap on text chat, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0012.game_id",
+   "u0012.mode",
+   "u0012.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0012.comm_modes",
+   "u0012.team_role",
+   "u0012.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

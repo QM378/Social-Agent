@@ -1,0 +1,33 @@
+{
+ "person_id": "u0060",
+ "name": "Yolanda",
+ "interaction_type": "gaming_partner",
+ "self_text": "I am a Canadian man in my 40s. Outside of gaming, I enjoy knitting because it helps me unwind. I play on PC. These days it's all Hollow Lantern for me. I'm mostly into casual matches. Most weeks I can do weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0060.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available weekday evenings. It would be nice if you are into casual matches, and a small bonus if you are into Hollow Lantern.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0060.game_id",
+   "u0060.mode",
+   "u0060.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "needs_review",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

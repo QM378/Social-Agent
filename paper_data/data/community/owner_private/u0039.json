@@ -1,0 +1,35 @@
+{
+ "person_id": "u0039",
+ "name": "Yasmin",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi there! I'm Yasmin, a Nigerian man in my late 20s. When I'm not focusing on photography, I spend a lot of my time on urban gardening, as I love bringing a bit of nature into the city. I use a phone for my photos, and honestly, I'm just looking for a practice session working on specific shots. I tend to go at a slow pace, because that's how I enjoy it. I'm also hoping to find someone to teach me post-processing for my editing. In terms of my schedule, most weeks I can do Saturday morning, Sunday morning or weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0039.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who teaches me post-processing. You have to be available either Saturday morning, Sunday morning or weekday evenings, and it's a deal-breaker unless you are okay with a slow pace or a moderate pace. I'd strongly prefer that you are into a practice session working on specific shots or a relaxed photo walk, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0039.purpose",
+   "u0039.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0039.pace",
+   "u0039.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "seed": 2,
+ "n_people": 200,
+ "n_requests": 240,
+ "vocab_hash": "db7c3badebd2efdf",
+ "pilot": true,
+ "status": "review_pending",
+ "frozen": false,
+ "human_review": "not_reviewed",
+ "text_mode": "llm_mixed",
+ "labels_from": "program rules only",
+ "scoring_rule": "score = 3*u if any required conflict else 4+5*u (u = weighted satisfied share of preferences, full facts); status_* = recommend/reject/insufficient_info from the target's visible facts",
+ "demographics_note": "age band, gender, nationality, hobby are narrative only and enter no rule",
+ "generation_status_counts": {
+  "ok": 191,
+  "needs_review": 9
+ },
+ "assembled_utc": "2026-09-23T20:16:26.153538+00:00",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "label_note": "scores are compatibility under the published synthetic rules, not real human preference",
+ "statuses_are_independent": "generation ok != auto check clean != human review passed"
+}

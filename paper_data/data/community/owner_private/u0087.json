@@ -1,0 +1,36 @@
+{
+ "person_id": "u0087",
+ "name": "Cora",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi, I'm Cora. I'm an Indian man in my late 30s. Outside of photography, I spend a lot of my time collecting vinyl because I love the warmth of analog sound. I use a Canon and I'm looking for a practice session where we can work on specific shots. I prefer a slow pace, and while gear talk is fine, it isn't the point of the meeting. The plan would be to take portraits of each other. I'm available on weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0087.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a practice session working on specific shots or a relaxed photo walk to make this work. It would be a small bonus if you are available weekday evenings, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0087.purpose",
+   "u0087.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0087.pace",
+   "u0087.gear_talk",
+   "u0087.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

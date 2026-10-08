@@ -1,0 +1,44 @@
+{
+ "person_id": "u0033",
+ "name": "Hamza",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi, I'm Hamza! I'm a Japanese woman in my early 20s who loves woodworking for the creativity. I mainly play Skyforge Arena on console, usually queuing for casual matches in a support role. I am happy to coach. I'm free Sunday morning, Sunday afternoon, or Saturday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0033.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who gets coached by me and you have to be flexible about your role. I'd strongly prefer that you are available Saturday afternoon, Sunday afternoon, or Sunday morning, though it's not a requirement. It would matter a lot if you are into casual matches, but I won't rule you out over it. Ideally, you are into Skyforge Arena or Tidewatch, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0033.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be flexible about your role and you have to be the one who gets coached by me. I'd strongly prefer that you are available Sunday morning, Sunday afternoon or Saturday afternoon, though it's not a requirement. It would matter a lot if you are into ranked matches—a change from my usual preference for casual matches—but I won't rule you out over it. Ideally, you are into Tidewatch or Skyforge Arena, but no big deal.",
+   "this_time": [
+    "This time: ranked matches. Usually: casual matches."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0033.game_id",
+   "u0033.mode",
+   "u0033.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0033.team_role",
+   "u0033.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

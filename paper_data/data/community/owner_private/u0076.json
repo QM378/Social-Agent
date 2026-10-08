@@ -1,0 +1,36 @@
+{
+ "person_id": "u0076",
+ "name": "Rio",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey! I’m Rio, a mid‑30s Nigerian gamer who loves diving into Skyforge Arena. I usually queue for ranked matches to keep my skills sharp. When I’m not in the game, I’m either chatting over text or voice chat—whatever feels right for the moment. I’m happy to coach and share tips with anyone who’s up for a quick session. I’m free on Saturdays, whether that’s in the morning or afternoon, so we can jump in whenever it suits you. Outside of gaming, I enjoy playing chess online; it’s a great way to keep my mind sharp and I love the strategic challenge it offers. I’m always in a relaxed, friendly mood and love meeting people who share the same passion for gaming and strategy.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0076.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available on either Saturday afternoon or Saturday morning, no exceptions. It would be nice if you’re into Hollow Lantern, though that isn’t a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0076.game_id",
+   "u0076.mode",
+   "u0076.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0076.comm_modes",
+   "u0076.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

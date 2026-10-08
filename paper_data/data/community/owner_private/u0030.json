@@ -1,0 +1,36 @@
+{
+ "person_id": "u0030",
+ "name": "Oren",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I’m Oren, a mid‑twenties Aussie who loves a good photo walk. I’m all about a relaxed stroll with a fast pace—so let’s keep the momentum going while we snap some cool shots. I carry just a phone for gear, so no debates over equipment—just the moment. When it comes to post‑processing, I’m happy to share what I know and teach a few tricks if you’re interested. I’m free most weekday evenings, so we can plan a sunset walk or a quick cityscape session after work. Outside the camera, I’m a chillie grower, which means I appreciate good food and a relaxed vibe. I’m looking forward to connecting with someone who’s up for a relaxed yet energetic photo adventure. Let’s capture some memories together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0030.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a practice session working on specific shots, and you must be okay with no gear debates or gear talk is fine but not the point. I'd strongly prefer that you are okay with a fast pace or a slow pace, though it's not a requirement. It would matter a lot if you are the one who learns post‑processing from me, but I won't rule you out over it. Nice if you are available weekday evenings, a small bonus if so.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0030.purpose",
+   "u0030.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0030.pace",
+   "u0030.gear_talk",
+   "u0030.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

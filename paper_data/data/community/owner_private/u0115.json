@@ -1,0 +1,36 @@
+{
+ "person_id": "u0115",
+ "name": "Benji",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm a Canadian man in my mid 30s who spends my free time collecting vinyl. I use a Leica and I'm honestly just looking for a practice session working on specific shots. I tend to go at a fast pace, as that's how I enjoy it. Most weeks I can do Saturday morning or Sunday morning. Fair warning, gear talk is fine but not the point is my thing. I'm also cool with not taking portraits of each other.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0115.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a practice session working on specific shots or a relaxed photo walk. It would also be nice if you are okay with no gear debates, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0115.purpose",
+   "u0115.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0115.pace",
+   "u0115.gear_talk",
+   "u0115.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

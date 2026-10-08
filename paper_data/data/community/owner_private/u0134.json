@@ -1,0 +1,37 @@
+{
+ "person_id": "u0134",
+ "name": "Matteo",
+ "interaction_type": "study_partner",
+ "self_text": "Hey there! I’m Matteo, a mid‑30s history buff from Turkey who loves a good swing dance as a way to unwind. I’m pretty comfortable with numbers and love crunching statistics, especially when it helps me see patterns in historical trends. When I’m working on a project or just exploring a new topic, I enjoy walking through it step by step, breaking things down into manageable pieces. I’m always up for a quick chat—short exchanges over coffee or a quick call are my favorite ways to keep the conversation flowing. If you ever need a little explanation on something, I’m happy to explain things in a clear, friendly way. Whether we meet up in person or connect online, I’m flexible and can make time for a chat or a project review. I’m free most Sundays in the morning, so that’s a great slot if you want to catch up or collaborate on something interesting. Looking forward to sharing ideas, learning together, and maybe even swapping swing dance tips over a coffee!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0134.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available on Sunday morning, and I need you to be into a step‑by‑step walkthrough session. I would strongly prefer that you are okay with complete silence while working or occasional short exchanges, though it’s not a requirement. I’d like you to be into statistics, and it would be a nice bonus if you are the one who has things explained by me.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0134.topic",
+   "u0134.format",
+   "u0134.venue",
+   "u0134.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0134.quiet",
+   "u0134.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

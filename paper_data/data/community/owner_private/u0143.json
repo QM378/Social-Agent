@@ -1,0 +1,36 @@
+{
+ "person_id": "u0143",
+ "name": "Jo",
+ "interaction_type": "photography_partner",
+ "self_text": "I am a Korean non-binary person in my mid 30s. When I am not out with my Canon, I love baking sourdough because I enjoy the patience it requires. I am looking for a structured instruction session at a moderate pace. I prefer to avoid gear debates and will not be taking portraits of each other. I am available Saturday morning, Saturday afternoon, or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0143.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either Saturday morning, Saturday afternoon, or Sunday morning. It's a deal-breaker unless you are okay with not taking portraits of each other. It would be nice if you are okay with a moderate pace, and a small bonus if plenty of gear talk is fine or if gear talk is okay but not the point.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0143.purpose",
+   "u0143.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0143.pace",
+   "u0143.gear_talk",
+   "u0143.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

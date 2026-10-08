@@ -1,0 +1,36 @@
+{
+ "person_id": "u0010",
+ "name": "Onyx",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m a late‑20s Spanish non‑binary who loves playing chess online. I’m looking for a practice session working on specific shots. I go at a slow pace and gear talk is my thing. I want someone to teach me post‑processing. I’m free most weeks on Saturday afternoon, Sunday afternoon or Sunday morning.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0010.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available any of Saturday afternoon, Sunday afternoon or Sunday morning, otherwise it's a deal‑breaker. I'd strongly prefer that you are okay with a slow pace, though it's not a requirement. Nice if you are the one who teaches me post‑processing, but I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0010.purpose",
+   "u0010.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0010.pace",
+   "u0010.gear_talk",
+   "u0010.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

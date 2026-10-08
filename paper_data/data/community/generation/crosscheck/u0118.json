@@ -1,0 +1,349 @@
+{
+ "person_id": "u0118",
+ "generator": "gptoss",
+ "checker": "gemma",
+ "checker_model": "social-gemma4-8k",
+ "prompt_version": "community_check_v3",
+ "issues": [
+  {
+   "where": "u0118.r2",
+   "type": "weight_changed",
+   "attribute": "mode",
+   "expected": "preference",
+   "got": "strong_preference",
+   "severity": "ranking"
+  }
+ ],
+ "texts_hash": "bd870752e4547796",
+ "checked": {
+  "self": true,
+  "u0118.r1": true,
+  "u0118.r2": true
+ },
+ "checker_errors": 0,
+ "n_issues": 1,
+ "impact_counts": {
+  "ranking": 1
+ },
+ "adjudication": {
+  "status": "pending",
+  "by": null,
+  "notes": ""
+ },
+ "verdict": "needs_adjudication",
+ "checker_provenance": {
+  "served_model": "social-gemma4-8k",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "quantization": "Q4_K_M",
+  "family": "gemma4",
+  "parameter_size": "31.3B",
+  "modelfile_parameters": "top_k                          64\ntop_p                          0.95\nnum_ctx                        8192\nseed                           0\ntemperature                    0",
+  "server": "ollama 0.34.2",
+  "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-280af6832eca23cb322c4dcc65edfea98a21b8f8ab07dc7553bd6f7e6e7a3313",
+  "modified_at": "2026-09-22T21:50:54.8177644-05:00",
+  "license_excerpt": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      ",
+  "model_key": "gemma",
+  "prompt_version": "community_check_v3",
+  "temperature": 0.7
+ },
+ "checker_http_attempts": [
+  {
+   "item": "self",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.2028762000845745,
+     "prompt_tokens": 350,
+     "completion_tokens": 60,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract this person's own facts using only the vocabulary. \"unknown\" if not stated. Set attributes return a list. Return {\"facts\": {...}}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I'm Lev, a 40‑something Polish woman who loves running trails in her spare time. I play Hollow Lantern on PC, usually queueing for ranked matches and filling any role I need. I’m not a coach—just a flexible player. I’m free on Sunday mornings or weekday evenings for new gaming adventures."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtractedFacts",
+        "schema": {
+         "properties": {
+          "facts": {
+           "additionalProperties": {
+            "anyOf": [
+             {
+              "type": "string"
+             },
+             {
+              "items": {
+               "type": "string"
+              },
+              "type": "array"
+             }
+            ]
+           },
+           "title": "Facts",
+           "type": "object"
+          }
+         },
+         "required": [
+          "facts"
+         ],
+         "title": "_ExtractedFacts",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"facts\": {\"game_id\": \"Hollow_Lantern\", \"mode\": \"ranked\", \"comm_modes\": [], \"team_role\": \"flexible\", \"coaching_role\": \"none\", \"time_window\": [\"sun_morning\", \"weekday_evening\"]}}"
+    }
+   ]
+  },
+  {
+   "item": "u0118.r1",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.6253924999618903,
+     "prompt_tokens": 469,
+     "completion_tokens": 88,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I need you to play a damage role or be flexible about your role (I can fill any position), I need you to be available on Sunday morning or weekday evenings, and a small bonus if you are into ranked matches."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"requirements\": [{\"attribute\": \"team_role\", \"accepted_values\": [\"damage\", \"flexible\"], \"strength\": \"required\"}, {\"attribute\": \"time_window\", \"accepted_values\": [\"sun_morning\", \"weekday_evening\"], \"strength\": \"required\"}, {\"attribute\": \"mode\", \"accepted_values\": [\"ranked\"], \"strength\": \"preference\"}], \"changes_this_time\": []}"
+    }
+   ]
+  },
+  {
+   "item": "u0118.r2",
+   "attempts": [
+    {
+     "index": 0,
+     "reason": "initial",
+     "status": "ok",
+     "http_status": 200,
+     "latency_s": 1.7020881000207737,
+     "prompt_tokens": 494,
+     "completion_tokens": 101,
+     "usage_missing": false,
+     "schema_mode": "json_schema",
+     "downgraded_here": false,
+     "error": null,
+     "request_messages": [
+      {
+       "role": "system",
+       "content": "Extract (1) the requirements this person places on a partner: attribute, accepted_values (vocabulary values the PARTNER must hold), strength = required ONLY when the wording is unconditional (must / need / have to / only / no ... please / deal-breaker unless); strong_preference when it is called important but explicitly not required ('really matters ... though not a requirement', 'strongly prefer', 'big plus'); preference for light wishes ('nice if', 'small bonus', 'ideally'). Who does what: 'you to be the one who coaches me' means the PARTNER coaches (partner value teach); (2) changes_this_time: anything the person says is different from usual for THIS occasion, as attribute + their own value this time (empty list if none). Return {\"requirements\": [...], \"changes_this_time\": [...]}.\n- game_id (single): Skyforge_Arena = this person plays the game Skyforge Arena; Tidewatch = this person plays the game Tidewatch; Hollow_Lantern = this person plays the game Hollow Lantern\n- mode (single): casual = this person plays casual, unranked matches; ranked = this person plays ranked, competitive matches\n- comm_modes (set): text = this person communicates by text chat; voice = this person communicates by voice chat\n- team_role (single): support = this person plays a support role; damage = this person plays a damage-dealing role; flexible = this person can play any role as needed\n- coaching_role (single): none = this person wants no coaching either way; learn = this person wants to be coached (a learner); teach = this person is willing to coach others (a coach)\n- time_window (set): sat_morning = free on Saturday morning; sat_afternoon = free on Saturday afternoon; sun_morning = free on Sunday morning; sun_afternoon = free on Sunday afternoon; weekday_evening = free on weekday evenings"
+      },
+      {
+       "role": "user",
+       "content": "I need you to play a damage role or a flexible role (I can fill any position). I need you to be available Sunday morning or weekday evenings. I'd strongly prefer that you are into casual matches, though it's not a requirement; this time we’re looking for casual matches, whereas normally we’d play ranked matches."
+      }
+     ],
+     "request_params": {
+      "model": "social-gemma4-8k",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "seed": 0,
+      "response_format": {
+       "type": "json_schema",
+       "json_schema": {
+        "name": "_ExtReqs",
+        "schema": {
+         "$defs": {
+          "_ExtReq": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "accepted_values": {
+             "items": {
+              "type": "string"
+             },
+             "title": "Accepted Values",
+             "type": "array"
+            },
+            "strength": {
+             "description": "required | strong_preference | preference",
+             "title": "Strength",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "accepted_values",
+            "strength"
+           ],
+           "title": "_ExtReq",
+           "type": "object"
+          },
+          "_ExtThisTime": {
+           "properties": {
+            "attribute": {
+             "title": "Attribute",
+             "type": "string"
+            },
+            "value": {
+             "description": "vocabulary value the person says applies THIS TIME (a change from usual)",
+             "title": "Value",
+             "type": "string"
+            }
+           },
+           "required": [
+            "attribute",
+            "value"
+           ],
+           "title": "_ExtThisTime",
+           "type": "object"
+          }
+         },
+         "properties": {
+          "requirements": {
+           "items": {
+            "$ref": "#/$defs/_ExtReq"
+           },
+           "title": "Requirements",
+           "type": "array"
+          },
+          "changes_this_time": {
+           "items": {
+            "$ref": "#/$defs/_ExtThisTime"
+           },
+           "title": "Changes This Time",
+           "type": "array"
+          }
+         },
+         "required": [
+          "requirements"
+         ],
+         "title": "_ExtReqs",
+         "type": "object"
+        },
+        "strict": true
+       }
+      },
+      "reasoning_effort": "none"
+     },
+     "response_content": "{\"requirements\": [{\"attribute\": \"team_role\", \"accepted_values\": [\"damage\", \"flexible\"], \"strength\": \"required\"}, {\"attribute\": \"time_window\", \"accepted_values\": [\"sun_morning\", \"weekday_evening\"], \"strength\": \"required\"}, {\"attribute\": \"mode\", \"accepted_values\": [\"casual\"], \"strength\": \"strong_preference\"}], \"changes_this_time\": [{\"attribute\": \"mode\", \"value\": \"casual\"}]}"
+    }
+   ]
+  }
+ ]
+}

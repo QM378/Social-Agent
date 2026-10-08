@@ -1,0 +1,37 @@
+{
+ "person_id": "u0129",
+ "name": "Ugo",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Ugo, an American guy in my mid 20s. When I'm not spending my time swing dancing, which I love for the energy and rhythm, I'm usually on my PC. My main game is Skyforge Arena, and I generally queue for casual matches. In terms of my role, I play damage. I'm looking for someone to coach me to help me improve. Regarding communication, I use either voice chat or text chat while playing. I have a few specific windows of availability: I am free on Saturday morning, Saturday afternoon, or Sunday afternoon. Looking forward to getting some games in!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0129.r1",
+   "kind": "primary",
+   "request_text": "I need you to play a support role or be flexible about your role, and you have to be the one who coaches me. It's a deal-breaker unless you are into Skyforge Arena and are available Saturday afternoon, Saturday morning or Sunday afternoon. I'd strongly prefer that you enjoy casual matches, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0129.game_id",
+   "u0129.mode",
+   "u0129.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0129.comm_modes",
+   "u0129.team_role",
+   "u0129.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

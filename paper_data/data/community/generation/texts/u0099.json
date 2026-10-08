@@ -1,0 +1,186 @@
+{
+ "person_id": "u0099",
+ "model_key": "gemma",
+ "model": "social-gemma4-8k",
+ "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+ "model_quantization": "Q4_K_M",
+ "prompt_version": "community_text_v8",
+ "rules_version": "community_rules_v2",
+ "code_version": {
+  "community.py": "36c4630f6b5ecc59",
+  "community_text.py": "82a8d296cedbc652",
+  "world.py": "33fd37dff6f2424d"
+ },
+ "params": {
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "reasoning_effort": "none"
+ },
+ "generated_utc": "2026-09-23T20:03:01.875599+00:00",
+ "self": {
+  "status": "ok",
+  "text": "Hi! I'm Hollis, a Canadian woman in my early 30s with a background in engineering. When I'm not reading history, I love programming. I'm looking to do a step-by-step walkthrough session online. I'm available on Saturday mornings, Sunday afternoons, or weekday evenings. I find coding such a rewarding way to solve complex problems!",
+  "attempts": [
+   {
+    "attempt": 0,
+    "seed": 569891,
+    "text": "Hi! I'm Hollis, a Canadian woman in my early 30s with a background in engineering. When I'm not reading history, I love programming. I'm looking to do a step-by-step walkthrough session online. I'm available on Saturday mornings, Sunday afternoons, or weekday evenings. I find coding such a rewarding way to solve complex problems!",
+    "issues": [],
+    "ok": true,
+    "calls": 1,
+    "prompt_tokens": 376,
+    "completion_tokens": 84,
+    "truncated": false,
+    "wall_s": 1.5679,
+    "error": null,
+    "prompt_sent": {
+     "system": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}",
+     "user": "Name: Hollis\nAge: early 30s. Gender: woman. Nationality: Canadian. Hobby outside this: reading history.\nBackground: field of study: engineering\nFacts (stable):\n- Programming.\n- A step-by-step walkthrough session.\n- Online.\n- Available Saturday morning, Sunday afternoon or weekday evenings."
+    },
+    "raw_output": "{\"text\": \"Hi! I'm Hollis, a Canadian woman in my early 30s with a background in engineering. When I'm not reading history, I love programming. I'm looking to do a step-by-step walkthrough session online. I'm available on Saturday mornings, Sunday afternoons, or weekday evenings. I find coding such a rewarding way to solve complex problems!\"}",
+    "reasoning_returned": false,
+    "http_attempts": [
+     {
+      "index": 0,
+      "reason": "initial",
+      "status": "ok",
+      "http_status": 200,
+      "latency_s": 1.5678610999602824,
+      "prompt_tokens": 376,
+      "completion_tokens": 84,
+      "usage_missing": false,
+      "schema_mode": "json_schema",
+      "downgraded_here": false,
+      "error": null,
+      "request_messages": [
+       {
+        "role": "system",
+        "content": "You write a first-person self-description for a fictional person's partner-finding profile, in English.\nRules:\n- EVERY fact in the notes must appear in the text, each with its meaning intact (days and times, pace, roles, teaching, communication, equipment opinions, venue, topic, game, mode). Do not drop, soften or strengthen any of them;\n- do NOT ADD anything on those same topics that the notes do not state: no invented teaching/coaching/explaining, no talking or silence habits, no equipment opinions, no extra days, no skill claims. A \"step-by-step walkthrough session\" note only describes the session shape; never write that this person tutors, teaches, explains, coaches, guides, leads or is taught unless a separate note says so; do not use the words tutor or tutoring at all;\n- allowed colour: the hobby given, why they enjoy the activity in general, mood, a place they like; one or two sentences at most;\n- never mention who they want to meet or what they require from a partner (that goes elsewhere);\n- write naturally; do not use technical labels, underscores, codes or list markers;\n- target length 40-80 words (soft). Style: Friendly and casual, first person, as if messaging a friend.\nReturn JSON: {\"text\": \"...\"}"
+       },
+       {
+        "role": "user",
+        "content": "Name: Hollis\nAge: early 30s. Gender: woman. Nationality: Canadian. Hobby outside this: reading history.\nBackground: field of study: engineering\nFacts (stable):\n- Programming.\n- A step-by-step walkthrough session.\n- Online.\n- Available Saturday morning, Sunday afternoon or weekday evenings."
+       }
+      ],
+      "request_params": {
+       "model": "social-gemma4-8k",
+       "temperature": 0.7,
+       "max_tokens": 1200,
+       "seed": 569891,
+       "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+         "name": "_Text",
+         "schema": {
+          "properties": {
+           "text": {
+            "title": "Text",
+            "type": "string"
+           }
+          },
+          "required": [
+           "text"
+          ],
+          "title": "_Text",
+          "type": "object"
+         },
+         "strict": true
+        }
+       },
+       "reasoning_effort": "none"
+      },
+      "response_content": "{\"text\": \"Hi! I'm Hollis, a Canadian woman in my early 30s with a background in engineering. When I'm not reading history, I love programming. I'm looking to do a step-by-step walkthrough session online. I'm available on Saturday mornings, Sunday afternoons, or weekday evenings. I find coding such a rewarding way to solve complex problems!\"}"
+     }
+    ]
+   }
+  ],
+  "residual_withheld_wording": [],
+  "review_markers": []
+ },
+ "requests": {
+  "u0099.r1": {
+   "status": "ok",
+   "text": "I need you to be into language practice or programming. I'd strongly prefer that you are available Saturday morning, Sunday afternoon or weekday evenings, though it's not a requirement.",
+   "attempts": [
+    {
+     "attempt": 0,
+     "seed": 569894,
+     "text": "I need you to be into language practice or programming. I'd strongly prefer that you are available Saturday morning, Sunday afternoon or weekday evenings, though it's not a requirement.",
+     "issues": [],
+     "ok": true,
+     "calls": 1,
+     "prompt_tokens": 538,
+     "completion_tokens": 43,
+     "truncated": false,
+     "wall_s": 0.9982,
+     "error": null,
+     "prompt_sent": {
+      "system": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}",
+      "user": "Activity: study partner\nRequirements:\n- MUST: you are into language practice or programming   [alternatives: language practice | programming]\n- STRONG WISH: you are available any of Saturday morning, Sunday afternoon or weekday evenings   [alternatives: Saturday morning | Sunday afternoon | weekday evenings]"
+     },
+     "raw_output": "{\"text\": \"I need you to be into language practice or programming. I'd strongly prefer that you are available Saturday morning, Sunday afternoon or weekday evenings, though it's not a requirement.\"}",
+     "reasoning_returned": false,
+     "http_attempts": [
+      {
+       "index": 0,
+       "reason": "initial",
+       "status": "ok",
+       "http_status": 200,
+       "latency_s": 0.9981705999234691,
+       "prompt_tokens": 538,
+       "completion_tokens": 43,
+       "usage_missing": false,
+       "schema_mode": "json_schema",
+       "downgraded_here": false,
+       "error": null,
+       "request_messages": [
+        {
+         "role": "system",
+         "content": "You write, in English and first person, what a fictional person is looking for in a partner RIGHT NOW, from the notes.\nThree strength levels; the reader must be able to tell them apart:\n- MUST = a condition the partner has to meet or it is off: \"I need ...\", \"you have to ...\", \"only if ...\", \"no ..., please\", \"it's a deal-breaker unless ...\". Never \"ideally\", \"would be great\", \"hopefully\" for a MUST.\n- STRONG WISH = matters a lot but not a deal-breaker: \"I'd strongly prefer that ...\", \"it would matter a lot if ...\", \"big plus if ...\", and it must END with a release such as \"though it's not a requirement\" or \"but I won't rule you out over it\". Never start a STRONG WISH or WISH with \"I need\" or \"you must\".\n- WISH = light preference: \"nice if ...\", \"a small bonus if ...\", \"ideally ..., but no big deal\".\nOther rules:\n- vary the wording across items; do not use the same phrase for two items;\n- the notes describe the PARTNER in neutral clauses (\"you are available ...\", \"you are the one who coaches me\"); each item lists its ALTERNATIVES: every alternative must be recognisably present in your sentence (all of them, joined by \"or\"); keep every negation; keep who does what exactly as written: \"you are the one who coaches me\" means the PARTNER coaches; \"you play a support role\" means the PARTNER plays support; a \"walkthrough session\" item says nothing about who explains, so do not assign that;\n- if a THIS TIME note is present, say explicitly that it is a change from the usual and what the usual is;\n- do not add requirements that are not in the notes; do not describe the person themselves beyond what the notes imply; do not mention what the person themselves can offer unless a note says so;\n- 25-90 words, no labels, underscores, codes or list markers.\nReturn JSON: {{\"text\": \"...\"}}"
+        },
+        {
+         "role": "user",
+         "content": "Activity: study partner\nRequirements:\n- MUST: you are into language practice or programming   [alternatives: language practice | programming]\n- STRONG WISH: you are available any of Saturday morning, Sunday afternoon or weekday evenings   [alternatives: Saturday morning | Sunday afternoon | weekday evenings]"
+        }
+       ],
+       "request_params": {
+        "model": "social-gemma4-8k",
+        "temperature": 0.7,
+        "max_tokens": 1200,
+        "seed": 569894,
+        "response_format": {
+         "type": "json_schema",
+         "json_schema": {
+          "name": "_Text",
+          "schema": {
+           "properties": {
+            "text": {
+             "title": "Text",
+             "type": "string"
+            }
+           },
+           "required": [
+            "text"
+           ],
+           "title": "_Text",
+           "type": "object"
+          },
+          "strict": true
+         }
+        },
+        "reasoning_effort": "none"
+       },
+       "response_content": "{\"text\": \"I need you to be into language practice or programming. I'd strongly prefer that you are available Saturday morning, Sunday afternoon or weekday evenings, though it's not a requirement.\"}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "complete": true,
+ "generation_status": "complete",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "history": [],
+ "auto_check_texts_hash": "526f20bfa7e62aea"
+}

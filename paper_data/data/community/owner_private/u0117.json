@@ -1,0 +1,36 @@
+{
+ "person_id": "u0117",
+ "name": "Winter",
+ "interaction_type": "study_partner",
+ "self_text": "Hey! I’m a late‑30s Mexican biology grad who’s now diving into programming. I learn best when I study side‑by‑side, so I’d love a partner who can explain things to me. I’m happiest in person and usually free on Sunday mornings or weekday evenings. When I’m not coding, I’m knitting—there’s something soothing about the rhythm of needles.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0117.r1",
+   "kind": "primary",
+   "request_text": "I need us to overlap in person; I’d strongly prefer that we study independently side by side, though it’s not a requirement; a nice bonus if you’re into programming; ideally you’re available any of Sunday morning or weekday evenings, but I won’t rule you out if you’re only free on Sunday morning or only on weekday evenings.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0117.topic",
+   "u0117.format",
+   "u0117.venue",
+   "u0117.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0117.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

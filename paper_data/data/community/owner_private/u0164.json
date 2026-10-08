@@ -1,0 +1,43 @@
+{
+ "person_id": "u0164",
+ "name": "Cy",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi! I'm Cy, a non-binary Australian in my late 20s. When I'm not out with my Leica, I spend a lot of my time podcasting, which I love because it lets me explore so many different stories. I'm looking for a practice session where we can work on specific shots together. Regarding the editing side of things, I am happy to teach post-processing. I am also fine with not taking portraits of each other during our time. I'm free Sunday morning if that works for you!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0164.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a practice session working on specific shots or a relaxed photo walk. It would be nice if you are available Sunday morning, and a small bonus if you are okay with not taking portraits of each other. Ideally, you are the one who learns post-processing from me, but no big deal.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0164.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into a practice session working on specific shots or a relaxed photo walk. It would be nice if you are available Sunday morning, and it's a small bonus if you are okay with not taking portraits of each other. Unlike my usual offer to teach post-processing, I am not looking for a post-processing lesson this time.",
+   "this_time": [
+    "This time: no post-processing lesson this time. Usually: happy to teach post-processing."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0164.purpose",
+   "u0164.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0164.editing_role",
+   "u0164.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

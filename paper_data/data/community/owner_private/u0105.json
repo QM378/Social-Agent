@@ -1,0 +1,35 @@
+{
+ "person_id": "u0105",
+ "name": "Gwen",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey! I’m Gwen, a 50‑something Canadian who loves collecting vinyl records. I usually shoot with just a phone camera, and I’m on the hunt for a structured instruction session. I’m quite relaxed about gear talk – it’s okay to chat about it, but that’s not the main focus. I don’t plan to take portraits of each other, and I’m happy to keep the vibe casual. Most weeks I can meet up on Sunday afternoons to dive into a session. Looking forward to learning something new together!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0105.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with no gear debates, no arguments over equipment choices, and you must not question my selections. I'd strongly prefer that you are into a structured instruction session, though it's not a requirement for us to work together.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0105.purpose",
+   "u0105.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0105.gear_talk",
+   "u0105.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

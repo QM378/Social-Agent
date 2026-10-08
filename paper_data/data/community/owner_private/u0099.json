@@ -1,0 +1,34 @@
+{
+ "person_id": "u0099",
+ "name": "Hollis",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Hollis, a Canadian woman in my early 30s with a background in engineering. When I'm not reading history, I love programming. I'm looking to do a step-by-step walkthrough session online. I'm available on Saturday mornings, Sunday afternoons, or weekday evenings. I find coding such a rewarding way to solve complex problems!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0099.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice or programming. I'd strongly prefer that you are available Saturday morning, Sunday afternoon or weekday evenings, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0099.topic",
+   "u0099.format",
+   "u0099.venue",
+   "u0099.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

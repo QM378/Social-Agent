@@ -1,0 +1,16 @@
+{
+ "served_model": "social-gemma4-8k",
+ "base_url": "http://127.0.0.1:11434/v1",
+ "digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+ "quantization": "Q4_K_M",
+ "family": "gemma4",
+ "parameter_size": "31.3B",
+ "modelfile_parameters": "top_k                          64\ntop_p                          0.95\nnum_ctx                        8192\nseed                           0\ntemperature                    0",
+ "server": "ollama 0.34.2",
+ "base_model": "D:\\Paper_Agent_Social_project_code_data\\ollama_models\\blobs\\sha256-280af6832eca23cb322c4dcc65edfea98a21b8f8ab07dc7553bd6f7e6e7a3313",
+ "modified_at": "2026-09-22T21:50:54.8177644-05:00",
+ "license_excerpt": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      ",
+ "model_key": "gemma",
+ "prompt_version": "community_check_v3",
+ "temperature": 0.7
+}

@@ -1,0 +1,35 @@
+{
+ "person_id": "u0075",
+ "name": "Wanjiru",
+ "interaction_type": "photography_partner",
+ "self_text": "I am a Canadian man in my mid 30s who loves watching old westerns. I use a phone for my photography. I am looking for a practice session working on specific shots at a fast pace. I want someone to teach me post-processing. I am available weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0075.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available weekday evenings and you have to be the one who teaches me post-processing. It is a deal-breaker unless you are into a practice session working on specific shots or a relaxed photo walk. Ideally, you are okay with a moderate pace or a fast pace, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0075.purpose",
+   "u0075.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0075.pace",
+   "u0075.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

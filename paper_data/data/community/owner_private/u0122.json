@@ -1,0 +1,44 @@
+{
+ "person_id": "u0122",
+ "name": "Lior",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Spanish non-binary person in my late 30s. My academic background is in nursing, but these days I am spending my time studying programming. When I am not staring at a screen, I love heading outdoors for some birdwatching to clear my head and appreciate nature. Regarding my study routine, I have found that I work best when studying independently side by side with someone else. While I appreciate the autonomy of working on my own tasks, I need talking things through as we go to keep my momentum. I am available to meet in person to get some work done, and I am free on Saturday afternoon or Sunday afternoon.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0122.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into studying independently side by side, and you have to be available either Saturday afternoon or Sunday afternoon. I'd strongly prefer that you are into programming, though it's not a requirement. It would be nice if you are okay with occasional short exchanges or talking things through as we go, and a small bonus if we overlap on in person.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0122.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into a step-by-step walkthrough session, which is a change from my usual preference for studying independently side by side. You have to be available either Saturday afternoon or Sunday afternoon. I'd strongly prefer that you are into programming, though it's not a requirement. It would be nice if we overlap on in person, and a small bonus if you are okay with occasional short exchanges or talking things through as we go.",
+   "this_time": [
+    "This time: a step-by-step walkthrough session. Usually: studying independently side by side."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0122.topic",
+   "u0122.format",
+   "u0122.venue",
+   "u0122.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0122.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

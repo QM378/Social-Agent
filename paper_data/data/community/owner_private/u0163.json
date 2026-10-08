@@ -1,0 +1,37 @@
+{
+ "person_id": "u0163",
+ "name": "Wei",
+ "interaction_type": "study_partner",
+ "self_text": "I am a Japanese person in my mid 20s with a background in biology. When I am not studying, I love swing dancing because the energy of the music and movement is exhilarating. Recently, I have been focusing on language practice and am looking for a way to integrate this into my routine. A typical session for me involves studying independently side by side, while talking things through as we go. I specifically value having someone to explain things to me during these periods. I am flexible regarding the venue and am happy to meet either in person or online. In terms of my schedule, I am available on Saturday morning, Saturday afternoon, or during weekday evenings.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0163.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into language practice. It would be nice if you are okay with occasional short exchanges or talking things through as we go, and a small bonus if you are the one who explains the material to me.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0163.topic",
+   "u0163.format",
+   "u0163.venue",
+   "u0163.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0163.quiet",
+   "u0163.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

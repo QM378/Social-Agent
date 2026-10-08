@@ -1,0 +1,36 @@
+{
+ "person_id": "u0001",
+ "name": "Darius",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I’m Darius, a 50‑something Canadian who loves stargazing when I’m not behind the lens. I’m looking for a quick, focused practice session to hone a few specific shots—no extra fluff, just straight to the point. I thrive on a fast pace, so I’m all about efficient, high‑energy shooting. I’m a phone photographer, so I’m happy with whatever gear we’re using—no gear debates or gear‑shopping talk. For this session, I’m not after a post‑processing lesson—just the shots themselves. I can carve out time Saturday afternoon or Sunday morning, whichever works best for you. I enjoy the thrill of capturing dynamic moments and the satisfaction that comes from a great shot. Let’s keep it lively, keep it real, and get some awesome photos together. Looking forward to a fun, productive session!”}",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0001.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available either Saturday afternoon or Sunday morning; I need you to be okay with no gear debates or gear talk is fine but not the point; I'd strongly prefer that you are okay with a moderate pace or a fast pace, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0001.purpose",
+   "u0001.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0001.pace",
+   "u0001.gear_talk",
+   "u0001.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

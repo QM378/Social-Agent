@@ -1,0 +1,44 @@
+{
+ "person_id": "u0157",
+ "name": "Boris",
+ "interaction_type": "photography_partner",
+ "self_text": "I'm Boris, an American in my mid 20s who loves restoring bikes in my spare time. I'm looking for a practice session working on specific shots with my Nikon. I tend to go at a fast pace, as that's how I enjoy it. I'm cool with not taking portraits of each other. Gear talk is fine, but not the point is my thing. I can do Saturday afternoon or weekday evenings most weeks.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0157.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a practice session working on specific shots or a relaxed photo walk. You have to be okay with not taking portraits of each other, and it's a deal-breaker unless you are okay with plenty of gear talk or gear talk is fine but not the point. Ideally, you are okay with a moderate pace or a fast pace, but no big deal. It would be a small bonus if you are available Saturday afternoon or weekday evenings.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0157.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into a structured instruction session, which is a change from my usual preference for practice sessions working on specific shots. You have to be okay with not taking portraits of each other, and it's a deal-breaker unless you are fine with plenty of gear talk or gear talk is fine but not the point. Ideally, you are available Saturday afternoon or weekday evenings, and it would be a small bonus if you are okay with a moderate pace or a fast pace.",
+   "this_time": [
+    "This time: a structured instruction session. Usually: a practice session working on specific shots."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0157.purpose",
+   "u0157.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0157.pace",
+   "u0157.gear_talk",
+   "u0157.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

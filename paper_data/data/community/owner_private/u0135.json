@@ -1,0 +1,35 @@
+{
+ "person_id": "u0135",
+ "name": "Jonas",
+ "interaction_type": "photography_partner",
+ "self_text": "Hi there! I'm Jonas, an Egyptian in my mid 20s. When I'm not out with my camera, I spend a lot of my time growing chillies, which is a hobby I find really rewarding. I use a phone for my photography and I'm looking for a relaxed photo walk. I prefer a fast pace while we're out, and I'm definitely up for plenty of gear talk along the way. In terms of timing, I am available on Sunday morning or Sunday afternoon. Looking forward to getting out there!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0135.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a structured instruction session. It would be nice if you are available Sunday morning or Sunday afternoon. Ideally, you are okay with plenty of gear talk or gear talk that is fine but not the point, but no big deal. A small bonus if you are okay with a fast pace or a moderate pace.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0135.purpose",
+   "u0135.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0135.pace",
+   "u0135.gear_talk"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "B2": {
+  "planned": 3307,
+  "completed_ok": 3303,
+  "execution_error": 4,
+  "never_attempted": 0,
+  "extra_not_in_plan": 3,
+  "missing_examples": [
+   [
+    "u0022.r1",
+    "u0160"
+   ],
+   [
+    "u0041.r1",
+    "u0178"
+   ],
+   [
+    "u0160.r1",
+    "u0022"
+   ],
+   [
+    "u0160.r2",
+    "u0022"
+   ]
+  ]
+ },
+ "B3ft": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 3,
+  "missing_examples": []
+ },
+ "B3ft_q1": {
+  "planned": 3307,
+  "completed_ok": 3305,
+  "execution_error": 2,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": [
+   [
+    "u0022.r1",
+    "u0160"
+   ],
+   [
+    "u0041.r1",
+    "u0178"
+   ]
+  ]
+ },
+ "B3ft_q5": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "bm25_top3": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "direct": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 3,
+  "missing_examples": []
+ },
+ "direct_cot": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "embed_top3": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "graph_ppr_top3": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "llm_rank_top3": {
+  "planned": 3307,
+  "completed_ok": 3293,
+  "execution_error": 14,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": [
+   [
+    "u0122.r2",
+    "u0004"
+   ],
+   [
+    "u0122.r2",
+    "u0007"
+   ],
+   [
+    "u0122.r2",
+    "u0021"
+   ],
+   [
+    "u0122.r2",
+    "u0026"
+   ],
+   [
+    "u0122.r2",
+    "u0081"
+   ]
+  ]
+ },
+ "llm_score_top3": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "rrf_top3": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ },
+ "tfidf_top3": {
+  "planned": 3307,
+  "completed_ok": 3307,
+  "execution_error": 0,
+  "never_attempted": 0,
+  "extra_not_in_plan": 0,
+  "missing_examples": []
+ }
+}

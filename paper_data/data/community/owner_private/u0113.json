@@ -1,0 +1,35 @@
+{
+ "person_id": "u0113",
+ "name": "Uri",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m a mid‑20s Brazilian non‑binary gamer who loves Skyforge Arena, especially on PC. I queue for ranked matches, sliding into whatever role the team needs. Saturdays after lunch or Sundays early in the morning are my free windows for play. When I’m not chasing ranks, I’m collecting vinyl records, a quiet hobby that keeps my rhythm in check.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0113.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Skyforge Arena. A small bonus if you are available any of Saturday afternoon or Sunday morning.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0113.game_id",
+   "u0113.mode",
+   "u0113.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0113.team_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

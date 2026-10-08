@@ -1,0 +1,45 @@
+{
+ "person_id": "u0114",
+ "name": "Wolfgang",
+ "interaction_type": "study_partner",
+ "self_text": "I’m a Nigerian designer in my 50s, studying programming to blend logic with creativity. I thrive in step‑by‑step walkthrough sessions and need complete silence to focus. I’m happy to explain things when I help others. I can meet in person, and I’m free Saturday morning or Sunday morning. Outside work I love woodworking; shaping wood feels grounding and lets me craft something tangible. I enjoy quiet moments in a cozy workshop, surrounded by tools and the scent of fresh pine.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0114.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with talking things through as we go, you must be into a step-by-step walkthrough session, and you must be the one who has things explained by me. I'd strongly prefer that we overlap on in person, though it's not a requirement. A small bonus if you are into language practice or statistics, and a nice if you are available any of Saturday morning or Sunday morning.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0114.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with talking things through as we go and to be into a step‑by‑step walkthrough session—no tutoring this time, which is a change from my usual willingness to explain things. I’d strongly prefer that we overlap in person, though it’s not a requirement. Nice if you’re into language practice or statistics, and a small bonus if you’re available Saturday morning or Sunday morning.",
+   "this_time": [
+    "This time: no tutoring either way. Usually: happy to explain things."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0114.topic",
+   "u0114.format",
+   "u0114.venue",
+   "u0114.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0114.quiet",
+   "u0114.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

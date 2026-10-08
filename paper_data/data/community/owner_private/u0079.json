@@ -1,0 +1,36 @@
+{
+ "person_id": "u0079",
+ "name": "Iris",
+ "interaction_type": "photography_partner",
+ "self_text": "I’m a mid‑30s Egyptian who loves urban gardening and snapping moments on my phone. I’m looking for a Saturday‑morning practice session where we can slow‑down, talk gear, and take portraits of each other. I’ll bring my camera and we’ll explore specific shots together, enjoying the relaxed pace and detailed equipment chat.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0079.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday morning, or at least the same time each week, otherwise it’s not an option. I require that you are okay with no gear debates or plenty of gear talk, no debates or gear talk. I’d strongly prefer that you are okay with taking portraits of each other, but I won’t rule you out over it. A nice if you’re comfortable with a fast pace or a moderate pace.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0079.purpose",
+   "u0079.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0079.pace",
+   "u0079.gear_talk",
+   "u0079.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

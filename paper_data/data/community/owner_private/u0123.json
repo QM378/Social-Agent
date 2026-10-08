@@ -1,0 +1,45 @@
+{
+ "person_id": "u0123",
+ "name": "Klaus",
+ "interaction_type": "study_partner",
+ "self_text": "Hey, I’m Klaus, a non‑binary Egyptian in my late 20s, nursing by day and a programming enthusiast by night. I love tackling problems together—silence while we code is my vibe, and I appreciate someone who can explain things when I’m stuck. I’m free on Saturday mornings, Saturday afternoons, or Sunday mornings, whether we meet in person or online. Outside work, I’m an amateur astronomer, chasing the stars after my shifts.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0123.r1",
+   "kind": "primary",
+   "request_text": "I need you to be comfortable with complete silence while we work, and you must be available on Saturday afternoon, Saturday morning, or Sunday morning. I'd strongly prefer that you are into programming or statistics, though it's not a requirement. It would matter a lot if you are the one who explains the material to me, but I won't rule you out over it. A big plus would be if you enjoy studying independently side by side, though this isn’t a deal‑breaker.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0123.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be okay with complete silence while working, otherwise I'm out. You must be available any of Saturday afternoon | Saturday morning | Sunday morning. I'd strongly prefer that you're into programming | statistics, though it's not a requirement. It would matter a lot if you are the one who explains the material to me, but I won't rule you out over it. A big plus if you're into studying independently side by side, though this time we are doing that instead of working through problems together.",
+   "this_time": [
+    "This time: studying independently side by side. Usually: working through problems together."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0123.topic",
+   "u0123.format",
+   "u0123.venue",
+   "u0123.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0123.quiet",
+   "u0123.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

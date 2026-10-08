@@ -1,0 +1,36 @@
+{
+ "person_id": "u0140",
+ "name": "Teal",
+ "interaction_type": "photography_partner",
+ "self_text": "I am a Nigerian in my late 20s. Outside of photography, I enjoy collecting vinyl because I love the tactile feel of music. I use a Nikon. I am looking for a relaxed photo walk at a moderate pace. I am free on Sunday afternoons or weekday evenings. Regarding equipment, I want no gear debates. There will be no post-processing lesson this time.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0140.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into a relaxed photo walk and okay with a slow pace. You have to be available either Sunday afternoon or weekday evenings. It would be nice if you are okay with no gear debates or if gear talk is fine but not the point, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0140.purpose",
+   "u0140.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0140.pace",
+   "u0140.gear_talk",
+   "u0140.editing_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

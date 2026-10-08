@@ -1,0 +1,36 @@
+{
+ "person_id": "u0021",
+ "name": "Ace",
+ "interaction_type": "study_partner",
+ "self_text": "Hey there! I’m Ace, a mid‑30s Korean history buff who’s currently diving into programming. I love working in quiet, focused environments—I need complete silence to get my code right. I’m great at studying independently, but I also enjoy having a study buddy right beside me for those side‑by‑side sessions. I can meet up in person or hop online, whichever suits you. My free slots are Saturday mornings or Sunday afternoons, so feel free to pick a time that works. When I’m not coding, I’m probably in the kitchen experimenting with sourdough—there’s something so satisfying about watching a loaf rise. Looking forward to connecting and sharing some quiet study vibes!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0021.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with complete silence while working together; you are the one who can maintain a quiet environment or you can switch to a soft ambient background or you can use earplugs. I'd strongly prefer that we study side by side independently, or we can share notes, or we can alternate lead roles, though it's not a requirement. Nice if you are into programming or you enjoy coding challenges or you like debugging, but it’s a small bonus.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0021.topic",
+   "u0021.format",
+   "u0021.venue",
+   "u0021.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0021.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

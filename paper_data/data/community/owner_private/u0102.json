@@ -1,0 +1,35 @@
+{
+ "person_id": "u0102",
+ "name": "Oskar",
+ "interaction_type": "photography_partner",
+ "self_text": "I am a non-binary Indian person in my mid 20s who spends free time playing chess online. I use a Canon camera and love how photography captures a single moment in time. Most weeks I can do Saturday afternoon. I am honestly just looking for a structured instruction session, and I am cool with taking portraits of each other. Fair warning, no gear debates is my thing.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0102.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available Saturday afternoon and you have to be into a structured instruction session. I'd strongly prefer that we have no gear debates or that gear talk is fine but not the point, though I won't rule you out over it.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0102.purpose",
+   "u0102.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0102.gear_talk",
+   "u0102.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

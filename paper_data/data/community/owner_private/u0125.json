@@ -1,0 +1,37 @@
+{
+ "person_id": "u0125",
+ "name": "Vince",
+ "interaction_type": "study_partner",
+ "self_text": "I’m Vince, a 50‑year‑old Kenyan designer who loves to dive into statistics with a partner who can walk through the numbers with me. I enjoy working through problems together, talking things through as we go, and having someone explain concepts right in the moment. Whether we meet in person or hop online, I’m happy to share a session. I’m free Saturday mornings or Sunday mornings, so let’s find a time to explore data, solve puzzles, and maybe play a quick chess game after we’re done.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0125.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who explains the material to me, you must be okay with talking things through as we go, and you have to be into a step‑by‑step walkthrough session. I'd strongly prefer that you are into statistics, but I won't rule you out over it. Nice if you’re available either Saturday morning or Sunday morning, though that’s a small bonus.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0125.topic",
+   "u0125.format",
+   "u0125.venue",
+   "u0125.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0125.quiet",
+   "u0125.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

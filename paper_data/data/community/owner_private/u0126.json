@@ -1,0 +1,36 @@
+{
+ "person_id": "u0126",
+ "name": "Umar",
+ "interaction_type": "study_partner",
+ "self_text": "Hi! I'm Umar, a Nigerian in my 40s. My background is in biology, and when I'm not busy, I love spending time woodworking because it's so relaxing to create things by hand. I'm looking to do some language practice online. I'm available on Saturday afternoons or during weekday evenings. I'm happy to explain things, and I'm down for a step-by-step walkthrough session.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0126.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into programming or statistics and you have to be into working through problems together. It's a deal-breaker unless you are available Saturday afternoon or weekday evenings. It would be nice if you are the one who has things explained by me, and a small bonus if we overlap on online.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0126.topic",
+   "u0126.format",
+   "u0126.venue",
+   "u0126.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0126.tutor_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

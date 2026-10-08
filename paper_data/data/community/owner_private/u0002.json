@@ -1,0 +1,37 @@
+{
+ "person_id": "u0002",
+ "name": "Valeria",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Valeria, a late‑30s Egyptian gamer who thrives on the thrill of the Hollow Lantern. My PC is my battlefield, and I love diving into casual matches where the pace is relaxed but the action stays sharp. I’m the damage dealer in the squad, always ready to pick up the fire and keep the momentum flowing. Communication is key to me—whether I’m shouting through voice chat or typing quick messages in text chat, I keep the lines open so my teammates know when a burst is coming or a target is locked. I’ve found that a clear, friendly chat keeps the game fun and the team coordinated. I’m also happy to coach; I enjoy showing teammates how to position, time their abilities, and use cover to maximize damage. When I’m not in the arena, I spend Saturday mornings or weekday evenings playing, because that’s when the servers are most lively and my schedule is clear. Outside of the game, I love birdwatching, a quiet pastime that lets me appreciate nature’s own patterns—just like the patterns I look for in a good match. I play for the excitement, the teamwork, and the chance to help others get better, all while staying true to the casual, friendly vibe I bring to every session.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0002.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into ranked matches, you need to be into Hollow Lantern, and you have to fit into either Saturday morning or weekday evenings. I'd strongly prefer that you play a support role or be flexible about your role, though it's not a requirement. Nice if you are the one who gets coached by me, but it won't stop me from considering you otherwise.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0002.game_id",
+   "u0002.mode",
+   "u0002.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0002.comm_modes",
+   "u0002.team_role",
+   "u0002.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

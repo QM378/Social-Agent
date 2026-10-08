@@ -1,0 +1,37 @@
+{
+ "person_id": "u0025",
+ "name": "Elena",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi there! I'm Elena, a Canadian in my late 20s. When I'm not spending my time on my PC, I love getting into woodworking because I find the process of creating something tangible really rewarding. These days, it's all Tidewatch for me. I'm mostly into casual matches, and I usually end up in a damage role. If you're looking to improve, I'm happy to coach. In terms of communication, I'm on text chat or voice chat. As for my schedule, most weeks I can do Saturday morning, Saturday afternoon, or weekday evenings. Looking forward to getting some games in!",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0025.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern and casual matches, and it's a deal-breaker unless you are the one who gets coached by me. It would be nice if you are available Saturday morning, Saturday afternoon or weekday evenings. Additionally, a small bonus if you play a support role or are flexible about your role.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0025.game_id",
+   "u0025.mode",
+   "u0025.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0025.comm_modes",
+   "u0025.team_role",
+   "u0025.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

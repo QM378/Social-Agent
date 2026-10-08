@@ -1,0 +1,45 @@
+{
+ "person_id": "u0066",
+ "name": "Omar",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hey, I’m Omar, a Korean in my early 20s who’s still figuring out what it means to be non‑binary. I play Skyforge Arena on my handheld, and lately it’s all about those quick, casual matches; I love the fast pace and the chance to experiment without the pressure of ranked play. I stick to text chat – it’s my way of staying focused and still being part of the team. Most of the time I land in a support role, because I enjoy weaving buffs and healing while keeping an eye on the battlefield. I’m looking for someone who can coach me; I’m eager to improve my timing and positioning, and I appreciate a patient, step‑by‑step walkthrough style. When I’m not gaming I’m learning to sail, which gives me a sense of freedom and a quiet escape from the screen. I’m usually free on Saturday mornings or in the evenings on weekdays, so that’s when I can jump into a game and get some practice. Outside of the game, I love strolling along the seaside, watching the waves, and thinking about how everything moves in its own rhythm.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0066.r1",
+   "kind": "primary",
+   "request_text": "I need you to be the one who coaches me and you have to be into casual matches. I’d strongly prefer that we overlap on text chat, though it’s not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0066.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be the one who coaches me and I need you to be into ranked matches. I would strongly prefer that we overlap on text chat, though it's not a requirement. This time I am looking for ranked matches; normally I play casual matches.",
+   "this_time": [
+    "This time: ranked matches. Usually: casual matches."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0066.game_id",
+   "u0066.mode",
+   "u0066.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0066.comm_modes",
+   "u0066.team_role",
+   "u0066.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

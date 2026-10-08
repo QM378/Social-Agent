@@ -1,0 +1,34 @@
+{
+ "person_id": "u0054",
+ "name": "Ash",
+ "interaction_type": "study_partner",
+ "self_text": "Hi, I’m Ash, mid‑20s, non‑binary, from Germany, studying engineering. I’m passionate about language practice and love tackling problems together. I can meet online and am free on Saturday afternoons, Saturday mornings, or weekday evenings. Outside of academics, I enjoy fermenting hot sauce, which keeps my kitchen smelling delightfully spicy. I appreciate clear communication and teamwork, especially when we can solve puzzles or projects side‑by‑side. I’m patient, curious, and always looking for a partner who values collaboration and continuous learning. If you’re into languages, engineering challenges, or a bit of culinary science, let’s chat and see where our interests converge. I thrive in a supportive environment, where we can share ideas and grow together. Looking forward to exploring new conversations and maybe a spicy recipe or two!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0054.r1",
+   "kind": "primary",
+   "request_text": "I need you to be available on Saturday afternoon or Saturday morning or weekday evenings; I need you to be into working through problems together or studying independently side by side; I need us to overlap online; I'd strongly prefer that you are into statistics, though it's not a requirement.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0054.topic",
+   "u0054.format",
+   "u0054.venue",
+   "u0054.time_window"
+  ],
+  "disclosable_evidence_ids": []
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

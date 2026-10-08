@@ -1,0 +1,37 @@
+{
+ "person_id": "u0103",
+ "name": "Tomas",
+ "interaction_type": "gaming_partner",
+ "self_text": "I've always loved sketching buildings, and I bring that same appreciation for detail to my gaming on console. These days, it's all Tidewatch for me. I'm mostly into casual matches, where I usually end up in a support role. I'm happy to coach if it helps the team. For communication, I'm on text chat or voice chat. Most weeks, I can be online Saturday afternoon, Sunday afternoon, or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0103.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into casual matches. It would be a small bonus if you are the one who gets coached by me, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0103.game_id",
+   "u0103.mode",
+   "u0103.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0103.comm_modes",
+   "u0103.team_role",
+   "u0103.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

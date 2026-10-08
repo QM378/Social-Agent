@@ -1,0 +1,44 @@
+{
+ "person_id": "u0086",
+ "name": "Zed",
+ "interaction_type": "study_partner",
+ "self_text": "Hey! I’m Zed, a mid‑20s Aussie who’s diving into history—think dusty archives, secretive archives, and the stories that make us who we are. When I’m not buried in research, I’ve got a green thumb for urban gardening, turning rooftop corners into tiny oases. I’m looking to meet someone who’s as curious about learning as I am. Language practice is a big part of that; I love swapping words, correcting each other, and laughing over mispronunciations. We’ll work through problems together, tackling everything from tricky equations to figuring out the best compost mix. If we’re short on time, we can still have those quick, meaningful exchanges that keep the connection alive. I’m all about in‑person chats—nothing beats a face‑to‑face brainstorm. My schedule is flexible: I’m free on Saturday mornings, Sunday mornings, or weekday evenings, so we can fit a coffee or a quick walk through the garden in between our studies. If you’re ready for a relaxed, intellectually playful partnership where we grow our minds and maybe our plants, let’s chat!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0086.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into working through problems together or a step‑by‑step walkthrough session, because that’s the only way I can stay on track. I'd strongly prefer that you are okay with talking things through as we go or complete silence while working, though I won’t rule anyone out over this preference. It would matter a lot if you’re available on Saturday morning or Sunday morning or weekday evenings, but I won’t consider it a deal‑breaker if you’re not. A small bonus would be that we overlap on in person, though that’s not a requirement.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0086.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into studying independently side by side. I'd strongly prefer that we overlap on in person, though it's not a requirement. Nice if you are okay with talking things through as we go or complete silence while working, and a small bonus if you are available Saturday morning or Sunday morning or weekday evenings. This time, we are studying independently side by side, unlike our usual approach of working through problems together.",
+   "this_time": [
+    "This time: studying independently side by side. Usually: working through problems together."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0086.topic",
+   "u0086.format",
+   "u0086.venue",
+   "u0086.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0086.quiet"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

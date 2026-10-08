@@ -1,0 +1,36 @@
+{
+ "person_id": "u0078",
+ "name": "Ulla",
+ "interaction_type": "gaming_partner",
+ "self_text": "Hi! I'm Ulla, a Korean in my early 20s. When I'm not gaming, I've been spending my time learning to sail because I love being out on the open water. These days it's all Tidewatch for me on my handheld. I'm mostly into casual matches and I'm happy to coach. I'm on either text chat or voice chat. In terms of my schedule, most weeks I can do Saturday afternoon, Sunday afternoon, or Sunday morning.",
+ "self_text_source": "gemma",
+ "requests": [
+  {
+   "request_id": "u0078.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Tidewatch and you have to be the one who gets coached by me. It's a deal-breaker unless you are available Saturday afternoon, Sunday afternoon, or Sunday morning. It would be nice if you are into casual matches, but no big deal.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0078.game_id",
+   "u0078.mode",
+   "u0078.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0078.comm_modes",
+   "u0078.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gemma",
+  "model": "social-gemma4-8k",
+  "model_digest": "ff1a64502c1b18a91347bf92190c8576b7edc172cad9583ecb6cf09e276103a3",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

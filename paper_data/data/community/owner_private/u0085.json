@@ -1,0 +1,36 @@
+{
+ "person_id": "u0085",
+ "name": "Priya",
+ "interaction_type": "photography_partner",
+ "self_text": "Hey there! I'm Priya, a late‑20s Brazilian guy who loves birdwatching in the mornings. I only use my phone for photos, but I love chatting about gear—so expect plenty of gear talk. I’m looking for a structured instruction session and I prefer a slow pace; that’s how I enjoy learning. I’m cool with not taking portraits of each other. Most weeks I can meet on Sunday mornings. I’m all about relaxed, friendly vibes and a good conversation about photography and nature. Hope we can share a chill session and swap some bird‑watching stories too!",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0085.r1",
+   "kind": "primary",
+   "request_text": "I need you to be okay with a slow pace or a moderate pace; I need you to be okay with gear talk is fine but not the point or plenty of gear talk; I'd strongly prefer that you are available Sunday morning, though it's not a requirement; nice if you are into a structured instruction session.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0085.purpose",
+   "u0085.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0085.pace",
+   "u0085.gear_talk",
+   "u0085.mutual_portraits"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "clean",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

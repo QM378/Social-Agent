@@ -1,0 +1,37 @@
+{
+ "person_id": "u0148",
+ "name": "Isa",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Isa, a history buff in my early 30s who spends Saturday nights and weekday evenings chasing Hollow Lantern on my PC. I love the thrill of casual matches, slipping into any role that the game throws my way – whether it’s an aggressive front‑liner or a supportive flanker. I keep things light and friendly, sticking to text chat so I can focus on the gameplay without distractions. I’m not into coaching or tutorials, just a relaxed, flexible teammate who’s ready to jump in whenever I’m online. When I’m not fighting, I’m curled up with a historical novel or exploring a quiet corner of the city. If you’re up for some casual action and good conversation, let’s see where the night takes us.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0148.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into Hollow Lantern, into casual matches, available weekday evenings, and we must overlap on text chat. I'd strongly prefer that you be flexible about your role or you to play a support role—though it's not a requirement, so a flexible role (I can fill any position) or a support role would be a big plus.",
+   "this_time": []
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0148.game_id",
+   "u0148.mode",
+   "u0148.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0148.comm_modes",
+   "u0148.team_role",
+   "u0148.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "person_id": "u0116",
+ "name": "Ira",
+ "interaction_type": "gaming_partner",
+ "self_text": "I’m Ira, a late‑thirties Korean guy who loves hunting for birds in the quiet of the morning. On the gaming side, I’ve been glued to Skyforge Arena lately. I play mostly casual matches, preferring the relaxed pace and the chance to experiment with different builds. I’m comfortable in either text or voice chat—whichever makes the conversation smoother. When it comes to roles, I usually end up in a damage role, because I like the rhythm of keeping up the pressure. I’m happy to coach, so if you want to learn a new strategy or improve your timing, I’ll gladly share tips. Most weeks I can jump into a game on Saturday afternoon, so we can sync up then. In short, I enjoy the blend of quick thinking and steady teamwork that Skyforge offers, and I’m always up for a friendly chat about tactics or a quick bird‑watching spot recommendation if you’re curious. Let’s make the game fun and learn something new together.",
+ "self_text_source": "gptoss",
+ "requests": [
+  {
+   "request_id": "u0116.r1",
+   "kind": "primary",
+   "request_text": "I need you to be into casual matches, you have to be available Saturday afternoon, and you must be into Skyforge Arena. I'd strongly prefer that you play a support role or you be flexible about your role – a support role or a flexible role (I can fill any position) – though it's not a requirement. It would matter a lot if you are the one who gets coached by me, but I won't rule you out over it.",
+   "this_time": []
+  },
+  {
+   "request_id": "u0116.r2",
+   "kind": "alternative",
+   "request_text": "I need you to be into ranked matches, to be available Saturday afternoon, and to be into Skyforge Arena. I’d strongly prefer that you either play a support role or you be flexible about your role (I can fill any position), though it’s not a requirement. A small bonus if you are the one who gets coached by me, but I won’t rule you out over it. This time is ranked matches, whereas usually we play casual matches.",
+   "this_time": [
+    "This time: ranked matches. Usually: casual matches."
+   ]
+  }
+ ],
+ "disclosure_policy": {
+  "public_evidence_ids": [
+   "u0116.game_id",
+   "u0116.mode",
+   "u0116.time_window"
+  ],
+  "disclosable_evidence_ids": [
+   "u0116.comm_modes",
+   "u0116.team_role",
+   "u0116.coaching_role"
+  ]
+ },
+ "generation_status": "ok",
+ "auto_check_status": "needs_adjudication",
+ "human_review_status": "not_reviewed",
+ "provenance": {
+  "generator": "gptoss",
+  "model": "social-gptoss-8k",
+  "model_digest": "73ecbf10d66de16a022db2e6ea9a2fd42b413f6371cb4d8dc1728c122c3aa04a",
+  "prompt_version": "community_text_v8",
+  "rules_version": "community_rules_v2"
+ }
+}
